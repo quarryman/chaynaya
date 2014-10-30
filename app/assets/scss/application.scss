@@ -1,0 +1,26 @@
+@import "compass";
+@import "compass/utilities/sprites";
+//@import "compass/css3/flexbox";
+@import "compass/css3";
+@import "compass/reset";
+
+
+$sprite-shape-horizontal-layout: 'horizontal';
+$sprite-shape-vertical-layout: 'vertical';
+$content-width: 980px;
+
+$sprite-common-spacing: 15px;  //won't work
+$sprite-shape-horizontal-spacing: 15px;
+
+
+@import "sprites/sprite-shape-horizontal/*.png";
+@import "sprites/sprite-shape-vertical/*.png";
+@import "sprites/sprite-common/*.png";
+@import "parallax";
+@import "header/menu";
+@import "shapes";
+@import "slider";
+@import "content/static-content";
+@import "content/news";
+@import "content/goods";
+@import "common";

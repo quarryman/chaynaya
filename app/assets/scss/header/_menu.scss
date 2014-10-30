@@ -1,0 +1,134 @@
+$menu-height: 67px;
+$logo-width: 187px;
+$menu-color: #54321b;
+@include all-sprite-common-sprites;
+//$common-icons: sprite-map("sprites/sprite-common/*.png");
+.menu-wrapper{
+    position: relative;
+    z-index: 1;
+    .menu{
+        @include background(image-url("menu/menu-bordered.png") left top repeat-x);
+        width: 100%;
+        height: $menu-height;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+
+        font-size: 18pt;
+        z-index: initial;
+        .menu-holder{
+            width: $content-width;
+            margin: 0 auto;
+            height: $menu-height;
+            .logo{
+                width: $logo-width;
+                height: 150px;
+                position: absolute;
+                top: -75%;
+            }
+            ul.menu-block{
+                margin-left: $logo-width;
+                padding-left: 10px;
+                height: $menu-height;
+                position: relative;
+
+                li{
+                    @include inline-block;
+                    height: $menu-height;
+                    padding: 0;
+
+                    &.active{
+                        @include background(image-url("menu/menu-item-active.png") left 5px repeat-x);
+                        +li{
+                            a{
+                                border: 0;
+                            }
+                        }
+                        >a{
+                            border: 0;
+                            &:before{
+                                content: '';
+                                position: absolute;
+                                left: 0;
+                                top: -11px;
+                                width: 4px;
+                                height: 60px;
+                                @extend .sprite-common-menu-item-left-shadow;
+                                //background: sprite($common-icons, menu-item-left-shadow) no-repeat;
+                                //@include sprite-common-sprite(menu-item-left-shadow);
+                            }
+                            &:after{
+                                content: '';
+                                position: absolute;
+                                right: 0;
+                                top: -11px;
+                                width: 4px;
+                                height: 60px;
+                                @extend .sprite-common-menu-item-right-shadow;
+                                //background: sprite($common-icons, menu-item-right-shadow) no-repeat;
+                            }
+                        }
+                        .submenu{
+                            display: block;
+                        }
+                    }
+
+                    a{
+                        display: block;
+                        position: relative;
+                        padding: 0px 25px 0 10px;
+                        margin: 16px 0;
+                        border-left: 1px dotted $menu-color;
+                        height: 28px;
+                        font-size: 16pt;
+                        line-height: 1.2em;
+                        color: $menu-color;
+                        text-decoration: none;
+
+                        i{
+                            width: 7px;
+                            height: 4px;
+                            position: absolute;
+                            right: 10px;
+                            top: 13px;
+                        }
+
+                    }
+
+                    .submenu{
+                        display: none;
+                        position: absolute;
+                        //border: 1px solid red;
+                        top: 20px;
+                        left: -25px;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+}
+.search-input-holder{
+    position: relative;
+    margin-top: 14px;
+    margin-left: 35px;
+    .search-input{
+        width: 150px;
+        height: 24px;
+
+        border: 1px solid #4d3522;
+        @include border-radius(5px);
+
+
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 16px;
+        height: 16px;
+        @extend .sprite-common-icon-search;
+    }
+}

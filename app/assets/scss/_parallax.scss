@@ -1,0 +1,54 @@
+#layout {
+  width: 100%;
+  max-width: 2000px;
+  min-width: 980px;
+  height: 4500px;
+  position: relative;
+
+
+  @include background(
+    image-url("cloud.png"),
+    image-url("cloud.png"),
+    image-url("towers.png"),
+    image-url("sky.png"),
+    image-url("bg.png"),
+    linear-gradient(to right, #94694f 0%,#ffdec2 44%,#ffdec2 56%,#94694f 100%)
+
+  );
+
+  background-position:
+    50% 2000px,
+    -50% 500px,
+    center bottom,
+    center top,
+    50% 600px,
+    center top;
+  background-repeat: no-repeat;
+
+  #content{
+      width: $content-width;
+      margin: 0 auto;
+      border: 1px solid #000;
+      height: 4000px;
+      position: relative;
+  }
+
+  .img{
+    position: relative;
+    left: 45%;
+    top: 100px;
+  }
+
+  path{
+    fill: none;
+    stroke:red;
+  }
+
+  #bottom{
+    width: 100%;
+    height: 890px;
+    position: absolute;
+    bottom: 0;
+    @include background(image-url("buddah.png") center bottom no-repeat);
+  }
+}

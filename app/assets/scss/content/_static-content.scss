@@ -1,0 +1,108 @@
+#static-content{
+    width: 104%;
+
+}
+
+.c{
+    >.link-list{
+        @include horizontal-list(1%, left);
+        min-height: 50px;
+        >li{
+            width: 48%;
+
+            .link-list-header {
+                height: 42px;
+                padding-left: 52px;
+                font-size: 24px;
+                color: #4d3522;
+                line-height: 2.8em;
+                margin-bottom: 15px;
+                &.partnership-header{
+                    @extend .sprite-common-icon-man;
+                }
+                &.wholesale-header{
+                    @extend .sprite-common-icon-cart;
+                }
+                &.shop-header{
+                    @extend .sprite-common-icon-bag;
+                }
+            }
+            .link-list-description{
+                margin-top: 15px;
+                color: #816b59;
+                white-space: normal;
+            }
+        }
+        ul{
+            >li{
+                &:first-child{
+                    float: none;
+                    display: block;
+                    padding-left: 0px;
+                }
+                @include nested-reset();
+                float: none;
+                display: block;
+                padding-left: 0px;
+                padding-top: 7px;
+                padding-bottom: 4px;
+                a{
+                    color: #1d8dcf;
+                    padding-left: 25px;
+                }
+
+            }
+        }
+    }
+}
+
+.basket{
+    position: absolute;
+    width: 204px;
+    height: 194px;
+    background: image-url('basket.png') 0 0 no-repeat;
+    right: 0px;
+    .basket-sum{
+        position: absolute;
+        top: 20px;
+        left: 74px;
+        font-size: 26px;
+        color: #fff;
+        @include text-shadow(rgba(black, 0.2) 1px 1px 0);
+    }
+}
+
+.login-block{
+    position: absolute;
+    top: 12px;
+    right: 160px;
+    width: 200px;
+    height: 75px;
+    a{
+        display: block;
+        padding-left: 20px;
+        margin-bottom: 3px;
+        color: #000;
+        text-decoration: none;
+
+    }
+}
+.town-select-block{
+    position: absolute;
+    top: 8px;
+    left: 220px;
+    width: 390px;
+    height: 43px;
+    .town-select{
+        @extend .sprite-common-town-select;
+        width: 206px;
+        height: 43px;
+        float: left;
+    }
+    .phone{
+        float: left;
+        margin-right: 25px;
+        line-height: 2em;
+        font-size: 20px;
+    }
+}

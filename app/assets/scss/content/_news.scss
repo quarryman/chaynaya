@@ -1,0 +1,32 @@
+
+.horizontal-list{
+    @include horizontal-list(0px, left);
+    >li{
+        width: 47%;
+        white-space: normal;
+        img{
+            float: left;
+            margin-right: 10px;
+        }
+        .news-content{
+            padding-right: 30px;
+            box-sizing: content-box;
+            .news-header{
+                color: #4d3522;
+                font-size: 18pt;
+            }
+            .news-date{
+                color: #8b694d;
+                font-size: 13pt;
+                margin: 15px 0;
+            }
+            .news-preview{
+                color: #816b59;
+                font-size: 13pt;
+                height: 118px;
+                overflow: hidden;
+                white-space: normal;
+            }
+        }
+    }
+}

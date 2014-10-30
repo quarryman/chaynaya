@@ -1,0 +1,161 @@
+$shape_size: 36px;
+
+
+@include all-sprite-shape-horizontal-sprites;
+@include all-sprite-shape-vertical-sprites;
+.shape {
+    position: relative;
+    padding: $shape_size $shape_size;
+    width: auto;
+
+    .c {
+        padding: 10px 10px;
+    }
+
+    .lt,
+    .rt,
+    .lb,
+    .rb,
+    .l,
+    .r,
+    .t,
+    .b{
+        position: absolute;
+    }
+
+    .lt,
+    .lb,
+    .l {
+        left: 0px;
+    }
+    .rt,
+    .rb,
+    .r {
+        right: 0px;
+    }
+    .lt,
+    .rt,
+    .t {
+        top: 0;
+    }
+    .lb,
+    .rb,
+    .b {
+        bottom: 0;
+    }
+    .lt {
+        width: $shape_size;
+        height: $shape_size;
+    }
+    .rt {
+        width: $shape_size;
+        height: $shape_size;
+
+    }
+
+    .rb {
+        width: $shape_size;
+        height: $shape_size;
+    }
+    .lb {
+        width: $shape_size;
+        height: $shape_size;
+    }
+    .l,
+    .r {
+        width: $shape_size;
+        top: $shape_size;
+        bottom: $shape_size;
+        background-repeat: repeat-y;
+    }
+
+    .t,
+    .b {
+        height: $shape_size;
+        left: $shape_size;
+        right: $shape_size;
+        background-repeat: repeat-x;
+    }
+
+    &.white-shape, &.pattern-shape, &.submenu-shape{
+        .c {
+            background: rgba(255,255,255, .8);
+            height: 100%;
+        }
+
+        .lt {
+            &.sprite-shape-vertical-white-corner-lt{
+
+            }
+        }
+
+        .rt {
+            transform: rotate(90deg);
+            &.sprite-shape-vertical-white-corner-rt{
+                transform: rotate(0deg);
+            }
+        }
+
+        .rb {
+            transform: rotate(180deg);
+            &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb{
+                transform: rotate(0deg);
+            }
+        }
+
+        .lb {
+            transform: rotate(270deg);
+            &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb{
+                transform: rotate(0deg);
+            }
+        }
+        .l,
+        .r {
+
+        }
+        .r{
+            transform: rotate(180deg);
+            &.sprite-shape-horizontal-pattern-right-no-shade{
+                transform: rotate(0deg);
+
+            }
+        }
+
+        .t,
+        .b {
+
+        }
+        .b{
+            transform: rotate(180deg);
+            &.sprite-shape-vertical-pattern-menu-top-bottom{
+                transform: rotate(0deg);
+            }
+        }
+    }
+}
+
+.shape.pattern-shape{
+    position: relative;
+    float: left;
+    &.left{
+        width: 55%;
+        height: 350px;
+    }
+    &.right{
+        width: 30%;
+        height: 350px;
+        left: -30px;
+    }
+    .c{
+        @include opacity(1);
+        @include background(image-url("pattern-bg.png"));
+    }
+}
+.shape.submenu-shape{
+    width: auto;
+    //left: 700px;
+    .c{
+        @include opacity(1);
+        @include background(image-url("pattern-bg.png"));
+    }
+}

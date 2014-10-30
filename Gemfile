@@ -7,7 +7,7 @@ gem 'sass-rails', github: "rails/sass-rails"
 gem 'compass-rails', github: "Compass/compass-rails"
 gem 'sprockets', "~>2.12"
 
-
+gem 'rails_12factor'
 # Use Uglifier as compres
 # sor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'

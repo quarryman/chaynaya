@@ -308,7 +308,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 30, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block {
   margin-left: 187px;
-  padding-left: 10px;
+  padding-left: 0px;
   height: 67px;
   position: relative;
 }
@@ -360,16 +360,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .menu-wrapper .menu .menu-holder ul.menu-block li a {
   display: block;
   position: relative;
-  padding: 0px 25px 0 10px;
+  padding: 0px 25px 0 5px;
   margin: 16px 0;
   border-left: 1px dotted #54321b;
   height: 28px;
-  font-size: 16pt;
-  line-height: 1.2em;
+  font-size: 18px;
+  line-height: 1.4em;
   color: #54321b;
   text-decoration: none;
 }
-/* line 89, ../scss/header/_menu.scss */
+/* line 90, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block li a:first-child {
+  border: 0;
+}
+/* line 96, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block li a i {
   width: 7px;
   height: 4px;
@@ -377,7 +381,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 10px;
   top: 13px;
 }
-/* line 99, ../scss/header/_menu.scss */
+/* line 106, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block li .submenu {
   display: none;
   position: absolute;
@@ -386,13 +390,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: -1;
 }
 
-/* line 112, ../scss/header/_menu.scss */
+/* line 119, ../scss/header/_menu.scss */
 .search-input-holder {
   position: relative;
   margin-top: 14px;
   margin-left: 35px;
 }
-/* line 116, ../scss/header/_menu.scss */
+/* line 123, ../scss/header/_menu.scss */
 .search-input-holder .search-input {
   width: 150px;
   height: 24px;
@@ -401,7 +405,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 125, ../scss/header/_menu.scss */
+/* line 132, ../scss/header/_menu.scss */
 .search-input-holder:after {
   content: '';
   position: absolute;
@@ -1236,4 +1240,14 @@ h2 {
 /* line 8, ../scss/_common.scss */
 h2.bordered {
   border-bottom: 1px solid #4d3522;
+}
+
+@font-face {
+  font-family: "BruskovayaPlain";
+  src: url('../fonts/BRS75__W.eot?1301325114');
+  src: url('../fonts/BRS75__W.eot?&1301325114#iefix') format('embedded-opentype'), url('../fonts/BRS75__W.woff?1301325116') format('woff'), url('../fonts/BRS75__W.ttf?1301325114') format('truetype'), url('../fonts/BRS75__W.svg?1301325114') format('svg');
+}
+/* line 36, ../scss/application.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block li a {
+  font-family: 'BruskovayaPlain', sans-serif;
 }

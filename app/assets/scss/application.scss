@@ -25,3 +25,14 @@ $sprite-shape-horizontal-spacing: 15px;
 @import "content/goods";
 @import "content/all-about";
 @import "common";
+
+@include font-face('BruskovayaPlain',
+    font-files(
+            'BRS75__W.woff', woff,
+            'BRS75__W.ttf', ttf,
+            'BRS75__W.svg', svg),
+    'BRS75__W.eot');
+
+%bruskovaya {
+    font-family: 'BruskovayaPlain', sans-serif;
+}

@@ -7,7 +7,7 @@
         a{
             display: block;
             color: #4d3522;
-            font-size: 13pt;
+            font-size: 16px;
             text-decoration: none;
             border-bottom: 1px dashed;
 
@@ -30,18 +30,20 @@
     }
 }
 .flex-items-list{
+    width: 101%;
+    margin-left: -.5%;
+
     .flex-item-holder{
         float:left;
         position: relative;
-        margin: 10px 7px;
-        width: 279px;
+        margin: 10px 0.5%;
+        width: 24%;
         min-height: 328px;
 
         .flex-item{
         background: #fff;
         border: 1px solid #765f4d;
         @include border-radius(3px);
-        width: 279px;
 
         text-align: center;
         vertical-align: text-top;
@@ -50,6 +52,9 @@
 
         &:hover{
             position: absolute;
+
+            left: -1px;
+            right: -1px;
             z-index: 1;
             @include box-shadow(rgba(118,95,77, 0.75) 0 0 25px);
             .extra{
@@ -90,31 +95,85 @@
             background-position: 1px 110px;
             background-repeat: no-repeat;
             .name{
-                font-size: 14pt;
+                font-size: 18px;
                 color: #4d3522;
                 text-decoration: none;
                 padding-right: 20px;
+                margin-bottom: 7px;
+                @extend %bruskovaya;
             }
             .articul{
-                font-size: 11pt;
+                font-size: 12px;
                 color: #a1836a;
             }
-            .is-new{
-                @extend .sprite-common-icon-new;
-                position: absolute;
-                top: 60px;
-                left: 10px;
-                width: 36px;
-                height: 36px;
+            .marks{
+                position: relative;
+                .is-new{
+                    @extend .sprite-common-icon-new;
+                    position: absolute;
+                    top: 7px;
+                    left: -2px;
+                    width: 36px;
+                    height: 36px;
+                    &:hover{
+                        .new-tip{
+                            display: block;
+                        }
+                    }
+                }
+                .is-for-sale{
+                    @extend .sprite-common-icon-sale;
+                    position: absolute;
+                    top: 47px;
+                    left: -1px;
+                    width: 36px;
+                    height: 36px;
+                    &:hover{
+                        .sale-tip{
+                            display: block;
+                        }
+                    }
+                }
             }
-            .is-for-sale{
-                @extend .sprite-common-icon-sale;
+
+            .tip{
+                display: none;
                 position: absolute;
-                top: 100px;
-                left: 10px;
-                width: 36px;
-                height: 36px;
+                top: -34px;
+                left: -42px;
+                vertical-align: middle;
+                background-color: #897566;
+                padding: 8px 10px;
+                white-space: nowrap;
+                color: #fff;
+                font-size: 12px;
+                @include border-radius(3px);
+                @include box-shadow(#897566 1px 1px 3px);
+
+                &:after{
+                    $tip-corner-size: 6px;
+                    content: '';
+                    position: absolute;
+                    width: $tip-corner-size;
+                    height: $tip-corner-size;
+                    bottom: -($tip-corner-size/2);
+                    left: 49%;
+                    background-color: #897566;
+                    transform: rotate(45deg);
+                    @include box-shadow(#897566 1px 1px 2px);
+
+                }
+                &.wishlist-tip{
+                    left: -42px;
+                }
+                &.new-tip{
+                    left: -30px;
+                }
+                &.sale-tip{
+                    left: -27px;
+                }
             }
+
             .wishlist-icon{
                 @extend .sprite-common-icon-add-to-wishlist;
                 width: 15px;
@@ -122,8 +181,13 @@
                 position: absolute;
                 right: 17px;
                 top: 17px;
+
+
                 &:hover{
                     @extend .sprite-common-icon-add-to-wishlist-h;
+                    .wishlist-tip{
+                        display: block;
+                    }
                 }
                 &.in-favorites{
                     @extend .sprite-common-icon-already-in-favorites;
@@ -139,7 +203,7 @@
                 height: 40px;
             }
             .note{
-                font-size: 10pt;
+                font-size: 12px;
                 color: #a1836a;
                 margin-bottom: 7px;
             }
@@ -147,10 +211,26 @@
                 float:left;
                 width: 35%;
                 text-align: center;
-                font-size: 18pt;
-                color: #765f4d;
+                color: #4d3522;
                 .value{
                     line-height: 18px;
+                    font-size: 26px;
+                    display: inline;
+                    padding-right: 16px;
+                    @extend %bruskovaya;
+                    &.ruble{
+                        position: relative;
+                        &:after{
+                            content: '';
+                            position: absolute;
+                            width: 15px;
+                            height: 19px;
+                            right: -4px;
+                            top: 6px;
+
+                            @extend .sprite-common-rubl;
+                        }
+                    }
                 }
             }
             .buy{
@@ -173,8 +253,8 @@
                 text-align: center;
                 i{
                     display: inline-block;
-                    width: 9px;
-                    height: 9px;
+                    width: 10px;
+                    height: 10px;
                     //border: 1px solid green;
                     vertical-align: middle;
                     &.minus{
@@ -186,7 +266,7 @@
                     }
                 }
                 input{
-                    width: 20px;
+                    width: 32px;
                     text-align: center;
                 }
             }

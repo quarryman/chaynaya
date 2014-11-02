@@ -18,7 +18,8 @@ $menu-color: #54321b;
         font-size: 18pt;
         z-index: initial;
         .menu-holder{
-            width: $content-width;
+            @include min-width($min-content-width);
+            max-width: $max-content-width;
             margin: 0 auto;
             height: $menu-height;
             .logo{
@@ -29,24 +30,32 @@ $menu-color: #54321b;
             }
             ul.menu-block{
                 margin-left: $logo-width;
+                margin-right: $cart-width;
                 padding-left: 0px;
                 height: $menu-height;
                 position: relative;
+                display: table;
 
-                li{
-                    @include inline-block;
+
+                >li{
+                    /*@include inline-block;      */
                     height: $menu-height;
                     padding: 0;
+                    &:first-child{
+                        a{
+                            border-left: 1px solid transparent;
+                        }
+                    }
 
-                    &.active{
+                    &:hover{
                         @include background(image-url("menu/menu-item-active.png") left 5px repeat-x);
                         +li{
                             a{
-                                border: 0;
+                                border-left: 1px solid transparent;
                             }
                         }
                         >a{
-                            border: 0;
+                            border-left: 1px  solid transparent;
                             &:before{
                                 content: '';
                                 position: absolute;
@@ -77,7 +86,7 @@ $menu-color: #54321b;
                     a{
                         display: block;
                         position: relative;
-                        padding: 0px 25px 0 5px;
+                        padding: 0px 5px 0 5px;
                         margin: 16px 0;
                         border-left: 1px dotted $menu-color;
                         height: 28px;
@@ -85,22 +94,8 @@ $menu-color: #54321b;
                         line-height: 1.4em;
                         color: $menu-color;
                         text-decoration: none;
+                        box-sizing: border-box;
                         @extend %bruskovaya;
-
-                        &:first-child{
-                            border: 0;
-                        }
-
-
-
-                        i{
-                            width: 7px;
-                            height: 4px;
-                            position: absolute;
-                            right: 10px;
-                            top: 13px;
-                        }
-
                     }
 
                     .submenu{
@@ -109,7 +104,27 @@ $menu-color: #54321b;
                         //border: 1px solid red;
                         top: 20px;
                         left: -25px;
+                        right: -15px;
                         z-index: -1;
+                    }
+                }
+                >li{
+                    display: table-cell;
+                    width: 1%;
+                    a{
+                        text-align: center;
+                        white-space: nowrap;
+                        span{
+                            position: relative;
+                            i{
+                                width: 7px;
+                                height: 4px;
+                                position: absolute;
+                                right: -10px;
+                                top: 13px;
+                            }
+
+                        }
                     }
                 }
             }
@@ -118,13 +133,13 @@ $menu-color: #54321b;
 }
 .search-input-holder{
     position: relative;
+    float: right;
     margin-top: 14px;
-    margin-left: 35px;
+    margin-right: 11px;
     .search-input{
-        width: 150px;
+        width: 182px;
         height: 24px;
-
-        border: 1px solid #4d3522;
+        border: 1px solid #d2ccc5;
         @include border-radius(5px);
 
 

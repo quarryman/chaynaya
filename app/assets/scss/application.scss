@@ -3,11 +3,14 @@
 //@import "compass/css3/flexbox";
 @import "compass/css3";
 @import "compass/reset";
+@import "compass/utilities/general/min";
 
 
 $sprite-shape-horizontal-layout: 'horizontal';
 $sprite-shape-vertical-layout: 'vertical';
-$content-width: 980px;
+$min-content-width: 980px;
+$max-content-width: 1200px;
+$cart-width: 204px;
 
 $sprite-common-spacing: 15px;  //won't work
 $sprite-shape-horizontal-spacing: 15px;
@@ -24,6 +27,7 @@ $sprite-shape-horizontal-spacing: 15px;
 @import "content/news";
 @import "content/goods";
 @import "content/all-about";
+@import "content/company";
 @import "common";
 
 @include font-face('BruskovayaPlain',
@@ -33,6 +37,16 @@ $sprite-shape-horizontal-spacing: 15px;
             'BRS75__W.svg', svg),
     'BRS75__W.eot');
 
+@include font-face('MuseoCyrl_500',
+    font-files(
+            'MuseoCyrl_500-webfont.woff', woff,
+            'MuseoCyrl_500-webfont.ttf', ttf,
+            'MuseoCyrl_500-webfont.svg', svg),
+    'MuseoCyrl_500-webfont.eot');
+
 %bruskovaya {
-    font-family: 'BruskovayaPlain', sans-serif;
+    font-family: 'BruskovayaPlain';
+}
+%MuseoCyrl500 {
+    font-family: 'MuseoCyrl_500';
 }

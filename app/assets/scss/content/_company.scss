@@ -1,0 +1,95 @@
+#company{
+    .c{
+        overflow: hidden;
+        height: 800px;
+    }
+    h2{
+        ul.social-icons{
+            @include horizontal-list(right);
+            position: absolute;
+            top: 0;
+            right: 0;
+            li{
+                width: 28px;
+                height: 28px;
+                margin: 0 3px;
+                background-color: #c4beb6;
+                @include border-radius(14px);
+                &:hover{
+                    background-color: #e89b4b;
+                }
+
+                &:nth-child(1){
+                    @extend .sprite-common-icon-vk;
+                }
+                &:nth-child(2){
+                    @extend .sprite-common-icon-fb;
+                }
+                &:nth-child(3){
+                    @extend .sprite-common-icon-tw;
+                }
+                &:nth-child(4){
+                    @extend .sprite-common-icon-od;
+                }
+                &:nth-child(5){
+                    @extend .sprite-common-icon-gplus;
+                }
+            }
+
+        }
+        a.view_all{
+            position: absolute;
+            right: 0;
+            top: 8px;
+            color: #4d3522;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+    }
+    .about-company{
+        float: left;
+        width: 60%;
+        margin-right: 2%;
+        .content{
+            padding-right: 10px;
+            font-size: 13px;
+
+        }
+        a.more{
+            position: relative;
+            top: 30px;
+            color: #1d8dcf;
+        }
+    }
+    .honors{
+        float: right;
+        width: 37%;
+        margin-left: 1%;
+        .item{
+            .header{
+                @extend %bruskovaya;
+                color: #4d3522;
+                font-size: 24px;
+                margin-bottom: 10px;
+                display: block;
+            }
+            .content{
+                font-size: 13px;
+                overflow: hidden;
+                height: 100px;
+                padding-bottom: 20px;
+                .img-holder{
+                    float: left;
+                    margin-right: 10px;
+                    width: 110px;
+                    text-align: center;
+                    img{
+
+                    }
+                }
+
+            }
+        }
+
+    }
+}

@@ -76,9 +76,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-repeat: no-repeat;
 }
 
-/* line 280, sprites/sprite-common/*.png */
-.sprite-common-sprite, .sprite-common-arrow-down, .sprite-common-basket-bottom, .sprite-common-basket-count-holder, .sprite-common-basket-icon, .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button, .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover, .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon, .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites, .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header, .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header, .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before, .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before, .sprite-common-icon-home, .sprite-common-icon-key, .sprite-common-icon-login, .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header, .sprite-common-icon-moneybag, .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .is-new, .sprite-common-icon-paper, .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .is-for-sale, .sprite-common-icon-search, .search-input-holder:after, .sprite-common-icon-wallet, .sprite-common-item-pic, .sprite-common-logo, .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block li.active > a:before, .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block li.active > a:after, .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus, .sprite-common-pack, .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus, .sprite-common-town-select, .town-select-block .town-select {
-  background-image: url('../images/sprites/sprite-common-s408da91fdd.png');
+/* line 336, sprites/sprite-common/*.png */
+.sprite-common-sprite, .sprite-common-arrow-down, .sprite-common-basket-bottom, .sprite-common-basket-count-holder, .sprite-common-basket-icon, .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button, .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover, .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon, .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites, .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header, .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header, .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before, .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before, .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), .sprite-common-icon-home, .sprite-common-icon-key, .sprite-common-icon-login, .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header, .sprite-common-icon-moneybag, .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new, .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), .sprite-common-icon-paper, .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale, .sprite-common-icon-search, .search-input-holder:after, .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), .sprite-common-icon-wallet, .sprite-common-item-pic, .sprite-common-logo, .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before, .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after, .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus, .sprite-common-pack, .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus, .sprite-common-rubl-cart, .basket .basket-sum:after, .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after, .sprite-common-town-select, .town-select-block .town-select {
+  background-image: url('../images/sprites/sprite-common-saf491e32dc.png');
   background-repeat: no-repeat;
 }
 
@@ -87,39 +87,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   max-width: 2000px;
   min-width: 980px;
-  height: 4500px;
+  height: 3650px;
   position: relative;
   background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1414074554'), url('../images/bg.png?1414073842'), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk0Njk0ZiIvPjxzdG9wIG9mZnNldD0iNDQlIiBzdG9wLWNvbG9yPSIjZmZkZWMyIi8+PHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiNmZmRlYzIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5NDY5NGYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
   background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1414074554'), url('../images/bg.png?1414073842'), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #94694f), color-stop(44%, #ffdec2), color-stop(56%, #ffdec2), color-stop(100%, #94694f));
   background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1414074554'), url('../images/bg.png?1414073842'), -moz-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
   background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1414074554'), url('../images/bg.png?1414073842'), -webkit-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
   background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1414074554'), url('../images/bg.png?1414073842'), linear-gradient(to right, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
-  background-position: 50% 2000px, -50% 500px, center bottom, center top, 50% 600px, center top;
+  background-position: 50% 2000px, -50% 500px, center 105%, center top, 50% 600px, center top;
   background-repeat: no-repeat;
 }
-/* line 28, ../scss/_parallax.scss */
+/* line 29, ../scss/_parallax.scss */
 #layout #content {
-  width: 980px;
+  min-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   border: 1px solid #000;
-  height: 4000px;
   position: relative;
 }
-/* line 36, ../scss/_parallax.scss */
+/* line 37, ../scss/_parallax.scss */
 #layout .img {
   position: relative;
   left: 45%;
   top: 100px;
 }
-/* line 42, ../scss/_parallax.scss */
+/* line 43, ../scss/_parallax.scss */
 #layout path {
   fill: none;
   stroke: red;
 }
-/* line 47, ../scss/_parallax.scss */
+/* line 48, ../scss/_parallax.scss */
 #layout #bottom {
   width: 100%;
-  height: 890px;
+  height: 690px;
   position: absolute;
   bottom: 0;
   background: url('../images/buddah.png?1414073111') center bottom no-repeat;
@@ -186,93 +186,128 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-icon-home {
+.sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2) {
   background-position: 0 -642px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5) {
+  background-position: 0 -685px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-home {
+  background-position: 0 -728px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-key {
-  background-position: 0 -677px;
+  background-position: 0 -763px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-login {
-  background-position: 0 -705px;
+  background-position: 0 -791px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header {
-  background-position: 0 -733px;
+  background-position: 0 -819px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-moneybag {
-  background-position: 0 -790px;
+  background-position: 0 -876px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .is-new {
-  background-position: 0 -828px;
+.sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
+  background-position: 0 -914px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4) {
+  background-position: 0 -965px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-paper {
-  background-position: 0 -879px;
+  background-position: 0 -1008px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .is-for-sale {
-  background-position: 0 -917px;
+.sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
+  background-position: 0 -1046px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-search, .search-input-holder:after {
-  background-position: 0 -968px;
+  background-position: 0 -1097px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3) {
+  background-position: 0 -1127px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1) {
+  background-position: 0 -1170px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-wallet {
-  background-position: 0 -998px;
+  background-position: 0 -1213px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-item-pic {
-  background-position: 0 -1036px;
+  background-position: 0 -1251px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-logo {
-  background-position: 0 -1193px;
+  background-position: 0 -1408px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block li.active > a:before {
-  background-position: 0 -1358px;
+.sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
+  background-position: 0 -1573px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block li.active > a:after {
-  background-position: 0 -1433px;
+.sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
+  background-position: 0 -1648px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus {
-  background-position: 0 -1508px;
+  background-position: 0 -1723px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-pack {
-  background-position: 0 -1532px;
+  background-position: 0 -1747px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus {
-  background-position: 0 -1728px;
+  background-position: 0 -1943px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-rubl-cart, .basket .basket-sum:after {
+  background-position: 0 -1968px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
+  background-position: 0 -2006px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-town-select, .town-select-block .town-select {
-  background-position: 0 -1753px;
+  background-position: 0 -2040px;
 }
 
 /* line 6, ../scss/header/_menu.scss */
@@ -294,48 +329,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 20, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder {
-  width: 980px;
+  min-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   height: 67px;
 }
-/* line 24, ../scss/header/_menu.scss */
+/* line 25, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder .logo {
   width: 187px;
   height: 150px;
   position: absolute;
   top: -75%;
 }
-/* line 30, ../scss/header/_menu.scss */
+/* line 31, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block {
   margin-left: 187px;
+  margin-right: 204px;
   padding-left: 0px;
   height: 67px;
   position: relative;
+  display: table;
 }
-/* line 36, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
+/* line 40, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li {
+  /*@include inline-block;      */
   height: 67px;
   padding: 0;
 }
-/* line 41, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active {
-  background: url('../images/menu/menu-item-active.png?1414490473') left 5px repeat-x;
-}
-/* line 44, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active + li a {
-  border: 0;
-}
-/* line 48, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active > a {
-  border: 0;
+/* line 45, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:first-child a {
+  border-left: 1px solid transparent;
 }
 /* line 50, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active > a:before {
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover {
+  background: url('../images/menu/menu-item-active.png?1414490473') left 5px repeat-x;
+}
+/* line 53, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover + li a {
+  border-left: 1px solid transparent;
+}
+/* line 57, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a {
+  border-left: 1px  solid transparent;
+}
+/* line 59, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
   content: '';
   position: absolute;
   left: 0;
@@ -343,8 +381,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 61, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active > a:after {
+/* line 70, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
   content: '';
   position: absolute;
   right: 0;
@@ -352,15 +390,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 72, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li.active .submenu {
+/* line 81, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover .submenu {
   display: block;
 }
-/* line 77, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li a {
+/* line 86, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li a {
   display: block;
   position: relative;
-  padding: 0px 25px 0 5px;
+  padding: 0px 5px 0 5px;
   margin: 16px 0;
   border-left: 1px dotted #54321b;
   height: 28px;
@@ -368,44 +406,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1.4em;
   color: #54321b;
   text-decoration: none;
+  box-sizing: border-box;
 }
-/* line 90, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li a:first-child {
-  border: 0;
-}
-/* line 96, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li a i {
-  width: 7px;
-  height: 4px;
-  position: absolute;
-  right: 10px;
-  top: 13px;
-}
-/* line 106, ../scss/header/_menu.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li .submenu {
+/* line 101, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li .submenu {
   display: none;
   position: absolute;
   top: 20px;
   left: -25px;
+  right: -15px;
   z-index: -1;
 }
-
+/* line 111, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li {
+  display: table-cell;
+  width: 1%;
+}
+/* line 114, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li a {
+  text-align: center;
+  white-space: nowrap;
+}
+/* line 117, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li a span {
+  position: relative;
+}
 /* line 119, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li a span i {
+  width: 7px;
+  height: 4px;
+  position: absolute;
+  right: -10px;
+  top: 13px;
+}
+
+/* line 134, ../scss/header/_menu.scss */
 .search-input-holder {
   position: relative;
+  float: right;
   margin-top: 14px;
-  margin-left: 35px;
+  margin-right: 11px;
 }
-/* line 123, ../scss/header/_menu.scss */
+/* line 139, ../scss/header/_menu.scss */
 .search-input-holder .search-input {
-  width: 150px;
+  width: 182px;
   height: 24px;
-  border: 1px solid #4d3522;
+  border: 1px solid #d2ccc5;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 132, ../scss/header/_menu.scss */
+/* line 147, ../scss/header/_menu.scss */
 .search-input-holder:after {
   content: '';
   position: absolute;
@@ -697,10 +748,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, ../scss/content/_static-content.scss */
 #static-content {
-  width: 104%;
+  width: 106.5%;
 }
 
-/* line 7, ../scss/content/_static-content.scss */
+/* line 6, ../scss/content/_static-content.scss */
 .c > .link-list {
   margin: 0;
   padding: 0;
@@ -732,33 +783,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 0;
 }
 /* line 10, ../scss/content/_static-content.scss */
-.c > .link-list > li {
-  width: 48%;
+.c > .link-list.shop > li {
+  width: 80%;
 }
-/* line 13, ../scss/content/_static-content.scss */
+/* line 14, ../scss/content/_static-content.scss */
+.c > .link-list > li {
+  width: 45%;
+  padding-right: 4%;
+}
+/* line 18, ../scss/content/_static-content.scss */
 .c > .link-list > li .link-list-header {
   height: 42px;
   padding-left: 52px;
   font-size: 24px;
   color: #4d3522;
   line-height: 2.8em;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
-/* line 30, ../scss/content/_static-content.scss */
+/* line 37, ../scss/content/_static-content.scss */
 .c > .link-list > li .link-list-description {
   margin-top: 15px;
   color: #816b59;
   white-space: normal;
 }
-/* line 37, ../scss/content/_static-content.scss */
+/* line 44, ../scss/content/_static-content.scss */
 .c > .link-list ul > li {
   float: none;
   display: block;
   padding-left: 0px;
   padding-top: 7px;
-  padding-bottom: 4px;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
-/* line 38, ../scss/content/_static-content.scss */
+/* line 45, ../scss/content/_static-content.scss */
 .c > .link-list ul > li:first-child {
   float: none;
   display: block;
@@ -809,13 +866,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .c > .link-list ul > li a img {
   border: none;
 }
-/* line 49, ../scss/content/_static-content.scss */
+/* line 57, ../scss/content/_static-content.scss */
 .c > .link-list ul > li a {
   color: #1d8dcf;
   padding-left: 25px;
 }
 
-/* line 59, ../scss/content/_static-content.scss */
+/* line 67, ../scss/content/_static-content.scss */
 .basket {
   position: absolute;
   width: 204px;
@@ -823,7 +880,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background: url('../images/basket.png?1414579321') 0 0 no-repeat;
   right: 0px;
 }
-/* line 65, ../scss/content/_static-content.scss */
+/* line 73, ../scss/content/_static-content.scss */
 .basket .basket-sum {
   position: absolute;
   top: 20px;
@@ -832,39 +889,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0;
 }
+/* line 81, ../scss/content/_static-content.scss */
+.basket .basket-sum:after {
+  content: '';
+  position: absolute;
+  right: -24px;
+  top: 1px;
+  width: 17px;
+  height: 23px;
+}
 
-/* line 75, ../scss/content/_static-content.scss */
+/* line 93, ../scss/content/_static-content.scss */
 .login-block {
   position: absolute;
   top: 12px;
-  right: 160px;
-  width: 200px;
+  right: 205px;
+  width: 125px;
   height: 75px;
 }
-/* line 81, ../scss/content/_static-content.scss */
+/* line 99, ../scss/content/_static-content.scss */
 .login-block a {
   display: block;
   padding-left: 20px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   color: #000;
   text-decoration: none;
+  font-size: 14px;
 }
 
-/* line 90, ../scss/content/_static-content.scss */
+/* line 108, ../scss/content/_static-content.scss */
 .town-select-block {
   position: absolute;
   top: 8px;
-  left: 220px;
+  right: 345px;
   width: 390px;
   height: 43px;
 }
-/* line 96, ../scss/content/_static-content.scss */
+/* line 114, ../scss/content/_static-content.scss */
 .town-select-block .town-select {
   width: 206px;
   height: 43px;
   float: left;
 }
-/* line 102, ../scss/content/_static-content.scss */
+/* line 120, ../scss/content/_static-content.scss */
 .town-select-block .phone {
   float: left;
   margin-right: 25px;
@@ -910,7 +977,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 7, ../scss/content/_news.scss */
 .horizontal-list > li img {
   float: left;
-  margin-right: 10px;
+  margin-right: 22px;
 }
 /* line 11, ../scss/content/_news.scss */
 .horizontal-list > li .news-content {
@@ -920,18 +987,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 14, ../scss/content/_news.scss */
 .horizontal-list > li .news-content .news-header {
   color: #4d3522;
-  font-size: 18pt;
+  font-size: 21px;
 }
-/* line 18, ../scss/content/_news.scss */
+/* line 19, ../scss/content/_news.scss */
 .horizontal-list > li .news-content .news-date {
   color: #8b694d;
-  font-size: 13pt;
-  margin: 15px 0;
+  font-size: 14px;
+  margin: 20px 0;
 }
-/* line 23, ../scss/content/_news.scss */
+/* line 24, ../scss/content/_news.scss */
 .horizontal-list > li .news-content .news-preview {
   color: #816b59;
-  font-size: 13pt;
+  font-size: 14px;
   height: 118px;
   overflow: hidden;
   white-space: normal;
@@ -975,7 +1042,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .tabs li a {
   display: block;
   color: #4d3522;
-  font-size: 13pt;
+  font-size: 16px;
   text-decoration: none;
   border-bottom: 1px dashed;
 }
@@ -1002,24 +1069,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 32, ../scss/content/_goods.scss */
 .flex-items-list {
+  width: 101%;
+  margin-left: -.5%;
   *zoom: 1;
 }
-/* line 33, ../scss/content/_goods.scss */
+/* line 36, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder {
   float: left;
   position: relative;
-  margin: 10px 7px;
-  width: 279px;
+  margin: 10px 0.5%;
+  width: 24%;
   min-height: 328px;
 }
-/* line 40, ../scss/content/_goods.scss */
+/* line 43, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item {
   background: #fff;
   border: 1px solid #765f4d;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  width: 279px;
   text-align: center;
   vertical-align: text-top;
   display: block;
@@ -1029,19 +1097,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   @include justify-content(space-between);
   @include flex-wrap(wrap);       */
 }
-/* line 51, ../scss/content/_goods.scss */
+/* line 53, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item:hover {
   position: absolute;
+  left: -1px;
+  right: -1px;
   z-index: 1;
   -moz-box-shadow: rgba(118, 95, 77, 0.75) 0 0 25px;
   -webkit-box-shadow: rgba(118, 95, 77, 0.75) 0 0 25px;
   box-shadow: rgba(118, 95, 77, 0.75) 0 0 25px;
 }
-/* line 55, ../scss/content/_goods.scss */
+/* line 60, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item:hover .extra {
   display: block;
 }
-/* line 60, ../scss/content/_goods.scss */
+/* line 65, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra {
   display: none;
   border-top: 1px solid #d1c9c3;
@@ -1050,20 +1120,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #4d3522;
   font-size: 11pt;
 }
-/* line 68, ../scss/content/_goods.scss */
+/* line 73, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra ul {
   list-style: none;
   color: #4d3522;
 }
-/* line 72, ../scss/content/_goods.scss */
+/* line 77, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price {
   color: #b95d39;
 }
-/* line 74, ../scss/content/_goods.scss */
+/* line 79, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price .value {
   font-size: 20pt;
 }
-/* line 84, ../scss/content/_goods.scss */
+/* line 89, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top {
   position: relative;
   box-sizing: border-box;
@@ -1073,35 +1143,93 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: 1px 110px;
   background-repeat: no-repeat;
 }
-/* line 92, ../scss/content/_goods.scss */
+/* line 97, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .name {
-  font-size: 14pt;
+  font-size: 18px;
   color: #4d3522;
   text-decoration: none;
   padding-right: 20px;
+  margin-bottom: 7px;
 }
-/* line 98, ../scss/content/_goods.scss */
+/* line 105, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .articul {
-  font-size: 11pt;
+  font-size: 12px;
   color: #a1836a;
 }
-/* line 102, ../scss/content/_goods.scss */
-.flex-items-list .flex-item-holder .flex-item .top .is-new {
+/* line 109, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .marks {
+  position: relative;
+}
+/* line 111, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
   position: absolute;
-  top: 60px;
-  left: 10px;
+  top: 7px;
+  left: -2px;
   width: 36px;
   height: 36px;
 }
-/* line 110, ../scss/content/_goods.scss */
-.flex-items-list .flex-item-holder .flex-item .top .is-for-sale {
+/* line 119, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .marks .is-new:hover .new-tip {
+  display: block;
+}
+/* line 124, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
   position: absolute;
-  top: 100px;
-  left: 10px;
+  top: 47px;
+  left: -1px;
   width: 36px;
   height: 36px;
 }
-/* line 118, ../scss/content/_goods.scss */
+/* line 132, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale:hover .sale-tip {
+  display: block;
+}
+/* line 139, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .tip {
+  display: none;
+  position: absolute;
+  top: -34px;
+  left: -42px;
+  vertical-align: middle;
+  background-color: #897566;
+  padding: 8px 10px;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 12px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: #897566 1px 1px 3px;
+  -webkit-box-shadow: #897566 1px 1px 3px;
+  box-shadow: #897566 1px 1px 3px;
+}
+/* line 153, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .tip:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  bottom: -3px;
+  left: 49%;
+  background-color: #897566;
+  transform: rotate(45deg);
+  -moz-box-shadow: #897566 1px 1px 2px;
+  -webkit-box-shadow: #897566 1px 1px 2px;
+  box-shadow: #897566 1px 1px 2px;
+}
+/* line 166, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .tip.wishlist-tip {
+  left: -42px;
+}
+/* line 169, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .tip.new-tip {
+  left: -30px;
+}
+/* line 172, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .tip.sale-tip {
+  left: -27px;
+}
+/* line 177, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon {
   width: 15px;
   height: 13px;
@@ -1109,42 +1237,61 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 17px;
   top: 17px;
 }
-/* line 133, ../scss/content/_goods.scss */
+/* line 188, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover .wishlist-tip {
+  display: block;
+}
+/* line 197, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom {
   height: 72px;
   width: 100%;
   box-sizing: border-box;
   padding-top: 10px;
 }
-/* line 138, ../scss/content/_goods.scss */
+/* line 202, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom > div {
   height: 40px;
 }
-/* line 141, ../scss/content/_goods.scss */
+/* line 205, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .note {
-  font-size: 10pt;
+  font-size: 12px;
   color: #a1836a;
   margin-bottom: 7px;
 }
-/* line 146, ../scss/content/_goods.scss */
+/* line 210, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price {
   float: left;
   width: 35%;
   text-align: center;
-  font-size: 18pt;
-  color: #765f4d;
+  color: #4d3522;
 }
-/* line 152, ../scss/content/_goods.scss */
+/* line 215, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value {
   line-height: 18px;
+  font-size: 26px;
+  display: inline;
+  padding-right: 16px;
 }
-/* line 156, ../scss/content/_goods.scss */
+/* line 221, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble {
+  position: relative;
+}
+/* line 223, ../scss/content/_goods.scss */
+.flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 19px;
+  right: -4px;
+  top: 6px;
+}
+/* line 236, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy {
   float: right;
   width: 30%;
   text-align: center;
 }
-/* line 160, ../scss/content/_goods.scss */
+/* line 240, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button {
   width: 52px;
   height: 32px;
@@ -1152,24 +1299,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   outline: none;
   margin-top: 5px;
 }
-/* line 167, ../scss/content/_goods.scss */
+/* line 247, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button:hover {
   cursor: pointer;
 }
-/* line 172, ../scss/content/_goods.scss */
+/* line 252, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount {
   text-align: center;
 }
-/* line 174, ../scss/content/_goods.scss */
+/* line 254, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount i {
   display: inline-block;
-  width: 9px;
-  height: 9px;
+  width: 10px;
+  height: 10px;
   vertical-align: middle;
 }
-/* line 188, ../scss/content/_goods.scss */
+/* line 268, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount input {
-  width: 20px;
+  width: 32px;
   text-align: center;
 }
 /* line 38, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -1179,22 +1326,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   clear: both;
 }
 
-/* line 1, ../scss/content/_all-about.scss */
-#all-about {
-  padding-top: 50px;
-}
-
 /* line 7, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li {
-  width: 18%;
+  width: 17%;
   padding-top: 15px;
 }
-/* line 10, ../scss/content/_all-about.scss */
+/* line 11, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image {
   padding-left: 80px;
   position: relative;
 }
-/* line 13, ../scss/content/_all-about.scss */
+/* line 14, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee:before {
   content: '';
   width: 78px;
@@ -1203,7 +1345,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 22, ../scss/content/_all-about.scss */
+/* line 23, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee-bean:before {
   content: '';
   width: 62px;
@@ -1212,34 +1354,145 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 32, ../scss/content/_all-about.scss */
+/* line 33, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li {
   padding-left: 1em;
   text-indent: -.7em;
 }
-/* line 35, ../scss/content/_all-about.scss */
+/* line 36, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li:before {
   content: "• ";
   color: #a1836a;
 }
-/* line 39, ../scss/content/_all-about.scss */
+/* line 40, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li a {
   color: #1d8dcf;
   padding-left: 0px;
   white-space: normal;
 }
 
+/* line 2, ../scss/content/_company.scss */
+#company .c {
+  overflow: hidden;
+  height: 800px;
+}
+/* line 7, ../scss/content/_company.scss */
+#company h2 ul.social-icons {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 62, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#company h2 ul.social-icons li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: right;
+  padding-right: right;
+}
+/* line 49, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#company h2 ul.social-icons li:first-child {
+  padding-left: 0;
+}
+/* line 50, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#company h2 ul.social-icons li:last-child {
+  padding-right: 0;
+}
+/* line 52, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#company h2 ul.social-icons li.last {
+  padding-right: 0;
+}
+/* line 12, ../scss/content/_company.scss */
+#company h2 ul.social-icons li {
+  width: 28px;
+  height: 28px;
+  margin: 0 3px;
+  background-color: #c4beb6;
+  -moz-border-radius: 14px;
+  -webkit-border-radius: 14px;
+  border-radius: 14px;
+}
+/* line 18, ../scss/content/_company.scss */
+#company h2 ul.social-icons li:hover {
+  background-color: #e89b4b;
+}
+/* line 40, ../scss/content/_company.scss */
+#company h2 a.view_all {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  color: #4d3522;
+  text-decoration: underline;
+  font-size: 16px;
+}
+/* line 49, ../scss/content/_company.scss */
+#company .about-company {
+  float: left;
+  width: 60%;
+  margin-right: 2%;
+}
+/* line 53, ../scss/content/_company.scss */
+#company .about-company .content {
+  padding-right: 10px;
+  font-size: 13px;
+}
+/* line 58, ../scss/content/_company.scss */
+#company .about-company a.more {
+  position: relative;
+  top: 30px;
+  color: #1d8dcf;
+}
+/* line 64, ../scss/content/_company.scss */
+#company .honors {
+  float: right;
+  width: 37%;
+  margin-left: 1%;
+}
+/* line 69, ../scss/content/_company.scss */
+#company .honors .item .header {
+  color: #4d3522;
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 76, ../scss/content/_company.scss */
+#company .honors .item .content {
+  font-size: 13px;
+  overflow: hidden;
+  height: 100px;
+  padding-bottom: 20px;
+}
+/* line 81, ../scss/content/_company.scss */
+#company .honors .item .content .img-holder {
+  float: left;
+  margin-right: 10px;
+  width: 110px;
+  text-align: center;
+}
+
 /* line 1, ../scss/_common.scss */
 h2 {
   font-size: 24px;
   color: #4d3522;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   margin-bottom: 25px;
   margin-top: 10px;
+  font-size: 32px;
 }
-/* line 8, ../scss/_common.scss */
+/* line 10, ../scss/_common.scss */
 h2.bordered {
-  border-bottom: 1px solid #4d3522;
+  border-bottom: 1px solid #a19286;
+}
+/* line 13, ../scss/_common.scss */
+h2.has_content {
+  position: relative;
 }
 
 @font-face {
@@ -1247,7 +1500,17 @@ h2.bordered {
   src: url('../fonts/BRS75__W.eot?1301325114');
   src: url('../fonts/BRS75__W.eot?&1301325114#iefix') format('embedded-opentype'), url('../fonts/BRS75__W.woff?1301325116') format('woff'), url('../fonts/BRS75__W.ttf?1301325114') format('truetype'), url('../fonts/BRS75__W.svg?1301325114') format('svg');
 }
-/* line 36, ../scss/application.scss */
-.menu-wrapper .menu .menu-holder ul.menu-block li a {
-  font-family: 'BruskovayaPlain', sans-serif;
+@font-face {
+  font-family: "MuseoCyrl_500";
+  src: url('../fonts/MuseoCyrl_500-webfont.eot?1412482460');
+  src: url('../fonts/MuseoCyrl_500-webfont.eot?&1412482460#iefix') format('embedded-opentype'), url('../fonts/MuseoCyrl_500-webfont.woff?1412482460') format('woff'), url('../fonts/MuseoCyrl_500-webfont.ttf?1412482460') format('truetype'), url('../fonts/MuseoCyrl_500-webfont.svg?1412482460') format('svg');
+}
+/* line 47, ../scss/application.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li a, .c > .link-list > li .link-list-header, .basket .basket-sum, .horizontal-list > li .news-content .news-header, .flex-items-list .flex-item-holder .flex-item .top .name, .flex-items-list .flex-item-holder .flex-item .bottom .price .value, #company .honors .item .header, h2 {
+  font-family: 'BruskovayaPlain';
+}
+
+/* line 50, ../scss/application.scss */
+#layout {
+  font-family: 'MuseoCyrl_500';
 }

@@ -2,8 +2,9 @@
   width: 100%;
   max-width: 2000px;
   min-width: 980px;
-  height: 4500px;
+  height: 3650px;
   position: relative;
+  @extend %MuseoCyrl500;
 
 
   @include background(
@@ -19,17 +20,17 @@
   background-position:
     50% 2000px,
     -50% 500px,
-    center bottom,
+    center 105%,
     center top,
     50% 600px,
     center top;
   background-repeat: no-repeat;
 
   #content{
-      width: $content-width;
+      @include min-width($min-content-width);
+      max-width: $max-content-width;
       margin: 0 auto;
       border: 1px solid #000;
-      height: 4000px;
       position: relative;
   }
 
@@ -46,7 +47,7 @@
 
   #bottom{
     width: 100%;
-    height: 890px;
+    height: 690px;
     position: absolute;
     bottom: 0;
     @include background(image-url("buddah.png") center bottom no-repeat);

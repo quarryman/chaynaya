@@ -9,18 +9,32 @@
         &.shop{
             >li{
                 width: 80%;
+                float: none;
+                margin: 0 auto;
+            }
+        }
+        &.partnership{
+            >li{
+                &:first-child{
+                    padding-left: 3%;
+                }
+                &:last-child{
+                    padding-right: 3%;
+                }
             }
         }
         >li{
-            width: 45%;
-            padding-right: 4%;
+            width: 44%;
+            padding-right: 3%;
+            padding-left: 3%;
+
 
             .link-list-header {
                 height: 42px;
                 padding-left: 52px;
-                font-size: 24px;
+                font-size: 32px;
                 color: #4d3522;
-                line-height: 2.8em;
+                line-height: 1.9em;
                 margin-bottom: 25px;
                 @extend %bruskovaya;
 
@@ -45,7 +59,10 @@
                 &:first-child{
                     float: none;
                     display: block;
-                    padding-left: 0px;
+                    padding-left: 0;
+                }
+                &:last-child{
+                    padding-right: 0;
                 }
                 @include nested-reset();
                 float: none;

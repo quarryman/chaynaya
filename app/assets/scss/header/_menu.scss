@@ -27,6 +27,14 @@ $menu-color: #54321b;
                 height: 150px;
                 position: absolute;
                 top: -75%;
+                left: auto;
+            }
+            .shining{
+                width: 407px;
+                height: 289px;
+                position: absolute;
+                top: -115px;
+                margin-left: -100px;
             }
             ul.menu-block{
                 margin-left: $logo-width;
@@ -99,6 +107,7 @@ $menu-color: #54321b;
                     }
 
                     .submenu{
+
                         display: none;
                         position: absolute;
                         //border: 1px solid red;
@@ -114,13 +123,19 @@ $menu-color: #54321b;
                     a{
                         text-align: center;
                         white-space: nowrap;
+
+                        &.has_no_sub{
+                            padding-right: 0;
+                        }
                         span{
                             position: relative;
+                            padding-right: 10px;
                             i{
                                 width: 7px;
                                 height: 4px;
+
                                 position: absolute;
-                                right: -10px;
+                                right: 0px;
                                 top: 13px;
                             }
 

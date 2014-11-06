@@ -1,7 +1,119 @@
 #slider{
     height: 350px;
     padding: 20px 0;
-    margin-top: 160px;
-    margin-bottom: 20px;
-    background: image-url("slider.png") 0 0 no-repeat;
+    margin: 160px 0 40px 0;
+    width: 100%;
+    position: relative;
+    .slider-header{
+        @extend h2;
+        @extend h2.bordered;
+    }
+
+    .slider-nav-left{
+        position: absolute;
+        top: 49%;
+        left: 10px;
+        width: 23px;
+        height: 40px;
+        @extend .sprite-common-slider-nav-left;
+        @include opacity(.2);
+        &:hover{
+            @include opacity(1);
+        }
+    }
+    .slider-nav-right{
+        position: absolute;
+        top: 49%;
+        right: 10px;
+        width: 23px;
+        height: 40px;
+        @extend .sprite-common-slider-nav-right;
+        @include opacity(.2);
+        &:hover{
+            @include opacity(1);
+        }
+    }
+    //background: image-url("slider.png") 0 0 no-repeat;
+    .banner-slide-wrapper{
+        height: 350px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 980px;
+        .banner-slide{
+            position: relative;
+            height: 350px;
+            .banner{
+                float: left;
+                width: 980px;
+                height: 100%;
+                position: relative;
+                list-style: none;
+
+                box-sizing: border-box;
+
+                .left{
+                    float: left;
+                    width: 50%;
+                    height: 350px;
+                    img{
+                        margin-left: 20px;
+                    }
+                }
+                .right{
+                    float: right;
+                    width: 50%;
+                    height: 308px;
+                    padding-top: 42px;
+                    box-sizing: border-box;
+                    padding-left: 20px;
+                    .text{
+                        width: 400px;
+                        margin: 30px 0 6px 0;
+                        font-size: 14px;
+                    }
+                    .links{
+                        width: 400px;
+                        line-height: 1.4em;
+                        a{
+                            color: #1d8dcf;
+                            font-size: 13px;
+                            margin: 0 15px 0 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slider-nav{
+        position: absolute;
+        bottom: -20px;
+        left: 38%;
+        .slider-nav-link{
+            float: left;
+            height: 40px;
+            width: 45px;
+            cursor: pointer;
+            margin-right: 15px;
+            position: relative;
+
+
+            &:nth-child(2){
+                @extend .sprite-common-slider-icon-teabag;
+            }
+            &:nth-child(1){
+                 @extend .sprite-common-slider-icon-tealeaf;
+            }
+            &:nth-child(3){
+                @extend .sprite-common-slider-icon-coffee-bean;
+            }
+            &:nth-child(4){
+                @extend .sprite-common-slider-icon-kettle;
+            }
+            &:nth-child(5){
+                @extend .sprite-common-slider-icon-sweets;
+            }
+        }
+    }
 }

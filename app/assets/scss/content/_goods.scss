@@ -60,6 +60,9 @@
             .extra{
                 display: block;
             }
+            .cover{
+                right: 3px;
+            }
         }
 
         .extra{
@@ -135,7 +138,14 @@
                     }
                 }
             }
-
+            .cover{
+                @extend .sprite-common-item-cover;
+                width: 89px;
+                height: 181px;
+                position: absolute;
+                right: 2px;
+                bottom: 2px;
+            }
             .tip{
                 display: none;
                 position: absolute;

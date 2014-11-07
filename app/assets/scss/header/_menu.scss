@@ -40,14 +40,14 @@ $menu-color: #54321b;
                 margin-left: $logo-width;
                 margin-right: $cart-width;
                 padding-left: 0px;
-                height: $menu-height;
+                //height: $menu-height;
                 position: relative;
                 display: table;
 
 
                 >li{
                     /*@include inline-block;      */
-                    height: $menu-height;
+                    //height: $menu-height;
                     padding: 0;
                     &:first-child{
                         a{
@@ -56,9 +56,11 @@ $menu-color: #54321b;
                     }
                     &.single:hover{
                         background-clip: content-box;
+                        height: auto;
                     }
                     &:hover{
                         @include background(image-url("menu/menu-item-active.png") left 5px repeat-x);
+                        height: $menu-height;
 
                         +li{
                             a{
@@ -107,7 +109,7 @@ $menu-color: #54321b;
                         display: block;
                         position: relative;
                         padding: 0px 5px 0 5px;
-                        margin: 16px 0;
+                        margin: 16px 0 11px 0;
                         border-left: 1px dotted transparent;
                         height: 28px;
                         font-size: 20px;

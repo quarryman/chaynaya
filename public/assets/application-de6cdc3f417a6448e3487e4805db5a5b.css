@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, #slider .slider-header, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,83 +21,83 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
 /* line 96, sprites/sprite-shape-horizontal/*.png */
 .sprite-shape-horizontal-sprite, .sprite-shape-horizontal-pattern-left-no-shade-no-stroke, .sprite-shape-horizontal-pattern-left-no-shade, .sprite-shape-horizontal-pattern-left-right-no-stroke, .sprite-shape-horizontal-pattern-left-right, .sprite-shape-horizontal-pattern-menu-left-right, .sprite-shape-horizontal-pattern-right-no-shade, .sprite-shape-horizontal-white-left-right {
-  background-image: url('../images/sprites/sprite-shape-horizontal-s89d25c5a4d.png');
+  background-image: url(/assets/sprites/sprite-shape-horizontal-s89d25c5a4d.png);
   background-repeat: no-repeat;
 }
 
 /* line 160, sprites/sprite-shape-vertical/*.png */
 .sprite-shape-vertical-sprite, .sprite-shape-vertical-pattern-corner-lb-menu, .sprite-shape-vertical-pattern-corner-lb-partial-shade, .sprite-shape-vertical-pattern-corner-lt-partial-shade, .sprite-shape-vertical-pattern-corner-no-stroke, .sprite-shape-vertical-pattern-corner-rb-menu, .sprite-shape-vertical-pattern-corner, .sprite-shape-vertical-pattern-menu-top-bottom, .sprite-shape-vertical-pattern-top-bottom-no-stroke, .sprite-shape-vertical-pattern-top-bottom, .sprite-shape-vertical-white-corner-lb, .sprite-shape-vertical-white-corner-lt, .sprite-shape-vertical-white-corner-rb, .sprite-shape-vertical-white-corner-rt, .sprite-shape-vertical-white-corner, .sprite-shape-vertical-white-top-bottom {
-  background-image: url('../images/sprites/sprite-shape-vertical-se99a5d460a.png');
+  background-image: url(/assets/sprites/sprite-shape-vertical-se99a5d460a.png);
   background-repeat: no-repeat;
 }
 
 /* line 512, sprites/sprite-common/*.png */
 .sprite-common-sprite, .sprite-common-arrow-down, .sprite-common-basket-bottom, .sprite-common-basket-count-holder, .sprite-common-basket-icon, .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button, .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover, .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon, .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites, .sprite-common-icon-anketa, .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header, .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header, .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before, .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before, .sprite-common-icon-download, .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), #company #slider .slider-header ul.social-icons li:nth-child(2), #slider #company .slider-header ul.social-icons li:nth-child(2), .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), #company #slider .slider-header ul.social-icons li:nth-child(5), #slider #company .slider-header ul.social-icons li:nth-child(5), .sprite-common-icon-home, .sprite-common-icon-key, .sprite-common-icon-login, .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header, .sprite-common-icon-moneybag, .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new, .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), #company #slider .slider-header ul.social-icons li:nth-child(4), #slider #company .slider-header ul.social-icons li:nth-child(4), .sprite-common-icon-order-history, .sprite-common-icon-order-status, .sprite-common-icon-order-tracking, .sprite-common-icon-paper, .sprite-common-icon-payment, .sprite-common-icon-reports, .sprite-common-icon-retail, .sprite-common-icon-return-policies, .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale, .sprite-common-icon-search, .search-input-holder:after, .sprite-common-icon-self-delivery, .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), #company #slider .slider-header ul.social-icons li:nth-child(3), #slider #company .slider-header ul.social-icons li:nth-child(3), .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), #company #slider .slider-header ul.social-icons li:nth-child(1), #slider #company .slider-header ul.social-icons li:nth-child(1), .sprite-common-icon-votes, .sprite-common-icon-wallet, .sprite-common-item-cover, .sprite-common-item-pic, .sprite-common-logo, .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before, .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after, .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus, .sprite-common-pack, .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus, .sprite-common-rubl-cart, .basket .basket-sum:after, .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after, .sprite-common-shining, .sprite-common-slider-icon-coffee-bean, #slider .slider-nav .slider-nav-link:nth-child(3), .sprite-common-slider-icon-kettle, #slider .slider-nav .slider-nav-link:nth-child(4), .sprite-common-slider-icon-sweets, #slider .slider-nav .slider-nav-link:nth-child(5), .sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(1), .sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(2), .sprite-common-slider-nav-left, #slider .slider-nav-left, .sprite-common-slider-nav-right, #slider .slider-nav-right, .sprite-common-town-select, .town-select-block .town-select {
-  background-image: url('../images/sprites/sprite-common-s41883f070b.png');
+  background-image: url(/assets/sprites/sprite-common-s41883f070b.png);
   background-repeat: no-repeat;
 }
 
-/* line 1, ../scss/_parallax.scss */
+/* line 1, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout {
   width: 100%;
   max-width: 2000px;
   min-width: 980px;
   height: 3650px;
   position: relative;
-  background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1415279141'), url('../images/bg.png?1414073842'), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk0Njk0ZiIvPjxzdG9wIG9mZnNldD0iNDQlIiBzdG9wLWNvbG9yPSIjZmZkZWMyIi8+PHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiNmZmRlYzIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5NDY5NGYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1415279141'), url('../images/bg.png?1414073842'), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #94694f), color-stop(44%, #ffdec2), color-stop(56%, #ffdec2), color-stop(100%, #94694f));
-  background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1415279141'), url('../images/bg.png?1414073842'), -moz-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
-  background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1415279141'), url('../images/bg.png?1414073842'), -webkit-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
-  background: url('../images/cloud.png?1414075083'), url('../images/cloud.png?1414075083'), url('../images/towers.png?1414072955'), url('../images/sky.png?1415279141'), url('../images/bg.png?1414073842'), linear-gradient(to right, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
+  background: url(/assets/cloud.png), url(/assets/cloud.png), url(/assets/towers.png), url(/assets/sky.png), url(/assets/bg.png), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzk0Njk0ZiIvPjxzdG9wIG9mZnNldD0iNDQlIiBzdG9wLWNvbG9yPSIjZmZkZWMyIi8+PHN0b3Agb2Zmc2V0PSI1NiUiIHN0b3AtY29sb3I9IiNmZmRlYzIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5NDY5NGYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: url(/assets/cloud.png), url(/assets/cloud.png), url(/assets/towers.png), url(/assets/sky.png), url(/assets/bg.png), -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #94694f), color-stop(44%, #ffdec2), color-stop(56%, #ffdec2), color-stop(100%, #94694f));
+  background: url(/assets/cloud.png), url(/assets/cloud.png), url(/assets/towers.png), url(/assets/sky.png), url(/assets/bg.png), -moz-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
+  background: url(/assets/cloud.png), url(/assets/cloud.png), url(/assets/towers.png), url(/assets/sky.png), url(/assets/bg.png), -webkit-linear-gradient(left, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
+  background: url(/assets/cloud.png), url(/assets/cloud.png), url(/assets/towers.png), url(/assets/sky.png), url(/assets/bg.png), linear-gradient(to right, #94694f 0%, #ffdec2 44%, #ffdec2 56%, #94694f 100%);
   background-position: 50% 2000px, -50% 500px, center 105%, center top, 50% 600px, center top;
   background-repeat: no-repeat;
 }
-/* line 29, ../scss/_parallax.scss */
+/* line 29, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #content {
   min-width: 980px;
   max-width: 1200px;
@@ -105,26 +105,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid transparent;
   position: relative;
 }
-/* line 37, ../scss/_parallax.scss */
+/* line 37, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout .img {
   position: relative;
   left: 45%;
   top: 100px;
 }
-/* line 43, ../scss/_parallax.scss */
+/* line 43, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout path {
   fill: none;
   stroke: red;
 }
-/* line 48, ../scss/_parallax.scss */
+/* line 48, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom {
   width: 100%;
   height: 690px;
   position: absolute;
   bottom: 0;
-  background: url('../images/buddah.png?1414073111') center bottom no-repeat;
+  background: url(/assets/buddah.png) center bottom no-repeat;
 }
-/* line 54, ../scss/_parallax.scss */
+/* line 54, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder {
   position: absolute;
   bottom: 0px;
@@ -132,7 +132,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 0;
   overflow: hidden;
 }
-/* line 60, ../scss/_parallax.scss */
+/* line 60, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape {
   max-width: 1128px;
   min-width: 940px;
@@ -141,333 +141,333 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 32px;
   height: 70px;
 }
-/* line 67, ../scss/_parallax.scss */
+/* line 67, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape .c {
   height: 50px;
   font-size: 11px;
   color: #695a4e;
 }
-/* line 72, ../scss/_parallax.scss */
+/* line 72, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape .footer-left-block {
   float: left;
 }
-/* line 74, ../scss/_parallax.scss */
+/* line 74, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape .footer-left-block span {
   font-size: 22px;
   color: #4d3522;
   line-height: 1.5em;
 }
-/* line 81, ../scss/_parallax.scss */
+/* line 81, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape .footer-right-block {
   float: right;
   padding-top: 10px;
 }
-/* line 84, ../scss/_parallax.scss */
+/* line 84, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape .footer-right-block img:first-child {
   vertical-align: sub;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-arrow-down {
   background-position: 0 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-basket-bottom {
   background-position: 0 -19px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-basket-count-holder {
   background-position: 0 -142px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-basket-icon {
   background-position: 0 -177px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button {
   background-position: 0 -228px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover {
   background-position: 0 -275px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon {
   background-position: 0 -303px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites {
   background-position: 0 -331px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-anketa {
   background-position: 0 -359px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header {
   background-position: 0 -394px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header {
   background-position: 0 -451px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before {
   background-position: 0 -508px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before {
   background-position: 0 -593px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-download {
   background-position: 0 -677px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), #company #slider .slider-header ul.social-icons li:nth-child(2), #slider #company .slider-header ul.social-icons li:nth-child(2) {
   background-position: 0 -712px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), #company #slider .slider-header ul.social-icons li:nth-child(5), #slider #company .slider-header ul.social-icons li:nth-child(5) {
   background-position: 0 -755px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-home {
   background-position: 0 -798px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-key {
   background-position: 0 -861px;
 }
-/* line 59, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 59, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-key:hover, .sprite-common-icon-key.icon-key-hover {
   background-position: 0 -833px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-login {
   background-position: 0 -917px;
 }
-/* line 59, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 59, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-login:hover, .sprite-common-icon-login.icon-login-hover {
   background-position: 0 -889px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header {
   background-position: 0 -945px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-moneybag {
   background-position: 0 -1002px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
   background-position: 0 -1040px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), #company #slider .slider-header ul.social-icons li:nth-child(4), #slider #company .slider-header ul.social-icons li:nth-child(4) {
   background-position: 0 -1091px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-order-history {
   background-position: 0 -1134px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-order-status {
   background-position: 0 -1169px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-order-tracking {
   background-position: 0 -1204px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-paper {
   background-position: 0 -1239px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-payment {
   background-position: 0 -1277px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-reports {
   background-position: 0 -1312px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-retail {
   background-position: 0 -1349px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-return-policies {
   background-position: 0 -1388px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
   background-position: 0 -1423px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-search, .search-input-holder:after {
   background-position: 0 -1474px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-self-delivery {
   background-position: 0 -1504px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), #company #slider .slider-header ul.social-icons li:nth-child(3), #slider #company .slider-header ul.social-icons li:nth-child(3) {
   background-position: 0 -1539px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), #company #slider .slider-header ul.social-icons li:nth-child(1), #slider #company .slider-header ul.social-icons li:nth-child(1) {
   background-position: 0 -1582px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-votes {
   background-position: 0 -1625px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-wallet {
   background-position: 0 -1660px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-item-cover {
   background-position: 0 -1698px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-item-pic {
   background-position: 0 -1894px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-logo {
   background-position: 0 -2051px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
   background-position: 0 -2216px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
   background-position: 0 -2291px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus {
   background-position: 0 -2366px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-pack {
   background-position: 0 -2390px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus {
   background-position: 0 -2586px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-rubl-cart, .basket .basket-sum:after {
   background-position: 0 -2611px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
   background-position: 0 -2649px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-shining {
   background-position: 0 -2683px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-coffee-bean, #slider .slider-nav .slider-nav-link:nth-child(3) {
   background-position: 0 -2987px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-kettle, #slider .slider-nav .slider-nav-link:nth-child(4) {
   background-position: 0 -3042px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-sweets, #slider .slider-nav .slider-nav-link:nth-child(5) {
   background-position: 0 -3097px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(1) {
   background-position: 0 -3152px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(2) {
   background-position: 0 -3207px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-nav-left, #slider .slider-nav-left {
   background-position: 0 -3262px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-nav-right, #slider .slider-nav-right {
   background-position: 0 -3317px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-town-select, .town-select-block .town-select {
   background-position: 0 -3372px;
 }
 
-/* line 6, ../scss/header/_menu.scss */
+/* line 6, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper {
   position: relative;
   z-index: 1;
 }
-/* line 9, ../scss/header/_menu.scss */
+/* line 9, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu {
-  background: url('../images/menu/menu-bordered.png?1414432610') left top repeat-x;
+  background: url(/assets/menu/menu-bordered.png) left top repeat-x;
   width: 100%;
   height: 67px;
   position: absolute;
@@ -477,14 +477,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 18pt;
   z-index: initial;
 }
-/* line 19, ../scss/header/_menu.scss */
+/* line 19, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder {
   min-width: 980px;
   max-width: 1200px;
   margin: 0 auto;
   height: 67px;
 }
-/* line 24, ../scss/header/_menu.scss */
+/* line 24, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder .logo {
   width: 187px;
   height: 150px;
@@ -492,7 +492,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: -75%;
   left: auto;
 }
-/* line 31, ../scss/header/_menu.scss */
+/* line 31, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder .shining {
   width: 407px;
   height: 289px;
@@ -501,7 +501,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: -100px;
   z-index: -5;
 }
-/* line 39, ../scss/header/_menu.scss */
+/* line 39, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block {
   margin-left: 187px;
   margin-right: 204px;
@@ -509,35 +509,35 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   display: table;
 }
-/* line 48, ../scss/header/_menu.scss */
+/* line 48, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li {
   /*@include inline-block;      */
   padding: 0;
 }
-/* line 53, ../scss/header/_menu.scss */
+/* line 53, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:first-child a {
   border-left: 1px solid transparent;
 }
-/* line 57, ../scss/header/_menu.scss */
+/* line 57, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li.single:hover {
   background-clip: content-box;
   height: auto;
 }
-/* line 61, ../scss/header/_menu.scss */
+/* line 61, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover {
-  background: url('../images/menu/menu-item-active.png?1414490473') left 5px repeat-x;
+  background: url(/assets/menu/menu-item-active.png) left 5px repeat-x;
   height: 67px;
 }
-/* line 66, ../scss/header/_menu.scss */
+/* line 66, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover + li a {
   border-left: 1px solid transparent;
 }
-/* line 70, ../scss/header/_menu.scss */
+/* line 70, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a {
   color: #8f6b46;
   border-left: 1px  solid transparent;
 }
-/* line 73, ../scss/header/_menu.scss */
+/* line 73, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
   content: '';
   position: absolute;
@@ -546,7 +546,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 84, ../scss/header/_menu.scss */
+/* line 84, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
   content: '';
   position: absolute;
@@ -555,19 +555,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 95, ../scss/header/_menu.scss */
+/* line 95, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a.has_no_sub:before {
   height: 51px;
 }
-/* line 98, ../scss/header/_menu.scss */
+/* line 98, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a.has_no_sub:after {
   height: 51px;
 }
-/* line 103, ../scss/header/_menu.scss */
+/* line 103, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover .submenu {
   display: block;
 }
-/* line 108, ../scss/header/_menu.scss */
+/* line 108, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li > a {
   display: block;
   position: relative;
@@ -581,7 +581,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
   box-sizing: border-box;
 }
-/* line 123, ../scss/header/_menu.scss */
+/* line 123, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu {
   display: none;
   position: absolute;
@@ -590,54 +590,54 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: -204px;
   z-index: -1;
 }
-/* line 132, ../scss/header/_menu.scss */
+/* line 132, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list {
   /*@include horizontal-list(2%, left);   */
 }
-/* line 134, ../scss/header/_menu.scss */
+/* line 134, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li {
   width: 33.333%;
   box-sizing: border-box;
 }
-/* line 138, ../scss/header/_menu.scss */
+/* line 138, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li {
   padding-bottom: 2px;
 }
-/* line 141, ../scss/header/_menu.scss */
+/* line 141, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child {
   padding-bottom: 15px;
 }
-/* line 144, ../scss/header/_menu.scss */
+/* line 144, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child a {
   color: #897566;
   font-size: 18px;
   text-decoration: none;
 }
-/* line 150, ../scss/header/_menu.scss */
+/* line 150, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li a {
   padding: 0;
 }
-/* line 159, ../scss/header/_menu.scss */
+/* line 159, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li {
   display: table-cell;
   width: 1%;
 }
-/* line 162, ../scss/header/_menu.scss */
+/* line 162, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a {
   text-align: center;
   white-space: nowrap;
 }
-/* line 165, ../scss/header/_menu.scss */
+/* line 165, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a.has_no_sub {
   padding-right: 0;
   margin: 16px 0 11px 0;
 }
-/* line 169, ../scss/header/_menu.scss */
+/* line 169, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a span {
   position: relative;
   padding-right: 10px;
 }
-/* line 172, ../scss/header/_menu.scss */
+/* line 172, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a span i {
   width: 7px;
   height: 4px;
@@ -646,14 +646,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 13px;
 }
 
-/* line 187, ../scss/header/_menu.scss */
+/* line 187, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .search-input-holder {
   position: relative;
   float: right;
   margin-top: 14px;
   margin-right: 11px;
 }
-/* line 192, ../scss/header/_menu.scss */
+/* line 192, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .search-input-holder .search-input {
   width: 182px;
   height: 24px;
@@ -662,7 +662,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 200, ../scss/header/_menu.scss */
+/* line 200, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/header/_menu.scss */
 .search-input-holder:after {
   content: '';
   position: absolute;
@@ -672,127 +672,127 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 16px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-left-no-shade-no-stroke {
   background-position: 0 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-left-no-shade {
   background-position: -51px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-left-right-no-stroke {
   background-position: -102px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-left-right {
   background-position: -153px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-menu-left-right {
   background-position: -204px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-pattern-right-no-shade {
   background-position: -255px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-horizontal-white-left-right {
   background-position: -306px 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner-lb-menu {
   background-position: 0 0;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner-lb-partial-shade {
   background-position: 0 -36px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner-lt-partial-shade {
   background-position: 0 -72px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner-no-stroke {
   background-position: 0 -108px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner-rb-menu {
   background-position: 0 -144px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-corner {
   background-position: 0 -180px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-menu-top-bottom {
   background-position: 0 -216px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-top-bottom-no-stroke {
   background-position: 0 -252px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-pattern-top-bottom {
   background-position: 0 -288px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-corner-lb {
   background-position: 0 -324px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-corner-lt {
   background-position: 0 -360px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-corner-rb {
   background-position: 0 -396px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-corner-rt {
   background-position: 0 -432px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-corner {
   background-position: 0 -468px;
 }
 
-/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-shape-vertical-white-top-bottom {
   background-position: 0 -498px;
 }
 
-/* line 6, ../scss/_shapes.scss */
+/* line 6, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape {
   position: relative;
   padding: 36px 36px;
   width: auto;
 }
-/* line 11, ../scss/_shapes.scss */
+/* line 11, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .c {
   padding: 10px 10px;
 }
-/* line 15, ../scss/_shapes.scss */
+/* line 15, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lt,
 .shape .rt,
 .shape .lb,
@@ -803,51 +803,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .shape .b {
   position: absolute;
 }
-/* line 26, ../scss/_shapes.scss */
+/* line 26, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lt,
 .shape .lb,
 .shape .l {
   left: 0px;
 }
-/* line 31, ../scss/_shapes.scss */
+/* line 31, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .rt,
 .shape .rb,
 .shape .r {
   right: 0px;
 }
-/* line 36, ../scss/_shapes.scss */
+/* line 36, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lt,
 .shape .rt,
 .shape .t {
   top: 0;
 }
-/* line 41, ../scss/_shapes.scss */
+/* line 41, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lb,
 .shape .rb,
 .shape .b {
   bottom: 0;
 }
-/* line 46, ../scss/_shapes.scss */
+/* line 46, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lt {
   width: 36px;
   height: 36px;
 }
-/* line 50, ../scss/_shapes.scss */
+/* line 50, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .rt {
   width: 36px;
   height: 36px;
 }
-/* line 56, ../scss/_shapes.scss */
+/* line 56, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .rb {
   width: 36px;
   height: 36px;
 }
-/* line 60, ../scss/_shapes.scss */
+/* line 60, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .lb {
   width: 36px;
   height: 36px;
 }
-/* line 64, ../scss/_shapes.scss */
+/* line 64, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .l,
 .shape .r {
   width: 36px;
@@ -855,7 +855,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   bottom: 36px;
   background-repeat: repeat-y;
 }
-/* line 72, ../scss/_shapes.scss */
+/* line 72, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape .t,
 .shape .b {
   height: 36px;
@@ -863,76 +863,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 36px;
   background-repeat: repeat-x;
 }
-/* line 81, ../scss/_shapes.scss */
+/* line 81, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .c, .shape.pattern-shape .c, .shape.submenu-shape .c {
   background: rgba(255, 255, 255, 0.8);
   height: 100%;
 }
-/* line 92, ../scss/_shapes.scss */
+/* line 92, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .rt, .shape.pattern-shape .rt, .shape.submenu-shape .rt {
   transform: rotate(90deg);
 }
-/* line 94, ../scss/_shapes.scss */
+/* line 94, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .rt.sprite-shape-vertical-white-corner-rt, .shape.pattern-shape .rt.sprite-shape-vertical-white-corner-rt, .shape.submenu-shape .rt.sprite-shape-vertical-white-corner-rt {
   transform: rotate(0deg);
 }
-/* line 99, ../scss/_shapes.scss */
+/* line 99, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .rb, .shape.pattern-shape .rb, .shape.submenu-shape .rb {
   transform: rotate(180deg);
 }
-/* line 101, ../scss/_shapes.scss */
+/* line 101, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .rb.sprite-shape-vertical-pattern-corner-rb-menu, .shape.white-shape .rb.sprite-shape-vertical-white-corner-rb, .shape.pattern-shape .rb.sprite-shape-vertical-pattern-corner-rb-menu, .shape.pattern-shape .rb.sprite-shape-vertical-white-corner-rb, .shape.submenu-shape .rb.sprite-shape-vertical-pattern-corner-rb-menu, .shape.submenu-shape .rb.sprite-shape-vertical-white-corner-rb {
   transform: rotate(0deg);
 }
-/* line 106, ../scss/_shapes.scss */
+/* line 106, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .lb, .shape.pattern-shape .lb, .shape.submenu-shape .lb {
   transform: rotate(270deg);
 }
-/* line 108, ../scss/_shapes.scss */
+/* line 108, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .lb.sprite-shape-vertical-pattern-corner-lb-partial-shade, .shape.white-shape .lb.sprite-shape-vertical-pattern-corner-lb-menu, .shape.white-shape .lb.sprite-shape-vertical-white-corner-lb, .shape.pattern-shape .lb.sprite-shape-vertical-pattern-corner-lb-partial-shade, .shape.pattern-shape .lb.sprite-shape-vertical-pattern-corner-lb-menu, .shape.pattern-shape .lb.sprite-shape-vertical-white-corner-lb, .shape.submenu-shape .lb.sprite-shape-vertical-pattern-corner-lb-partial-shade, .shape.submenu-shape .lb.sprite-shape-vertical-pattern-corner-lb-menu, .shape.submenu-shape .lb.sprite-shape-vertical-white-corner-lb {
   transform: rotate(0deg);
 }
-/* line 116, ../scss/_shapes.scss */
+/* line 116, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .r, .shape.pattern-shape .r, .shape.submenu-shape .r {
   transform: rotate(180deg);
 }
-/* line 118, ../scss/_shapes.scss */
+/* line 118, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .r.sprite-shape-horizontal-pattern-right-no-shade, .shape.pattern-shape .r.sprite-shape-horizontal-pattern-right-no-shade, .shape.submenu-shape .r.sprite-shape-horizontal-pattern-right-no-shade {
   transform: rotate(0deg);
 }
-/* line 128, ../scss/_shapes.scss */
+/* line 128, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .b, .shape.pattern-shape .b, .shape.submenu-shape .b {
   transform: rotate(180deg);
 }
-/* line 130, ../scss/_shapes.scss */
+/* line 130, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.white-shape .b.sprite-shape-vertical-pattern-menu-top-bottom, .shape.pattern-shape .b.sprite-shape-vertical-pattern-menu-top-bottom, .shape.submenu-shape .b.sprite-shape-vertical-pattern-menu-top-bottom {
   transform: rotate(0deg);
 }
 
-/* line 137, ../scss/_shapes.scss */
+/* line 137, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.pattern-shape {
   position: relative;
   float: left;
 }
-/* line 141, ../scss/_shapes.scss */
+/* line 141, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.pattern-shape .c {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  background: url('../images/pattern-bg.png?1414445832');
+  background: url(/assets/pattern-bg.png);
 }
 
-/* line 146, ../scss/_shapes.scss */
+/* line 146, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.submenu-shape {
   width: auto;
 }
-/* line 149, ../scss/_shapes.scss */
+/* line 149, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_shapes.scss */
 .shape.submenu-shape .c {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
-  background: url('../images/pattern-bg.png?1414445832');
+  background: url(/assets/pattern-bg.png);
 }
 
-/* line 1, ../scss/_slider.scss */
+/* line 1, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider {
   height: 350px;
   padding: 20px 0;
@@ -940,7 +940,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   position: relative;
 }
-/* line 12, ../scss/_slider.scss */
+/* line 12, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav-left {
   position: absolute;
   top: 49%;
@@ -950,12 +950,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
 }
-/* line 20, ../scss/_slider.scss */
+/* line 20, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav-left:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 24, ../scss/_slider.scss */
+/* line 24, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav-right {
   position: absolute;
   top: 49%;
@@ -965,12 +965,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=20);
   opacity: 0.2;
 }
-/* line 32, ../scss/_slider.scss */
+/* line 32, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav-right:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
-/* line 37, ../scss/_slider.scss */
+/* line 37, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper {
   height: 350px;
   width: 100%;
@@ -979,12 +979,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: 0 auto;
   width: 980px;
 }
-/* line 44, ../scss/_slider.scss */
+/* line 44, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide {
   position: relative;
   height: 350px;
 }
-/* line 47, ../scss/_slider.scss */
+/* line 47, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner {
   float: left;
   width: 980px;
@@ -993,17 +993,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   list-style: none;
   box-sizing: border-box;
 }
-/* line 56, ../scss/_slider.scss */
+/* line 56, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .left {
   float: left;
   width: 50%;
   height: 350px;
 }
-/* line 60, ../scss/_slider.scss */
+/* line 60, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .left img {
   margin-left: 20px;
 }
-/* line 64, ../scss/_slider.scss */
+/* line 64, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right {
   float: right;
   width: 50%;
@@ -1012,37 +1012,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
   padding-left: 20px;
 }
-/* line 71, ../scss/_slider.scss */
+/* line 71, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .text {
   width: 400px;
   margin: 30px 0 6px 0;
   font-size: 14px;
 }
-/* line 76, ../scss/_slider.scss */
+/* line 76, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .links-header {
   margin-bottom: 3px;
   margin-top: 14px;
   color: #4d3522;
   font-size: 18px;
 }
-/* line 83, ../scss/_slider.scss */
+/* line 83, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .links {
   width: 455px;
   line-height: 1.4em;
 }
-/* line 86, ../scss/_slider.scss */
+/* line 86, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .links a {
   color: #1d8dcf;
   font-size: 14px;
   margin: 0 15px 0 0;
 }
-/* line 96, ../scss/_slider.scss */
+/* line 96, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav {
   position: absolute;
   bottom: -20px;
   left: 38%;
 }
-/* line 100, ../scss/_slider.scss */
+/* line 100, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav .slider-nav-link {
   float: left;
   height: 40px;
@@ -1053,48 +1053,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=26);
   opacity: 0.26;
 }
-/* line 108, ../scss/_slider.scss */
+/* line 108, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_slider.scss */
 #slider .slider-nav .slider-nav-link.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
 
-/* line 1, ../scss/content/_static-content.scss */
+/* line 1, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content {
   width: 100%;
   height: 420px;
 }
-/* line 4, ../scss/content/_static-content.scss */
+/* line 4, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content .leftside {
   float: left;
   height: 350px;
   position: relative;
   width: 65%;
 }
-/* line 10, ../scss/content/_static-content.scss */
+/* line 10, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content .rightside {
   float: right;
   height: 350px;
   position: relative;
   width: 35%;
 }
-/* line 16, ../scss/content/_static-content.scss */
+/* line 16, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content .shape.pattern-shape {
   position: absolute;
   height: 350px;
 }
-/* line 19, ../scss/content/_static-content.scss */
+/* line 19, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content .shape.pattern-shape.left {
   left: 0;
   right: 0px;
 }
-/* line 24, ../scss/content/_static-content.scss */
+/* line 24, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 #static-content .shape.pattern-shape.right {
   left: -31px;
   right: 0px;
 }
 
-/* line 33, ../scss/content/_static-content.scss */
+/* line 33, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list {
   margin: 0;
   padding: 0;
@@ -1103,7 +1103,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   *zoom: 1;
   min-height: 50px;
 }
-/* line 62, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .c > .link-list li {
   list-style-image: none;
   list-style-type: none;
@@ -1113,40 +1113,40 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 49, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .c > .link-list li:first-child {
   padding-left: 0;
 }
-/* line 50, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .c > .link-list li:last-child {
   padding-right: 0;
 }
-/* line 52, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .c > .link-list li.last {
   padding-right: 0;
 }
-/* line 37, ../scss/content/_static-content.scss */
+/* line 37, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list.shop > li {
   width: 80%;
   float: none;
   margin: 0 auto;
   width: 270px;
 }
-/* line 46, ../scss/content/_static-content.scss */
+/* line 46, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list.partnership > li:first-child {
   padding-left: 3%;
 }
-/* line 49, ../scss/content/_static-content.scss */
+/* line 49, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list.partnership > li:last-child {
   padding-right: 3%;
 }
-/* line 54, ../scss/content/_static-content.scss */
+/* line 54, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list > li {
   width: 44%;
   padding-right: 3%;
   padding-left: 3%;
 }
-/* line 60, ../scss/content/_static-content.scss */
+/* line 60, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list > li .link-list-header {
   height: 42px;
   padding-left: 48px;
@@ -1155,13 +1155,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   line-height: 1.9em;
   margin-bottom: 25px;
 }
-/* line 79, ../scss/content/_static-content.scss */
+/* line 79, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list > li .link-list-description {
   margin-top: 15px;
   color: #816b59;
   white-space: normal;
 }
-/* line 86, ../scss/content/_static-content.scss */
+/* line 86, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list ul > li {
   float: none;
   display: block;
@@ -1170,17 +1170,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 10px;
   font-size: 14px;
 }
-/* line 87, ../scss/content/_static-content.scss */
+/* line 87, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list ul > li:first-child {
   float: none;
   display: block;
   padding-left: 0;
 }
-/* line 92, ../scss/content/_static-content.scss */
+/* line 92, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list ul > li:last-child {
   padding-right: 0;
 }
-/* line 40, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 40, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li div, .c > .link-list ul > li span, .c > .link-list ul > li applet, .c > .link-list ul > li object, .c > .link-list ul > li iframe,
 .c > .link-list ul > li h1, .c > .link-list ul > li h2, .c > .link-list ul > li #slider .slider-header, #slider .c > .link-list ul > li .slider-header, .c > .link-list ul > li h3, .c > .link-list ul > li h4, .c > .link-list ul > li h5, .c > .link-list ul > li h6, .c > .link-list ul > li p, .c > .link-list ul > li blockquote, .c > .link-list ul > li pre,
 .c > .link-list ul > li a, .c > .link-list ul > li abbr, .c > .link-list ul > li acronym, .c > .link-list ul > li address, .c > .link-list ul > li big, .c > .link-list ul > li cite, .c > .link-list ul > li code,
@@ -1201,45 +1201,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 100%;
   vertical-align: baseline;
 }
-/* line 55, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 55, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 57, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 57, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li caption, .c > .link-list ul > li th, .c > .link-list ul > li td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
-/* line 59, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 59, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li q, .c > .link-list ul > li blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li q:before, .c > .link-list ul > li q:after, .c > .link-list ul > li blockquote:before, .c > .link-list ul > li blockquote:after {
   content: "";
   content: none;
 }
-/* line 61, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+/* line 61, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 .c > .link-list ul > li a img {
   border: none;
 }
-/* line 102, ../scss/content/_static-content.scss */
+/* line 102, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .c > .link-list ul > li > a {
   color: #1d8dcf;
   padding-left: 28px;
 }
 
-/* line 112, ../scss/content/_static-content.scss */
+/* line 112, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .basket {
   position: absolute;
   width: 204px;
   height: 194px;
-  background: url('../images/basket.png?1414579321') 0 0 no-repeat;
+  background: url(/assets/basket.png) 0 0 no-repeat;
   right: 0px;
 }
-/* line 118, ../scss/content/_static-content.scss */
+/* line 118, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .basket .basket-sum {
   position: absolute;
   top: 20px;
@@ -1248,7 +1248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 0;
 }
-/* line 126, ../scss/content/_static-content.scss */
+/* line 126, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .basket .basket-sum:after {
   content: '';
   position: absolute;
@@ -1258,7 +1258,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 23px;
 }
 
-/* line 138, ../scss/content/_static-content.scss */
+/* line 138, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .login-block {
   position: absolute;
   top: 12px;
@@ -1266,7 +1266,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 125px;
   height: 75px;
 }
-/* line 144, ../scss/content/_static-content.scss */
+/* line 144, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .login-block a {
   display: block;
   padding-left: 20px;
@@ -1276,7 +1276,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
 }
 
-/* line 153, ../scss/content/_static-content.scss */
+/* line 153, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .town-select-block {
   position: absolute;
   top: 8px;
@@ -1284,13 +1284,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 394px;
   height: 43px;
 }
-/* line 159, ../scss/content/_static-content.scss */
+/* line 159, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .town-select-block .town-select {
   width: 206px;
   height: 43px;
   float: left;
 }
-/* line 165, ../scss/content/_static-content.scss */
+/* line 165, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_static-content.scss */
 .town-select-block .phone {
   float: left;
   margin-right: 25px;
@@ -1298,7 +1298,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 20px;
 }
 
-/* line 2, ../scss/content/_news.scss */
+/* line 2, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list {
   margin: 0;
   padding: 0;
@@ -1306,7 +1306,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
   *zoom: 1;
 }
-/* line 62, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .horizontal-list li {
   list-style-image: none;
   list-style-type: none;
@@ -1316,45 +1316,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 0px;
   padding-right: 0px;
 }
-/* line 49, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .horizontal-list li:first-child {
   padding-left: 0;
 }
-/* line 50, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .horizontal-list li:last-child {
   padding-right: 0;
 }
-/* line 52, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .horizontal-list li.last {
   padding-right: 0;
 }
-/* line 4, ../scss/content/_news.scss */
+/* line 4, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li {
   width: 47%;
   white-space: normal;
 }
-/* line 7, ../scss/content/_news.scss */
+/* line 7, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li img {
   float: left;
   margin-right: 22px;
 }
-/* line 11, ../scss/content/_news.scss */
+/* line 11, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li .news-content {
   padding-right: 30px;
   box-sizing: content-box;
 }
-/* line 14, ../scss/content/_news.scss */
+/* line 14, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li .news-content .news-header {
   color: #4d3522;
   font-size: 21px;
 }
-/* line 19, ../scss/content/_news.scss */
+/* line 19, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li .news-content .news-date {
   color: #8b694d;
   font-size: 14px;
   margin: 20px 0;
 }
-/* line 24, ../scss/content/_news.scss */
+/* line 24, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_news.scss */
 .horizontal-list > li .news-content .news-preview {
   color: #816b59;
   font-size: 14px;
@@ -1363,7 +1363,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   white-space: normal;
 }
 
-/* line 3, ../scss/content/_goods.scss */
+/* line 3, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs {
   margin: 0;
   padding: 0;
@@ -1371,7 +1371,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   overflow: hidden;
   *zoom: 1;
 }
-/* line 62, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .tabs li {
   list-style-image: none;
   list-style-type: none;
@@ -1381,23 +1381,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 49, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .tabs li:first-child {
   padding-left: 0;
 }
-/* line 50, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .tabs li:last-child {
   padding-right: 0;
 }
-/* line 52, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 .tabs li.last {
   padding-right: 0;
 }
-/* line 5, ../scss/content/_goods.scss */
+/* line 5, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs li {
   padding: 3px 15px;
 }
-/* line 7, ../scss/content/_goods.scss */
+/* line 7, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs li a {
   display: block;
   color: #4d3522;
@@ -1405,7 +1405,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
   border-bottom: 1px dashed;
 }
-/* line 15, ../scss/content/_goods.scss */
+/* line 15, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs li.active {
   padding: 3px 30px;
   background-color: #a79281;
@@ -1414,25 +1414,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 3px;
   color: #fff;
 }
-/* line 20, ../scss/content/_goods.scss */
+/* line 20, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs li.active a {
   color: #fff;
   border: 0;
   text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 0;
 }
-/* line 26, ../scss/content/_goods.scss */
+/* line 26, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .tabs li:first-child {
   padding: 3px 15px;
   margin-right: 15px;
 }
 
-/* line 32, ../scss/content/_goods.scss */
+/* line 32, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list {
   width: 101%;
   margin-left: -.5%;
   *zoom: 1;
 }
-/* line 36, ../scss/content/_goods.scss */
+/* line 36, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder {
   float: left;
   position: relative;
@@ -1440,7 +1440,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 24%;
   min-height: 328px;
 }
-/* line 43, ../scss/content/_goods.scss */
+/* line 43, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item {
   background: #fff;
   border: 1px solid #765f4d;
@@ -1456,7 +1456,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   @include justify-content(space-between);
   @include flex-wrap(wrap);       */
 }
-/* line 53, ../scss/content/_goods.scss */
+/* line 53, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item:hover {
   position: absolute;
   left: -1px;
@@ -1466,15 +1466,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: rgba(118, 95, 77, 0.75) 0 0 25px;
   box-shadow: rgba(118, 95, 77, 0.75) 0 0 25px;
 }
-/* line 60, ../scss/content/_goods.scss */
+/* line 60, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item:hover .extra {
   display: block;
 }
-/* line 63, ../scss/content/_goods.scss */
+/* line 63, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item:hover .cover {
   right: 3px;
 }
-/* line 68, ../scss/content/_goods.scss */
+/* line 68, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra {
   display: none;
   border-top: 1px solid #d1c9c3;
@@ -1484,20 +1484,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 12px;
   line-height: 1.5em;
 }
-/* line 78, ../scss/content/_goods.scss */
+/* line 78, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra ul {
   list-style: none;
   color: #4d3522;
 }
-/* line 82, ../scss/content/_goods.scss */
+/* line 82, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price {
   color: #b95d39;
 }
-/* line 85, ../scss/content/_goods.scss */
+/* line 85, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price .value {
   font-size: 20pt;
 }
-/* line 95, ../scss/content/_goods.scss */
+/* line 95, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top {
   position: relative;
   box-sizing: border-box;
@@ -1507,7 +1507,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-position: 1px 56px;
   background-repeat: no-repeat;
 }
-/* line 103, ../scss/content/_goods.scss */
+/* line 103, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .name {
   font-size: 18px;
   color: #4d3522;
@@ -1515,16 +1515,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 20px;
   margin-bottom: 7px;
 }
-/* line 111, ../scss/content/_goods.scss */
+/* line 111, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .articul {
   font-size: 12px;
   color: #a1836a;
 }
-/* line 116, ../scss/content/_goods.scss */
+/* line 116, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks {
   position: relative;
 }
-/* line 118, ../scss/content/_goods.scss */
+/* line 118, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
   position: absolute;
   top: 7px;
@@ -1532,11 +1532,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 36px;
   height: 36px;
 }
-/* line 126, ../scss/content/_goods.scss */
+/* line 126, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-new:hover .new-tip {
   display: block;
 }
-/* line 131, ../scss/content/_goods.scss */
+/* line 131, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
   position: absolute;
   top: 47px;
@@ -1544,11 +1544,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 36px;
   height: 36px;
 }
-/* line 139, ../scss/content/_goods.scss */
+/* line 139, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale:hover .sale-tip {
   display: block;
 }
-/* line 145, ../scss/content/_goods.scss */
+/* line 145, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .cover {
   width: 89px;
   height: 181px;
@@ -1556,7 +1556,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 5px;
   bottom: 2px;
 }
-/* line 153, ../scss/content/_goods.scss */
+/* line 153, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip {
   display: none;
   position: absolute;
@@ -1575,7 +1575,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: #897566 1px 1px 3px;
   box-shadow: #897566 1px 1px 3px;
 }
-/* line 167, ../scss/content/_goods.scss */
+/* line 167, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip:after {
   content: '';
   position: absolute;
@@ -1589,19 +1589,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: #897566 1px 1px 2px;
   box-shadow: #897566 1px 1px 2px;
 }
-/* line 180, ../scss/content/_goods.scss */
+/* line 180, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.wishlist-tip {
   left: -42px;
 }
-/* line 183, ../scss/content/_goods.scss */
+/* line 183, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.new-tip {
   left: -30px;
 }
-/* line 186, ../scss/content/_goods.scss */
+/* line 186, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.sale-tip {
   left: -27px;
 }
-/* line 191, ../scss/content/_goods.scss */
+/* line 191, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon {
   width: 15px;
   height: 13px;
@@ -1609,46 +1609,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 17px;
   top: 17px;
 }
-/* line 202, ../scss/content/_goods.scss */
+/* line 202, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover .wishlist-tip {
   display: block;
 }
-/* line 211, ../scss/content/_goods.scss */
+/* line 211, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom {
   height: 72px;
   width: 100%;
   box-sizing: border-box;
   padding-top: 10px;
 }
-/* line 216, ../scss/content/_goods.scss */
+/* line 216, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom > div {
   height: 40px;
 }
-/* line 219, ../scss/content/_goods.scss */
+/* line 219, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .note {
   font-size: 12px;
   color: #a1836a;
   margin-bottom: 7px;
 }
-/* line 224, ../scss/content/_goods.scss */
+/* line 224, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price {
   float: left;
   width: 35%;
   text-align: center;
   color: #4d3522;
 }
-/* line 229, ../scss/content/_goods.scss */
+/* line 229, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value {
   line-height: 18px;
   font-size: 26px;
   display: inline;
   padding-right: 16px;
 }
-/* line 235, ../scss/content/_goods.scss */
+/* line 235, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble {
   position: relative;
 }
-/* line 237, ../scss/content/_goods.scss */
+/* line 237, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
   content: '';
   position: absolute;
@@ -1657,13 +1657,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: -4px;
   top: 6px;
 }
-/* line 250, ../scss/content/_goods.scss */
+/* line 250, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy {
   float: right;
   width: 30%;
   text-align: center;
 }
-/* line 254, ../scss/content/_goods.scss */
+/* line 254, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button {
   width: 52px;
   height: 32px;
@@ -1671,46 +1671,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   outline: none;
   margin-top: 5px;
 }
-/* line 261, ../scss/content/_goods.scss */
+/* line 261, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button:hover {
   cursor: pointer;
 }
-/* line 266, ../scss/content/_goods.scss */
+/* line 266, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount {
   text-align: center;
 }
-/* line 268, ../scss/content/_goods.scss */
+/* line 268, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount i {
   display: inline-block;
   width: 10px;
   height: 10px;
   vertical-align: middle;
 }
-/* line 282, ../scss/content/_goods.scss */
+/* line 282, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount input {
   width: 32px;
   text-align: center;
 }
-/* line 38, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/utilities/general/_clearfix.scss */
 .flex-items-list:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 7, ../scss/content/_all-about.scss */
+/* line 7, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li {
   width: 20%;
   padding-top: 15px;
   padding-right: 0;
   padding-left: 0;
 }
-/* line 14, ../scss/content/_all-about.scss */
+/* line 14, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image {
   padding-left: 80px;
   position: relative;
 }
-/* line 17, ../scss/content/_all-about.scss */
+/* line 17, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee:before {
   content: '';
   width: 78px;
@@ -1719,7 +1719,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 26, ../scss/content/_all-about.scss */
+/* line 26, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee-bean:before {
   content: '';
   width: 62px;
@@ -1728,29 +1728,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 36, ../scss/content/_all-about.scss */
+/* line 36, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li {
   padding-left: 1em;
   text-indent: -.7em;
 }
-/* line 39, ../scss/content/_all-about.scss */
+/* line 39, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li:before {
   content: "• ";
   color: #a1836a;
 }
-/* line 43, ../scss/content/_all-about.scss */
+/* line 43, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li a {
   color: #1d8dcf;
   padding-left: 0px;
   white-space: normal;
 }
 
-/* line 2, ../scss/content/_company.scss */
+/* line 2, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .c {
   overflow: hidden;
   height: 800px;
 }
-/* line 7, ../scss/content/_company.scss */
+/* line 7, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company h2 ul.social-icons, #company #slider .slider-header ul.social-icons, #slider #company .slider-header ul.social-icons {
   margin: 0;
   padding: 0;
@@ -1761,7 +1761,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   right: 0;
 }
-/* line 62, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 62, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #company h2 ul.social-icons li, #company #slider .slider-header ul.social-icons li, #slider #company .slider-header ul.social-icons li {
   list-style-image: none;
   list-style-type: none;
@@ -1771,19 +1771,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-left: right;
   padding-right: right;
 }
-/* line 49, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 49, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #company h2 ul.social-icons li:first-child, #company #slider .slider-header ul.social-icons li:first-child, #slider #company .slider-header ul.social-icons li:first-child {
   padding-left: 0;
 }
-/* line 50, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 50, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #company h2 ul.social-icons li:last-child, #company #slider .slider-header ul.social-icons li:last-child, #slider #company .slider-header ul.social-icons li:last-child {
   padding-right: 0;
 }
-/* line 52, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
+/* line 52, /Users/lelik/.rvm/gems/ruby-2.1.2@chaynaya/gems/compass-core-1.0.1/stylesheets/compass/typography/lists/_horizontal-list.scss */
 #company h2 ul.social-icons li.last, #company #slider .slider-header ul.social-icons li.last, #slider #company .slider-header ul.social-icons li.last {
   padding-right: 0;
 }
-/* line 12, ../scss/content/_company.scss */
+/* line 12, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company h2 ul.social-icons li, #company #slider .slider-header ul.social-icons li, #slider #company .slider-header ul.social-icons li {
   width: 28px;
   height: 28px;
@@ -1793,11 +1793,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 14px;
   border-radius: 14px;
 }
-/* line 18, ../scss/content/_company.scss */
+/* line 18, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company h2 ul.social-icons li:hover, #company #slider .slider-header ul.social-icons li:hover, #slider #company .slider-header ul.social-icons li:hover {
   background-color: #e89b4b;
 }
-/* line 40, ../scss/content/_company.scss */
+/* line 40, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company h2 a.view_all, #company #slider .slider-header a.view_all, #slider #company .slider-header a.view_all {
   position: absolute;
   right: 0;
@@ -1806,49 +1806,49 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: underline;
   font-size: 16px;
 }
-/* line 49, ../scss/content/_company.scss */
+/* line 49, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .about-company {
   float: left;
   width: 60%;
   margin-right: 2%;
 }
-/* line 53, ../scss/content/_company.scss */
+/* line 53, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .about-company .content {
   padding-right: 10px;
   font-size: 13px;
   line-height: 1.4em;
 }
-/* line 57, ../scss/content/_company.scss */
+/* line 57, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .about-company .content p {
   margin-bottom: 10px;
 }
-/* line 61, ../scss/content/_company.scss */
+/* line 61, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .about-company a.more {
   position: relative;
   top: 30px;
   color: #1d8dcf;
 }
-/* line 67, ../scss/content/_company.scss */
+/* line 67, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .honors {
   float: right;
   width: 37%;
   margin-left: 1%;
 }
-/* line 72, ../scss/content/_company.scss */
+/* line 72, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .honors .item .header {
   color: #4d3522;
   font-size: 24px;
   margin-bottom: 10px;
   display: block;
 }
-/* line 79, ../scss/content/_company.scss */
+/* line 79, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .honors .item .content {
   font-size: 13px;
   overflow: hidden;
   height: 100px;
   padding-bottom: 20px;
 }
-/* line 84, ../scss/content/_company.scss */
+/* line 84, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/content/_company.scss */
 #company .honors .item .content .img-holder {
   float: left;
   margin-right: 10px;
@@ -1856,7 +1856,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: center;
 }
 
-/* line 1, ../scss/_common.scss */
+/* line 1, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_common.scss */
 h2, #slider .slider-header {
   font-size: 24px;
   color: #4d3522;
@@ -1865,36 +1865,36 @@ h2, #slider .slider-header {
   margin-top: 10px;
   font-size: 32px;
 }
-/* line 10, ../scss/_common.scss */
+/* line 10, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_common.scss */
 h2.bordered, #slider .slider-header {
   border-bottom: 1px solid #a19286;
 }
-/* line 13, ../scss/_common.scss */
+/* line 13, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/_common.scss */
 h2.has_content, #slider .has_content.slider-header {
   position: relative;
 }
 
 @font-face {
   font-family: "BruskovayaPlain";
-  src: url('../fonts/BRS75__W.eot?1301325114');
-  src: url('../fonts/BRS75__W.eot?&1301325114#iefix') format('embedded-opentype'), url('../fonts/BRS75__W.woff?1301325116') format('woff'), url('../fonts/BRS75__W.ttf?1301325114') format('truetype'), url('../fonts/BRS75__W.svg?1301325114') format('svg');
+  src: url(/assets/BRS75__W.eot);
+  src: url(/assets/BRS75__W.eot?#iefix) format('embedded-opentype'), url(/assets/BRS75__W.woff) format('woff'), url(/assets/BRS75__W.ttf) format('truetype'), url(/assets/BRS75__W.svg) format('svg');
 }
 @font-face {
   font-family: "MuseoCyrl_500";
-  src: url('../fonts/museosanscyrl-300.eot?1415156232');
-  src: url('../fonts/museosanscyrl-300.eot?&1415156232#iefix') format('embedded-opentype'), url('../fonts/museosanscyrl-300.woff?1415156232') format('woff'), url('../fonts/museosanscyrl-300.ttf?1415156232') format('truetype'), url('../fonts/museosanscyrl-300.svg?1415156232') format('svg');
+  src: url(/assets/museosanscyrl-300.eot);
+  src: url(/assets/museosanscyrl-300.eot?#iefix) format('embedded-opentype'), url(/assets/museosanscyrl-300.woff) format('woff'), url(/assets/museosanscyrl-300.ttf) format('truetype'), url(/assets/museosanscyrl-300.svg) format('svg');
 }
-/* line 47, ../scss/application.scss */
+/* line 47, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/application.scss */
 #layout #bottom .footer-holder .footer-shape .footer-left-block span, .menu-wrapper .menu .menu-holder ul.menu-block > li > a, .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child, #slider .banner-slide-wrapper .banner-slide .banner .right .links-header, .c > .link-list > li .link-list-header, .basket .basket-sum, .horizontal-list > li .news-content .news-header, .flex-items-list .flex-item-holder .flex-item .extra .price, .flex-items-list .flex-item-holder .flex-item .top .name, .flex-items-list .flex-item-holder .flex-item .bottom .price .value, #company .honors .item .header, h2, #slider .slider-header {
   font-family: 'BruskovayaPlain';
 }
 
-/* line 50, ../scss/application.scss */
+/* line 50, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/application.scss */
 #layout {
   font-family: 'MuseoCyrl_500';
 }
 
-/* line 53, ../scss/application.scss */
+/* line 53, /Users/lelik/workspace/ruby/chaynaya/app/assets/scss/application.scss */
 .flex-items-list .flex-item-holder .flex-item .extra {
   font-family: 'Arial';
 }

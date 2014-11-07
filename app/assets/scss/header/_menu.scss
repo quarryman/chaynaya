@@ -35,6 +35,7 @@ $menu-color: #54321b;
                 position: absolute;
                 top: -115px;
                 margin-left: -100px;
+                z-index: -5;
             }
             ul.menu-block{
                 margin-left: $logo-width;
@@ -91,14 +92,14 @@ $menu-color: #54321b;
                         }
                     }
 
-                    a{
+                    >a{
                         display: block;
                         position: relative;
                         padding: 0px 5px 0 5px;
                         margin: 16px 0;
                         border-left: 1px dotted $menu-color;
                         height: 28px;
-                        font-size: 18px;
+                        font-size: 20px;
                         line-height: 1.4em;
                         color: $menu-color;
                         text-decoration: none;
@@ -115,6 +116,31 @@ $menu-color: #54321b;
                         left: -25px;
                         right: -15px;
                         z-index: -1;
+                        .c{
+                            >.link-list {
+                                /*@include horizontal-list(2%, left);   */
+                                >li{
+                                    width: 33.333%;
+                                    box-sizing: border-box;
+
+                                    li{
+                                        padding-bottom: 2px;
+                                    }
+                                    li:first-child{
+                                        @extend %bruskovaya;
+                                        padding-bottom: 15px;
+                                        a{
+                                            color: #54321b;
+                                            font-size: 18px;
+                                            text-decoration: none;
+                                        }
+                                    }
+                                    a{
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 >li{
@@ -133,9 +159,8 @@ $menu-color: #54321b;
                             i{
                                 width: 7px;
                                 height: 4px;
-
                                 position: absolute;
-                                right: 0px;
+                                right: -4px;
                                 top: 13px;
                             }
 

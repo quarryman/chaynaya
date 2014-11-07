@@ -39,10 +39,10 @@ $sprite-shape-horizontal-spacing: 15px;
 
 @include font-face('MuseoCyrl_500',
     font-files(
-            'MuseoCyrl_500-webfont.woff', woff,
-            'MuseoCyrl_500-webfont.ttf', ttf,
-            'MuseoCyrl_500-webfont.svg', svg),
-    'MuseoCyrl_500-webfont.eot');
+            'museosanscyrl-300.woff', woff,
+            'museosanscyrl-300.ttf', ttf,
+            'museosanscyrl-300.svg', svg),
+    'museosanscyrl-300.eot');
 
 %bruskovaya {
     font-family: 'BruskovayaPlain';

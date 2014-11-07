@@ -137,15 +137,7 @@ $shape_size: 36px;
 .shape.pattern-shape{
     position: relative;
     float: left;
-    &.left{
-        width: 55%;
-        height: 350px;
-    }
-    &.right{
-        width: 30%;
-        height: 350px;
-        left: -30px;
-    }
+
     .c{
         @include opacity(1);
         @include background(image-url("pattern-bg.png"));

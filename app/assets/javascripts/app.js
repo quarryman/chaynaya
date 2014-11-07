@@ -1,11 +1,11 @@
 $(function(){
     var parallaxConfig = [
-        {pos : 2000, ratio: 0},
-        {pos : 500, ratio: 0.2},
-        {pos : 2000, ratio: 0.25},
-        {pos : 0, ratio: 0},
-        {pos : 600, ratio: .8},
-        {pos : 0, ratio: 0}
+        {x : '50%', pos : 2000, ratio: 0},
+        {x : '-50%', pos : 500, ratio: 0.2},
+        {x : 'center', pos : 2000, ratio: 0.25},
+        {x : 'center', pos : 0, ratio: 0},
+        {x : '50%', pos : 600, ratio: .8},
+        {x : 'center', pos : 0, ratio: 0}
     ];
 
     function getParallaxPosition () {
@@ -14,7 +14,7 @@ $(function(){
             scrollPosition = $(window).scrollTop();
 
         for (var i in parallaxConfig) {
-            result.push ((parallaxConfig[i]['pos'] + (scrollPosition * parallaxConfig[i]['ratio'])) + dim);
+            result.push (parallaxConfig[i]['x'] + ' ' + (parallaxConfig[i]['pos'] + (scrollPosition * parallaxConfig[i]['ratio'])) + dim);
         }
         //console.log(result);
         return result.join(', ');
@@ -27,7 +27,7 @@ $(function(){
 
     function parallaxScroll(){
         getParallaxPosition();
-        $('#layout').css({'backgroundPosition-y':
+        $('#layout').css({'background-position':
             getParallaxPosition()
         });
     }

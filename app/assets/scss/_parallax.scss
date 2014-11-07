@@ -51,5 +51,41 @@
     position: absolute;
     bottom: 0;
     @include background(image-url("buddah.png") center bottom no-repeat);
+    .footer-holder{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        .footer-shape{
+            max-width: 1128px;
+            @include min-width(980px);
+            margin: 0 auto;
+            position: relative;
+            top: 32px;
+            height: 70px;
+            .c{
+                height: 50px;
+                font-size: 11px;
+                color: #695a4e;
+            }
+            .footer-left-block{
+                float: left;
+                span{
+                    @extend %bruskovaya;
+                    font-size: 22px;
+                    color: #4d3522;
+                    line-height: 1.5em;
+                }
+            }
+            .footer-right-block{
+                float: right;
+                padding-top: 10px;
+                img:first-child{
+                    vertical-align: sub;
+                }
+            }
+        }
+    }
   }
 }

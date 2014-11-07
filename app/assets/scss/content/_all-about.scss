@@ -5,8 +5,10 @@
     .link-list{
         &.all-about-list{
             >li{
-                width: 16%;
+                width: 20%;
                 padding-top: 15px;
+                padding-right: 0;
+                padding-left: 0;
 
 
                 &.has_image{

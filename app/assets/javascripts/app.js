@@ -76,6 +76,8 @@ $(function(){
                 this.parent.on("click", ".slider-nav-left", function () {
                     var slide = self.previous_slide(self.animationIndex);
                     self.animate(slide);
+                    children.removeClass('active');
+                    children.eq(slide).addClass('active');
                 });
                 this.parent.on("click", ".slider-nav-right", function () {
                     var slide = self.next_slide(self.animationIndex);
@@ -118,8 +120,8 @@ $(function(){
                     return false;
                 });
 
-                $(".slider-nav-link.active", self.element).removeClass("active");
-                $(".slider-nav-link", self.element).eq(index).addClass("active");
+                $(".slider-nav-link.active", self.parent).removeClass("active");
+                $(".slider-nav-link", self.parent).eq(index).addClass("active");
 
                 this.container.animate(
                     {

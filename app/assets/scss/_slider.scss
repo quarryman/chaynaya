@@ -65,7 +65,7 @@
                     float: right;
                     width: 50%;
                     height: 308px;
-                    padding-top: 42px;
+                    padding-top: 24px;
                     box-sizing: border-box;
                     padding-left: 20px;
                     .text{
@@ -73,12 +73,19 @@
                         margin: 30px 0 6px 0;
                         font-size: 14px;
                     }
+                    .links-header{
+                        @extend %bruskovaya;
+                        margin-bottom: 3px;
+                        margin-top: 14px;
+                        color: #4d3522;
+                        font-size: 18px;
+                    }
                     .links{
-                        width: 400px;
+                        width: 455px;
                         line-height: 1.4em;
                         a{
                             color: #1d8dcf;
-                            font-size: 13px;
+                            font-size: 14px;
                             margin: 0 15px 0 0;
                         }
                     }
@@ -97,12 +104,16 @@
             cursor: pointer;
             margin-right: 15px;
             position: relative;
-
-
-            &:nth-child(2){
-                @extend .sprite-common-slider-icon-teabag;
+            @include opacity(0.26);
+            &.active{
+                @include opacity(1);
             }
+
             &:nth-child(1){
+                @extend .sprite-common-slider-icon-teabag;
+
+            }
+            &:nth-child(2){
                  @extend .sprite-common-slider-icon-tealeaf;
             }
             &:nth-child(3){

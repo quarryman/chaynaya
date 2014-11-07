@@ -14,7 +14,6 @@ $menu-color: #54321b;
         left: 0;
         right: 0;
         top: 60px;
-
         font-size: 18pt;
         z-index: initial;
         .menu-holder{
@@ -55,15 +54,19 @@ $menu-color: #54321b;
                             border-left: 1px solid transparent;
                         }
                     }
-
+                    &.single:hover{
+                        background-clip: content-box;
+                    }
                     &:hover{
                         @include background(image-url("menu/menu-item-active.png") left 5px repeat-x);
+
                         +li{
                             a{
                                 border-left: 1px solid transparent;
                             }
                         }
                         >a{
+                            color: #8f6b46;
                             border-left: 1px  solid transparent;
                             &:before{
                                 content: '';
@@ -86,6 +89,14 @@ $menu-color: #54321b;
                                 @extend .sprite-common-menu-item-right-shadow;
                                 //background: sprite($common-icons, menu-item-right-shadow) no-repeat;
                             }
+                            &.has_no_sub{
+                                &:before{
+                                    height: 51px;
+                                }
+                                &:after{
+                                    height: 51px;
+                                }
+                            }
                         }
                         .submenu{
                             display: block;
@@ -97,7 +108,7 @@ $menu-color: #54321b;
                         position: relative;
                         padding: 0px 5px 0 5px;
                         margin: 16px 0;
-                        border-left: 1px dotted $menu-color;
+                        border-left: 1px dotted transparent;
                         height: 28px;
                         font-size: 20px;
                         line-height: 1.4em;
@@ -108,13 +119,12 @@ $menu-color: #54321b;
                     }
 
                     .submenu{
-
                         display: none;
                         position: absolute;
                         //border: 1px solid red;
                         top: 20px;
                         left: -25px;
-                        right: -15px;
+                        right: -204px;
                         z-index: -1;
                         .c{
                             >.link-list {
@@ -130,7 +140,7 @@ $menu-color: #54321b;
                                         @extend %bruskovaya;
                                         padding-bottom: 15px;
                                         a{
-                                            color: #54321b;
+                                            color: #897566;
                                             font-size: 18px;
                                             text-decoration: none;
                                         }
@@ -143,15 +153,16 @@ $menu-color: #54321b;
                         }
                     }
                 }
+
                 >li{
                     display: table-cell;
                     width: 1%;
                     a{
                         text-align: center;
                         white-space: nowrap;
-
                         &.has_no_sub{
                             padding-right: 0;
+                            margin: 16px 0 11px 0;
                         }
                         span{
                             position: relative;

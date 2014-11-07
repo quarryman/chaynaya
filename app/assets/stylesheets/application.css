@@ -76,9 +76,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-repeat: no-repeat;
 }
 
-/* line 408, sprites/sprite-common/*.png */
-.sprite-common-sprite, .sprite-common-arrow-down, .sprite-common-basket-bottom, .sprite-common-basket-count-holder, .sprite-common-basket-icon, .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button, .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover, .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon, .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites, .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header, .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header, .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before, .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before, .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), #company #slider .slider-header ul.social-icons li:nth-child(2), #slider #company .slider-header ul.social-icons li:nth-child(2), .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), #company #slider .slider-header ul.social-icons li:nth-child(5), #slider #company .slider-header ul.social-icons li:nth-child(5), .sprite-common-icon-home, .sprite-common-icon-key, .sprite-common-icon-login, .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header, .sprite-common-icon-moneybag, .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new, .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), #company #slider .slider-header ul.social-icons li:nth-child(4), #slider #company .slider-header ul.social-icons li:nth-child(4), .sprite-common-icon-paper, .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale, .sprite-common-icon-search, .search-input-holder:after, .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), #company #slider .slider-header ul.social-icons li:nth-child(3), #slider #company .slider-header ul.social-icons li:nth-child(3), .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), #company #slider .slider-header ul.social-icons li:nth-child(1), #slider #company .slider-header ul.social-icons li:nth-child(1), .sprite-common-icon-wallet, .sprite-common-item-cover, .flex-items-list .flex-item-holder .flex-item .top .cover, .sprite-common-item-pic, .sprite-common-logo, .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before, .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after, .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus, .sprite-common-pack, .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus, .sprite-common-rubl-cart, .basket .basket-sum:after, .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after, .sprite-common-shining, .sprite-common-slider-icon-coffee-bean, #slider .slider-nav .slider-nav-link:nth-child(3), .sprite-common-slider-icon-kettle, #slider .slider-nav .slider-nav-link:nth-child(4), .sprite-common-slider-icon-sweets, #slider .slider-nav .slider-nav-link:nth-child(5), .sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(2), .sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(1), .sprite-common-slider-nav-left, #slider .slider-nav-left, .sprite-common-slider-nav-right, #slider .slider-nav-right, .sprite-common-town-select, .town-select-block .town-select {
-  background-image: url('../images/sprites/sprite-common-sb898f83828.png');
+/* line 512, sprites/sprite-common/*.png */
+.sprite-common-sprite, .sprite-common-arrow-down, .sprite-common-basket-bottom, .sprite-common-basket-count-holder, .sprite-common-basket-icon, .sprite-common-icon-add-to-cart, .flex-items-list .flex-item-holder .flex-item .bottom .buy button, .sprite-common-icon-add-to-wishlist-h, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover, .sprite-common-icon-add-to-wishlist, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon, .sprite-common-icon-already-in-favorites, .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon.in-favorites, .sprite-common-icon-anketa, .sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header, .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header, .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before, .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before, .sprite-common-icon-download, .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), #company #slider .slider-header ul.social-icons li:nth-child(2), #slider #company .slider-header ul.social-icons li:nth-child(2), .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), #company #slider .slider-header ul.social-icons li:nth-child(5), #slider #company .slider-header ul.social-icons li:nth-child(5), .sprite-common-icon-home, .sprite-common-icon-key, .sprite-common-icon-login, .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header, .sprite-common-icon-moneybag, .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new, .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), #company #slider .slider-header ul.social-icons li:nth-child(4), #slider #company .slider-header ul.social-icons li:nth-child(4), .sprite-common-icon-order-history, .sprite-common-icon-order-status, .sprite-common-icon-order-tracking, .sprite-common-icon-paper, .sprite-common-icon-payment, .sprite-common-icon-reports, .sprite-common-icon-retail, .sprite-common-icon-return-policies, .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale, .sprite-common-icon-search, .search-input-holder:after, .sprite-common-icon-self-delivery, .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), #company #slider .slider-header ul.social-icons li:nth-child(3), #slider #company .slider-header ul.social-icons li:nth-child(3), .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), #company #slider .slider-header ul.social-icons li:nth-child(1), #slider #company .slider-header ul.social-icons li:nth-child(1), .sprite-common-icon-votes, .sprite-common-icon-wallet, .sprite-common-item-cover, .sprite-common-item-pic, .sprite-common-logo, .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before, .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after, .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus, .sprite-common-pack, .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus, .sprite-common-rubl-cart, .basket .basket-sum:after, .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after, .sprite-common-shining, .sprite-common-slider-icon-coffee-bean, #slider .slider-nav .slider-nav-link:nth-child(3), .sprite-common-slider-icon-kettle, #slider .slider-nav .slider-nav-link:nth-child(4), .sprite-common-slider-icon-sweets, #slider .slider-nav .slider-nav-link:nth-child(5), .sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(1), .sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(2), .sprite-common-slider-nav-left, #slider .slider-nav-left, .sprite-common-slider-nav-right, #slider .slider-nav-right, .sprite-common-town-select, .town-select-block .town-select {
+  background-image: url('../images/sprites/sprite-common-s41883f070b.png');
   background-repeat: no-repeat;
 }
 
@@ -102,7 +102,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   min-width: 980px;
   max-width: 1200px;
   margin: 0 auto;
-  border: 1px solid #000;
+  border: 1px solid transparent;
   position: relative;
 }
 /* line 37, ../scss/_parallax.scss */
@@ -135,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 60, ../scss/_parallax.scss */
 #layout #bottom .footer-holder .footer-shape {
   max-width: 1128px;
-  min-width: 980px;
+  min-width: 940px;
   margin: 0 auto;
   position: relative;
   top: 32px;
@@ -208,193 +208,256 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header {
+.sprite-common-icon-anketa {
   background-position: 0 -359px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-bag, .c > .link-list > li .link-list-header.shop-header {
+  background-position: 0 -394px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-cart, .c > .link-list > li .link-list-header.wholesale-header {
-  background-position: 0 -416px;
+  background-position: 0 -451px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-coffee-bean-content, .c .link-list.all-about-list > li.has_image.coffee-bean:before {
-  background-position: 0 -473px;
+  background-position: 0 -508px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-coffee-content, .c .link-list.all-about-list > li.has_image.coffee:before {
-  background-position: 0 -558px;
+  background-position: 0 -593px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-download {
+  background-position: 0 -677px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-fb, #company h2 ul.social-icons li:nth-child(2), #company #slider .slider-header ul.social-icons li:nth-child(2), #slider #company .slider-header ul.social-icons li:nth-child(2) {
-  background-position: 0 -642px;
+  background-position: 0 -712px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-gplus, #company h2 ul.social-icons li:nth-child(5), #company #slider .slider-header ul.social-icons li:nth-child(5), #slider #company .slider-header ul.social-icons li:nth-child(5) {
-  background-position: 0 -685px;
+  background-position: 0 -755px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-home {
-  background-position: 0 -728px;
+  background-position: 0 -798px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-key {
-  background-position: 0 -763px;
+  background-position: 0 -861px;
+}
+/* line 59, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-key:hover, .sprite-common-icon-key.icon-key-hover {
+  background-position: 0 -833px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-login {
-  background-position: 0 -791px;
+  background-position: 0 -917px;
+}
+/* line 59, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-login:hover, .sprite-common-icon-login.icon-login-hover {
+  background-position: 0 -889px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-man, .c > .link-list > li .link-list-header.partnership-header {
-  background-position: 0 -819px;
+  background-position: 0 -945px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-moneybag {
-  background-position: 0 -876px;
+  background-position: 0 -1002px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-new, .flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
-  background-position: 0 -914px;
+  background-position: 0 -1040px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-od, #company h2 ul.social-icons li:nth-child(4), #company #slider .slider-header ul.social-icons li:nth-child(4), #slider #company .slider-header ul.social-icons li:nth-child(4) {
-  background-position: 0 -965px;
+  background-position: 0 -1091px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-order-history {
+  background-position: 0 -1134px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-order-status {
+  background-position: 0 -1169px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-order-tracking {
+  background-position: 0 -1204px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-paper {
-  background-position: 0 -1008px;
+  background-position: 0 -1239px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-payment {
+  background-position: 0 -1277px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-reports {
+  background-position: 0 -1312px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-retail {
+  background-position: 0 -1349px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-return-policies {
+  background-position: 0 -1388px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-sale, .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
-  background-position: 0 -1046px;
+  background-position: 0 -1423px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-search, .search-input-holder:after {
-  background-position: 0 -1097px;
+  background-position: 0 -1474px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-self-delivery {
+  background-position: 0 -1504px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-tw, #company h2 ul.social-icons li:nth-child(3), #company #slider .slider-header ul.social-icons li:nth-child(3), #slider #company .slider-header ul.social-icons li:nth-child(3) {
-  background-position: 0 -1127px;
+  background-position: 0 -1539px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-vk, #company h2 ul.social-icons li:nth-child(1), #company #slider .slider-header ul.social-icons li:nth-child(1), #slider #company .slider-header ul.social-icons li:nth-child(1) {
-  background-position: 0 -1170px;
+  background-position: 0 -1582px;
+}
+
+/* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-common-icon-votes {
+  background-position: 0 -1625px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-icon-wallet {
-  background-position: 0 -1213px;
+  background-position: 0 -1660px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-item-cover, .flex-items-list .flex-item-holder .flex-item .top .cover {
-  background-position: 0 -1251px;
+.sprite-common-item-cover {
+  background-position: 0 -1698px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-item-pic {
-  background-position: 0 -1447px;
+  background-position: 0 -1894px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-logo {
-  background-position: 0 -1604px;
+  background-position: 0 -2051px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-menu-item-left-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
-  background-position: 0 -1769px;
+  background-position: 0 -2216px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-menu-item-right-shadow, .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
-  background-position: 0 -1844px;
+  background-position: 0 -2291px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-minus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.minus {
-  background-position: 0 -1919px;
+  background-position: 0 -2366px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-pack {
-  background-position: 0 -1943px;
+  background-position: 0 -2390px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-plus, .flex-items-list .flex-item-holder .flex-item .bottom .amount i.plus {
-  background-position: 0 -2139px;
+  background-position: 0 -2586px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-rubl-cart, .basket .basket-sum:after {
-  background-position: 0 -2164px;
+  background-position: 0 -2611px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-rubl, .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
-  background-position: 0 -2202px;
+  background-position: 0 -2649px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-shining {
-  background-position: 0 -2236px;
+  background-position: 0 -2683px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-coffee-bean, #slider .slider-nav .slider-nav-link:nth-child(3) {
-  background-position: 0 -2540px;
+  background-position: 0 -2987px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-kettle, #slider .slider-nav .slider-nav-link:nth-child(4) {
-  background-position: 0 -2595px;
+  background-position: 0 -3042px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-icon-sweets, #slider .slider-nav .slider-nav-link:nth-child(5) {
-  background-position: 0 -2650px;
+  background-position: 0 -3097px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(2) {
-  background-position: 0 -2705px;
+.sprite-common-slider-icon-teabag, #slider .slider-nav .slider-nav-link:nth-child(1) {
+  background-position: 0 -3152px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(1) {
-  background-position: 0 -2760px;
+.sprite-common-slider-icon-tealeaf, #slider .slider-nav .slider-nav-link:nth-child(2) {
+  background-position: 0 -3207px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-nav-left, #slider .slider-nav-left {
-  background-position: 0 -2815px;
+  background-position: 0 -3262px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-slider-nav-right, #slider .slider-nav-right {
-  background-position: 0 -2870px;
+  background-position: 0 -3317px;
 }
 
 /* line 84, ../../../../../../.rvm/gems/ruby-2.1.2@test/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-common-town-select, .town-select-block .town-select {
-  background-position: 0 -2925px;
+  background-position: 0 -3372px;
 }
 
 /* line 6, ../scss/header/_menu.scss */
@@ -414,14 +477,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 18pt;
   z-index: initial;
 }
-/* line 20, ../scss/header/_menu.scss */
+/* line 19, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder {
   min-width: 980px;
   max-width: 1200px;
   margin: 0 auto;
   height: 67px;
 }
-/* line 25, ../scss/header/_menu.scss */
+/* line 24, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder .logo {
   width: 187px;
   height: 150px;
@@ -429,7 +492,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: -75%;
   left: auto;
 }
-/* line 32, ../scss/header/_menu.scss */
+/* line 31, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder .shining {
   width: 407px;
   height: 289px;
@@ -438,7 +501,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: -100px;
   z-index: -5;
 }
-/* line 40, ../scss/header/_menu.scss */
+/* line 39, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block {
   margin-left: 187px;
   margin-right: 204px;
@@ -447,29 +510,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   display: table;
 }
-/* line 49, ../scss/header/_menu.scss */
+/* line 48, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li {
   /*@include inline-block;      */
   height: 67px;
   padding: 0;
 }
-/* line 54, ../scss/header/_menu.scss */
+/* line 53, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:first-child a {
   border-left: 1px solid transparent;
 }
-/* line 59, ../scss/header/_menu.scss */
+/* line 57, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li.single:hover {
+  background-clip: content-box;
+}
+/* line 60, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover {
   background: url('../images/menu/menu-item-active.png?1414490473') left 5px repeat-x;
 }
-/* line 62, ../scss/header/_menu.scss */
+/* line 64, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover + li a {
   border-left: 1px solid transparent;
 }
-/* line 66, ../scss/header/_menu.scss */
+/* line 68, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a {
+  color: #8f6b46;
   border-left: 1px  solid transparent;
 }
-/* line 68, ../scss/header/_menu.scss */
+/* line 71, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:before {
   content: '';
   position: absolute;
@@ -478,7 +546,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 79, ../scss/header/_menu.scss */
+/* line 82, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a:after {
   content: '';
   position: absolute;
@@ -487,17 +555,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 4px;
   height: 60px;
 }
-/* line 90, ../scss/header/_menu.scss */
+/* line 93, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a.has_no_sub:before {
+  height: 51px;
+}
+/* line 96, ../scss/header/_menu.scss */
+.menu-wrapper .menu .menu-holder ul.menu-block > li:hover > a.has_no_sub:after {
+  height: 51px;
+}
+/* line 101, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li:hover .submenu {
   display: block;
 }
-/* line 95, ../scss/header/_menu.scss */
+/* line 106, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li > a {
   display: block;
   position: relative;
   padding: 0px 5px 0 5px;
   margin: 16px 0;
-  border-left: 1px dotted #54321b;
+  border-left: 1px dotted transparent;
   height: 28px;
   font-size: 20px;
   line-height: 1.4em;
@@ -505,62 +581,63 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-decoration: none;
   box-sizing: border-box;
 }
-/* line 110, ../scss/header/_menu.scss */
+/* line 121, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu {
   display: none;
   position: absolute;
   top: 20px;
   left: -25px;
-  right: -15px;
+  right: -204px;
   z-index: -1;
 }
-/* line 120, ../scss/header/_menu.scss */
+/* line 130, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list {
   /*@include horizontal-list(2%, left);   */
 }
-/* line 122, ../scss/header/_menu.scss */
+/* line 132, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li {
   width: 33.333%;
   box-sizing: border-box;
 }
-/* line 126, ../scss/header/_menu.scss */
+/* line 136, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li {
   padding-bottom: 2px;
 }
-/* line 129, ../scss/header/_menu.scss */
+/* line 139, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child {
   padding-bottom: 15px;
 }
-/* line 132, ../scss/header/_menu.scss */
+/* line 142, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child a {
-  color: #54321b;
+  color: #897566;
   font-size: 18px;
   text-decoration: none;
 }
-/* line 138, ../scss/header/_menu.scss */
+/* line 148, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li a {
   padding: 0;
 }
-/* line 146, ../scss/header/_menu.scss */
+/* line 157, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li {
   display: table-cell;
   width: 1%;
 }
-/* line 149, ../scss/header/_menu.scss */
+/* line 160, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a {
   text-align: center;
   white-space: nowrap;
 }
-/* line 153, ../scss/header/_menu.scss */
+/* line 163, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a.has_no_sub {
   padding-right: 0;
+  margin: 16px 0 11px 0;
 }
-/* line 156, ../scss/header/_menu.scss */
+/* line 167, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a span {
   position: relative;
   padding-right: 10px;
 }
-/* line 159, ../scss/header/_menu.scss */
+/* line 170, ../scss/header/_menu.scss */
 .menu-wrapper .menu .menu-holder ul.menu-block > li a span i {
   width: 7px;
   height: 4px;
@@ -569,14 +646,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 13px;
 }
 
-/* line 174, ../scss/header/_menu.scss */
+/* line 185, ../scss/header/_menu.scss */
 .search-input-holder {
   position: relative;
   float: right;
   margin-top: 14px;
   margin-right: 11px;
 }
-/* line 179, ../scss/header/_menu.scss */
+/* line 190, ../scss/header/_menu.scss */
 .search-input-holder .search-input {
   width: 182px;
   height: 24px;
@@ -585,7 +662,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 187, ../scss/header/_menu.scss */
+/* line 198, ../scss/header/_menu.scss */
 .search-input-holder:after {
   content: '';
   position: absolute;
@@ -931,7 +1008,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: right;
   width: 50%;
   height: 308px;
-  padding-top: 42px;
+  padding-top: 24px;
   box-sizing: border-box;
   padding-left: 20px;
 }
@@ -942,23 +1019,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 14px;
 }
 /* line 76, ../scss/_slider.scss */
+#slider .banner-slide-wrapper .banner-slide .banner .right .links-header {
+  margin-bottom: 3px;
+  margin-top: 14px;
+  color: #4d3522;
+  font-size: 18px;
+}
+/* line 83, ../scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .links {
-  width: 400px;
+  width: 455px;
   line-height: 1.4em;
 }
-/* line 79, ../scss/_slider.scss */
+/* line 86, ../scss/_slider.scss */
 #slider .banner-slide-wrapper .banner-slide .banner .right .links a {
   color: #1d8dcf;
-  font-size: 13px;
+  font-size: 14px;
   margin: 0 15px 0 0;
 }
-/* line 89, ../scss/_slider.scss */
+/* line 96, ../scss/_slider.scss */
 #slider .slider-nav {
   position: absolute;
   bottom: -20px;
   left: 38%;
 }
-/* line 93, ../scss/_slider.scss */
+/* line 100, ../scss/_slider.scss */
 #slider .slider-nav .slider-nav-link {
   float: left;
   height: 40px;
@@ -966,6 +1050,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   cursor: pointer;
   margin-right: 15px;
   position: relative;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=26);
+  opacity: 0.26;
+}
+/* line 108, ../scss/_slider.scss */
+#slider .slider-nav .slider-nav-link.active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
 }
 
 /* line 1, ../scss/content/_static-content.scss */
@@ -1137,7 +1228,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 102, ../scss/content/_static-content.scss */
 .c > .link-list ul > li > a {
   color: #1d8dcf;
-  padding-left: 25px;
+  padding-left: 28px;
 }
 
 /* line 112, ../scss/content/_static-content.scss */
@@ -1190,7 +1281,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: absolute;
   top: 8px;
   right: 345px;
-  width: 390px;
+  width: 394px;
   height: 43px;
 }
 /* line 159, ../scss/content/_static-content.scss */
@@ -1390,32 +1481,33 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
   padding: 10px;
   color: #4d3522;
-  font-size: 11pt;
+  font-size: 12px;
+  line-height: 1.5em;
 }
-/* line 76, ../scss/content/_goods.scss */
+/* line 78, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra ul {
   list-style: none;
   color: #4d3522;
 }
-/* line 80, ../scss/content/_goods.scss */
+/* line 82, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price {
   color: #b95d39;
 }
-/* line 82, ../scss/content/_goods.scss */
+/* line 85, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .extra .price .value {
   font-size: 20pt;
 }
-/* line 92, ../scss/content/_goods.scss */
+/* line 95, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top {
   position: relative;
   box-sizing: border-box;
   padding: 15px;
   height: 254px;
   width: 100%;
-  background-position: 1px 110px;
+  background-position: 1px 56px;
   background-repeat: no-repeat;
 }
-/* line 100, ../scss/content/_goods.scss */
+/* line 103, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .name {
   font-size: 18px;
   color: #4d3522;
@@ -1423,28 +1515,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-right: 20px;
   margin-bottom: 7px;
 }
-/* line 108, ../scss/content/_goods.scss */
+/* line 111, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .articul {
   font-size: 12px;
   color: #a1836a;
 }
-/* line 112, ../scss/content/_goods.scss */
+/* line 116, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks {
   position: relative;
 }
-/* line 114, ../scss/content/_goods.scss */
+/* line 118, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-new {
   position: absolute;
   top: 7px;
-  left: -2px;
+  left: -1px;
   width: 36px;
   height: 36px;
 }
-/* line 122, ../scss/content/_goods.scss */
+/* line 126, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-new:hover .new-tip {
   display: block;
 }
-/* line 127, ../scss/content/_goods.scss */
+/* line 131, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale {
   position: absolute;
   top: 47px;
@@ -1452,19 +1544,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 36px;
   height: 36px;
 }
-/* line 135, ../scss/content/_goods.scss */
+/* line 139, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .marks .is-for-sale:hover .sale-tip {
   display: block;
 }
-/* line 141, ../scss/content/_goods.scss */
+/* line 145, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .cover {
   width: 89px;
   height: 181px;
   position: absolute;
-  right: 2px;
+  right: 5px;
   bottom: 2px;
 }
-/* line 149, ../scss/content/_goods.scss */
+/* line 153, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip {
   display: none;
   position: absolute;
@@ -1483,7 +1575,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: #897566 1px 1px 3px;
   box-shadow: #897566 1px 1px 3px;
 }
-/* line 163, ../scss/content/_goods.scss */
+/* line 167, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip:after {
   content: '';
   position: absolute;
@@ -1497,19 +1589,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-box-shadow: #897566 1px 1px 2px;
   box-shadow: #897566 1px 1px 2px;
 }
-/* line 176, ../scss/content/_goods.scss */
+/* line 180, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.wishlist-tip {
   left: -42px;
 }
-/* line 179, ../scss/content/_goods.scss */
+/* line 183, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.new-tip {
   left: -30px;
 }
-/* line 182, ../scss/content/_goods.scss */
+/* line 186, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .tip.sale-tip {
   left: -27px;
 }
-/* line 187, ../scss/content/_goods.scss */
+/* line 191, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon {
   width: 15px;
   height: 13px;
@@ -1517,46 +1609,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 17px;
   top: 17px;
 }
-/* line 198, ../scss/content/_goods.scss */
+/* line 202, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .top .wishlist-icon:hover .wishlist-tip {
   display: block;
 }
-/* line 207, ../scss/content/_goods.scss */
+/* line 211, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom {
   height: 72px;
   width: 100%;
   box-sizing: border-box;
   padding-top: 10px;
 }
-/* line 212, ../scss/content/_goods.scss */
+/* line 216, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom > div {
   height: 40px;
 }
-/* line 215, ../scss/content/_goods.scss */
+/* line 219, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .note {
   font-size: 12px;
   color: #a1836a;
   margin-bottom: 7px;
 }
-/* line 220, ../scss/content/_goods.scss */
+/* line 224, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price {
   float: left;
   width: 35%;
   text-align: center;
   color: #4d3522;
 }
-/* line 225, ../scss/content/_goods.scss */
+/* line 229, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value {
   line-height: 18px;
   font-size: 26px;
   display: inline;
   padding-right: 16px;
 }
-/* line 231, ../scss/content/_goods.scss */
+/* line 235, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble {
   position: relative;
 }
-/* line 233, ../scss/content/_goods.scss */
+/* line 237, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .price .value.ruble:after {
   content: '';
   position: absolute;
@@ -1565,13 +1657,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: -4px;
   top: 6px;
 }
-/* line 246, ../scss/content/_goods.scss */
+/* line 250, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy {
   float: right;
   width: 30%;
   text-align: center;
 }
-/* line 250, ../scss/content/_goods.scss */
+/* line 254, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button {
   width: 52px;
   height: 32px;
@@ -1579,22 +1671,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   outline: none;
   margin-top: 5px;
 }
-/* line 257, ../scss/content/_goods.scss */
+/* line 261, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .buy button:hover {
   cursor: pointer;
 }
-/* line 262, ../scss/content/_goods.scss */
+/* line 266, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount {
   text-align: center;
 }
-/* line 264, ../scss/content/_goods.scss */
+/* line 268, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount i {
   display: inline-block;
   width: 10px;
   height: 10px;
   vertical-align: middle;
 }
-/* line 278, ../scss/content/_goods.scss */
+/* line 282, ../scss/content/_goods.scss */
 .flex-items-list .flex-item-holder .flex-item .bottom .amount input {
   width: 32px;
   text-align: center;
@@ -1608,15 +1700,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 7, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li {
-  width: 16%;
+  width: 20%;
   padding-top: 15px;
+  padding-right: 0;
+  padding-left: 0;
 }
-/* line 12, ../scss/content/_all-about.scss */
+/* line 14, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image {
   padding-left: 80px;
   position: relative;
 }
-/* line 15, ../scss/content/_all-about.scss */
+/* line 17, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee:before {
   content: '';
   width: 78px;
@@ -1625,7 +1719,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 24, ../scss/content/_all-about.scss */
+/* line 26, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li.has_image.coffee-bean:before {
   content: '';
   width: 62px;
@@ -1634,17 +1728,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   left: 0;
   top: 0;
 }
-/* line 34, ../scss/content/_all-about.scss */
+/* line 36, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li {
   padding-left: 1em;
   text-indent: -.7em;
 }
-/* line 37, ../scss/content/_all-about.scss */
+/* line 39, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li:before {
   content: "• ";
   color: #a1836a;
 }
-/* line 41, ../scss/content/_all-about.scss */
+/* line 43, ../scss/content/_all-about.scss */
 .c .link-list.all-about-list > li li a {
   color: #1d8dcf;
   padding-left: 0px;
@@ -1722,34 +1816,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 #company .about-company .content {
   padding-right: 10px;
   font-size: 13px;
+  line-height: 1.4em;
 }
-/* line 58, ../scss/content/_company.scss */
+/* line 57, ../scss/content/_company.scss */
+#company .about-company .content p {
+  margin-bottom: 10px;
+}
+/* line 61, ../scss/content/_company.scss */
 #company .about-company a.more {
   position: relative;
   top: 30px;
   color: #1d8dcf;
 }
-/* line 64, ../scss/content/_company.scss */
+/* line 67, ../scss/content/_company.scss */
 #company .honors {
   float: right;
   width: 37%;
   margin-left: 1%;
 }
-/* line 69, ../scss/content/_company.scss */
+/* line 72, ../scss/content/_company.scss */
 #company .honors .item .header {
   color: #4d3522;
   font-size: 24px;
   margin-bottom: 10px;
   display: block;
 }
-/* line 76, ../scss/content/_company.scss */
+/* line 79, ../scss/content/_company.scss */
 #company .honors .item .content {
   font-size: 13px;
   overflow: hidden;
   height: 100px;
   padding-bottom: 20px;
 }
-/* line 81, ../scss/content/_company.scss */
+/* line 84, ../scss/content/_company.scss */
 #company .honors .item .content .img-holder {
   float: left;
   margin-right: 10px;
@@ -1786,11 +1885,16 @@ h2.has_content, #slider .has_content.slider-header {
   src: url('../fonts/museosanscyrl-300.eot?&1415156232#iefix') format('embedded-opentype'), url('../fonts/museosanscyrl-300.woff?1415156232') format('woff'), url('../fonts/museosanscyrl-300.ttf?1415156232') format('truetype'), url('../fonts/museosanscyrl-300.svg?1415156232') format('svg');
 }
 /* line 47, ../scss/application.scss */
-#layout #bottom .footer-holder .footer-shape .footer-left-block span, .menu-wrapper .menu .menu-holder ul.menu-block > li > a, .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child, .c > .link-list > li .link-list-header, .basket .basket-sum, .horizontal-list > li .news-content .news-header, .flex-items-list .flex-item-holder .flex-item .top .name, .flex-items-list .flex-item-holder .flex-item .bottom .price .value, #company .honors .item .header, h2, #slider .slider-header {
+#layout #bottom .footer-holder .footer-shape .footer-left-block span, .menu-wrapper .menu .menu-holder ul.menu-block > li > a, .menu-wrapper .menu .menu-holder ul.menu-block > li .submenu .c > .link-list > li li:first-child, #slider .banner-slide-wrapper .banner-slide .banner .right .links-header, .c > .link-list > li .link-list-header, .basket .basket-sum, .horizontal-list > li .news-content .news-header, .flex-items-list .flex-item-holder .flex-item .extra .price, .flex-items-list .flex-item-holder .flex-item .top .name, .flex-items-list .flex-item-holder .flex-item .bottom .price .value, #company .honors .item .header, h2, #slider .slider-header {
   font-family: 'BruskovayaPlain';
 }
 
 /* line 50, ../scss/application.scss */
 #layout {
   font-family: 'MuseoCyrl_500';
+}
+
+/* line 53, ../scss/application.scss */
+.flex-items-list .flex-item-holder .flex-item .extra {
+  font-family: 'Arial';
 }

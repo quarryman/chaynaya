@@ -30,7 +30,7 @@
       @include min-width($min-content-width);
       max-width: $max-content-width;
       margin: 0 auto;
-      border: 1px solid #000;
+      border: 1px solid transparent;
       position: relative;
   }
 
@@ -59,7 +59,7 @@
         overflow: hidden;
         .footer-shape{
             max-width: 1128px;
-            @include min-width(980px);
+            @include min-width(940px);
             margin: 0 auto;
             position: relative;
             top: 32px;

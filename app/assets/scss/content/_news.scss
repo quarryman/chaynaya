@@ -1,6 +1,7 @@
 
 .horizontal-list{
     @include horizontal-list(0px, left);
+    margin-bottom: 25px;
     >li{
         width: 47%;
         white-space: normal;

@@ -169,12 +169,13 @@ $menu-color: #54321b;
                         span{
                             position: relative;
                             padding-right: 10px;
+                            display: inline-block;
                             i{
                                 width: 7px;
                                 height: 4px;
                                 position: absolute;
                                 right: -4px;
-                                top: 13px;
+                                top: 15px;
                             }
 
                         }

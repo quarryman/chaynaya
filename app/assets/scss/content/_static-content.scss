@@ -135,6 +135,49 @@
             @extend .sprite-common-rubl-cart;
         }
     }
+    .wishlist-count{
+        position: absolute;
+        display: block;
+        bottom:19px;
+        left: 96px;
+        width: 30px;
+        height: 30px;
+        color: #897566;
+        font-size: 14px;
+        &:hover{
+            .wishlist-tip{
+                display: block;
+            }
+        }
+        .wishlist-tip{
+            display: none;
+            position: absolute;
+            top: -41px;
+            left: -66px;
+            vertical-align: middle;
+            background-color: #fff;
+            padding: 8px 10px;
+            white-space: nowrap;
+            color: #897566;
+            font-size: 12px;
+            @include border-radius(3px);
+            @include box-shadow(#897566 1px 1px 3px);
+            z-index: 1;
+            &:after{
+                $tip-corner-size: 6px;
+                content: '';
+                position: absolute;
+                width: $tip-corner-size;
+                height: $tip-corner-size;
+                bottom: -($tip-corner-size/2);
+                left: 49%;
+                background-color: #fff;
+                transform: rotate(45deg);
+                //@include box-shadow(#897566 1px 1px 2px);
+
+            }
+        }
+    }
 }
 
 .login-block{

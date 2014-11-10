@@ -83,6 +83,7 @@
             .price{
                 color: #b95d39;
                 @extend %bruskovaya;
+                padding: 6px 0 2px 0;
                 .value{
                     font-size: 20pt;
                 }
@@ -257,7 +258,7 @@
                     height: 32px;
                     border: none;
                     outline: none;
-                    margin-top: 5px;
+                    margin-top: 12px;
                     @extend .sprite-common-icon-add-to-cart;
                     &:hover{
                         cursor: pointer;
@@ -281,7 +282,7 @@
                     }
                 }
                 input{
-                    width: 32px;
+                    width: 21px;
                     text-align: center;
                 }
             }

@@ -90,23 +90,25 @@ $shape_size: 36px;
         }
 
         .rt {
-            transform: rotate(90deg);
+            @include transform(rotate(90deg));
             &.sprite-shape-vertical-white-corner-rt{
-                transform: rotate(0deg);
+                @include transform(rotate(0deg));
+
             }
         }
 
         .rb {
-            transform: rotate(180deg);
+            @include transform(rotate(180deg));
             &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb{
-                transform: rotate(0deg);
+                @include transform(rotate(0deg));
             }
         }
 
         .lb {
-            transform: rotate(270deg);
+
+            @include transform(rotate(270deg));
             &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb{
-                transform: rotate(0deg);
+                @include transform(rotate(0deg));
             }
         }
         .l,
@@ -114,9 +116,10 @@ $shape_size: 36px;
 
         }
         .r{
-            transform: rotate(180deg);
+            @include transform(rotate(180deg));
             &.sprite-shape-horizontal-pattern-right-no-shade{
-                transform: rotate(0deg);
+                @include transform(rotate(0deg));
+
 
             }
         }
@@ -126,9 +129,11 @@ $shape_size: 36px;
 
         }
         .b{
-            transform: rotate(180deg);
+
+            @include transform(rotate(180deg));
             &.sprite-shape-vertical-pattern-menu-top-bottom{
-                transform: rotate(0deg);
+                @include transform(rotate(0deg));
+
             }
         }
     }

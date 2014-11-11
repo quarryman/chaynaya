@@ -1,6 +1,6 @@
 $(function(){
     var parallaxConfig = [
-        {x : '50%', pos : 2000, ratio: 0},
+        {x : '50%', pos : 1000, ratio: 0.2},
         {x : '-50%', pos : 500, ratio: 0.2},
         {x : 'center', pos : 2000, ratio: 0.25},
         {x : 'center', pos : 0, ratio: 0},
@@ -163,4 +163,15 @@ $(function(){
         });
     })(jQuery);
     $('.banner-slide-wrapper').slideshow();
+    $('.amount .plus').click(function () {
+        var val = parseInt($(this).prev().attr("value"));
+        $(this).prev().attr({"value" : val + 1});
+    });
+    $('.amount .minus').click(function () {
+        var val = $(this).next().attr("value");
+        if (val <= 1)
+            $(this).next().attr({"value" : 1})
+        else
+            $(this).next().attr({"value" : val - 1})
+    });
 });

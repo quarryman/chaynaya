@@ -109,11 +109,10 @@
                 @include opacity(1);
             }
 
-            &:nth-child(1){
-                @extend .sprite-common-slider-icon-teabag;
-
-            }
             &:nth-child(2){
+                @extend .sprite-common-slider-icon-teabag;
+            }
+            &:nth-child(1){
                  @extend .sprite-common-slider-icon-tealeaf;
             }
             &:nth-child(3){

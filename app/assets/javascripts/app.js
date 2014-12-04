@@ -3,7 +3,7 @@ $(function(){
         {x : '50%', pos : 1000, ratio: 0.2},
         {x : '-50%', pos : 500, ratio: 0.2},
         {x : 'center', pos : 2000, ratio: 0.25},
-        {x : 'center', pos : 0, ratio: 0},
+        {x : '120%', pos : 0, ratio: 0},
         {x : '50%', pos : 600, ratio: .8},
         {x : 'center', pos : 0, ratio: 0}
     ];

@@ -1,5 +1,5 @@
 $menu-height: 67px;
-$logo-width: 187px;
+$logo-width: 200px;
 $menu-color: #54321b;
 @include all-sprite-common-sprites;
 //$common-icons: sprite-map("sprites/sprite-common/*.png");
@@ -23,9 +23,9 @@ $menu-color: #54321b;
             height: $menu-height;
             .logo{
                 width: $logo-width;
-                height: 150px;
+                height: 169px;
                 position: absolute;
-                top: -75%;
+                top: -79%;
                 left: auto;
             }
             .shining{

@@ -1,11 +1,58 @@
+@mixin placeholder( $color: #ccc, $hide: false){
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        color:    $color;
+        line-height: 0.9em;
+        font-size: 13px;
+        @if  $hide  {
+            opacity:  0;
+        }
+        @else {
+            opacity:  1;
+        }
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    $color;
+        font-size: 13px;
+        @if  $hide  {
+            opacity:  0;
+        }
+        @else {
+            opacity:  1;
+        }
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    $color;
+        font-size: 13px;
+        @if  $hide  {
+            opacity:  0;
+        }
+        @else {
+            opacity:  1;
+        }
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    $color;
+        font-size: 13px;
+        @if  $hide  {
+            opacity:  0;
+        }
+        @else {
+            opacity:  1;
+        }
+    }
+}
+
 $menu-height: 67px;
 $logo-width: 200px;
+$search-default-state-width: 182px;
+$search-header-width: 70px;
 $menu-color: #54321b;
 @include all-sprite-common-sprites;
 //$common-icons: sprite-map("sprites/sprite-common/*.png");
 .menu-wrapper{
     position: relative;
     z-index: 1;
+    @include placeholder(#ccc, true);
     .menu{
         @include background(image-url("menu/menu-bordered.png") left top repeat-x);
         width: 100%;
@@ -17,6 +64,7 @@ $menu-color: #54321b;
         font-size: 18pt;
         z-index: initial;
         .menu-holder{
+            position: relative;
             @include min-width($min-content-width);
             max-width: $max-content-width;
             margin: 0 auto;
@@ -208,29 +256,132 @@ $menu-color: #54321b;
                     }
                 }
             }
+
         }
     }
 }
 .search-input-holder{
     position: relative;
     float: right;
-    margin-top: 14px;
+    height: 28px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     margin-right: 11px;
-    .search-input{
-        width: 182px;
-        height: 24px;
-        border: 1px solid #d2ccc5;
-        @include border-radius(5px);
-
-
+    .search-input-holder-fix{
+        width: $search-default-state-width;
+        position: relative;
+        .search-input{
+            width: 100%;
+            height: 26px;
+            border: 1px solid #d2ccc5;
+            position: relative;
+            box-sizing: border-box;
+            padding-left: 10px;
+            @include border-radius(5px);
+        }
+        &:after{
+            content: '';
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            width: 16px;
+            height: 16px;
+            @extend .sprite-common-icon-search;
+        }
     }
-    &:after{
-        content: '';
+}
+.state-header{
+    display: none;
+}
+.buttons-holder{
+    display: none;
+}
+.menu-wrapper.state-search, .menu-wrapper.state-filter{
+    @include placeholder(#897566, false);
+    .state-container{
         position: absolute;
-        right: 8px;
-        top: 8px;
-        width: 16px;
-        height: 16px;
-        @extend .sprite-common-icon-search;
+        right: 40px;
+        /*width: $search-default-state-width + $search-header-width;*/
+        z-index: 5;
+        left: 210px;
+        height: 28px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        margin-right: 0px;
+        .state-content{
+            width: auto;
+            position: absolute;
+            left: $search-header-width;
+            right: 80px;
+            .search-input{
+                border-color: rgba(77,53,34, .5);
+                background-color: #f8f1e9;
+                height: 28px;;
+            }
+        }
+        .search-input-holder-fix{
+            top: 14px;
+        }
+    }
+    .state-header{
+        display: block;
+        @extend %bruskovaya;
+        font-size: 24px;
+        color: #4d3522;
+        line-height: 1.2em;
+        float: left;
+    }
+    .buttons-holder{
+        float: right;
+        height: 29px;
+        width: 80px;
+        display: block;
+        font-size: 0; /*inline block children space hack*/
+        div{
+            width: 20px;
+            height: 18px;
+            display: inline-block;
+            margin-top: 6px;
+            margin-left: 14px;
+            @include opacity(0.5);
+            &:hover{
+                @include opacity(1);
+            }
+        }
+        .button-filter{
+            @extend .sprite-common-icon-filter-state;
+        }
+        .button-close{
+            @extend .sprite-common-icon-close-active-state;
+        }
+        .button-search{
+            @extend .sprite-common-icon-search-state;
+        }
+    }
+}
+
+.menu-wrapper.state-search{
+
+}
+.menu-wrapper.state-search {
+    #state-search{
+        display: block;
+    }
+    #state-menu{
+        display: none;
+    }
+    #state-filter{
+        display: none;
+    }
+}
+.menu-wrapper.state-filter {
+    #state-search{
+        display: none;
+    }
+    #state-menu{
+        display: none;
+    }
+    #state-filter{
+        display: block;
     }
 }

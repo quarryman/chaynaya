@@ -13,10 +13,17 @@
             <div class="menu-holder">
           <div class="shining sprite-common-shining"></div>
           <div class="logo sprite-common-logo"></div>
-          <div class="search-input-holder">
-            <input type="text" class="search-input" />
+          <div id="state-search" class="search-input-holder state-container">
+            <div class="state-header">Поиск</div>
+            <div class="search-input-holder-fix state-content">
+              <input type="text" class="search-input" placeholder="Введите ваш запрос" />
+            </div>
+            <div class="buttons-holder">
+              <div class="button-filter"></div>
+              <div class="button-close"></div>
+            </div>
           </div>
-          <ul class="menu-block">
+          <ul id="state-menu" class="menu-block">
             <li class="single">
               <a class="has_no_sub" href="#">
                 <span>Новости</span>
@@ -322,6 +329,14 @@
             </li>
 
           </ul>
+          <div id="state-filter" class="filter-holder state-container">
+            <div class="state-header">Поиск</div>
+            <div class="state-content"></div>
+            <div class="buttons-holder">
+              <div class="button-search"></div>
+              <div class="button-close"></div>
+            </div>
+          </div>
 
 
 

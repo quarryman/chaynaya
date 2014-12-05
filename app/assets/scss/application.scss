@@ -30,6 +30,7 @@ $sprite-shape-horizontal-spacing: 15px;
 @import "content/all-about";
 @import "content/company";
 @import "common";
+//@import "mixins/placeholder";
 
 @include font-face('BruskovayaPlain',
     font-files(

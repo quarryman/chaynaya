@@ -1,0 +1,135 @@
+#state-filter{
+    .state-content{
+        @include display-flex;
+        @include flex-direction(row);
+        @include justify-content(flex-start);
+        height: 28px;
+        .filter-tab{
+            z-index: 2;
+            position: relative;
+            @include flex(0 1 auto); // 0 means each doestn take 1 part and all won't fill all the space
+            margin: 0 5px;
+            height: 100%;
+            width: 220px;
+            text-align: center;
+            color: #897566;
+            @include border-radius(3px);
+            border: 1px solid rgba(77, 53, 34 , 0.3);
+            @extend %bruskovaya;
+            font-size: 20px;
+            line-height: 1.3em;
+
+            &:hover, &.active{
+                color: white;
+                @include text-shadow(rgba(black, 0.5) 1px 1px 0);
+                //@include box-shadow( inset -1px 1px 1px 0px  #77563b);
+                background-color: #b5a394;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    bottom: -4px;
+                    left: 49%;
+                    background-color: #b5a394;
+                    transform: rotate(45deg);
+                    //border: 1px solid rgba(77, 53, 34 , 0.3);
+                }
+            }
+        }
+    }
+}
+// dropdown filter
+.filter-shape{
+
+    .top-helper{
+        position: absolute;
+        background-color: #fefefc;
+        height: 1px;
+        top: ($shape_size - 1);  // space around minus is arbitrary
+        left: 21px;
+        right: 21px;
+    }
+    .bottom-helper{
+        position: absolute;
+        background-color: #dbd6d0;
+        height: 50px;
+        bottom: 36px;
+        left: 21px;
+        right: 21px;
+        z-index: 1;
+    }
+    .c{
+
+        form{
+            &.flex-box{
+                @include display-flex;
+                @include flex-direction(row);
+                @include justify-content(space-between);
+            }
+            position: relative;
+            input.filter-button{
+                position: absolute;
+                z-index: 2;
+                right: 0px;
+                bottom: -50px;
+                padding: 0px 30px;
+                height: 35px;
+                @include border-radius(5px);
+                border: 0;
+                background-color: #acc84f; // Old browsers
+                @include filter-gradient(#acc84f, #7da931, vertical); // IE6-9
+                @include background-image(linear-gradient(top, #acc84f 0%,#7da931 100%));
+                @include box-shadow(1px, 0px, 0px, 0px, #4d3522);
+                color: #fff;
+                @extend %bruskovaya;
+                @include text-shadow(rgba(black, 0.5) 1px 1px 0);
+                font-size: 21px;
+                &:hover{
+                    @include filter-gradient(#7da931, #acc84f, vertical); // IE6-9
+                    @include background-image(linear-gradient(top, #7da931 0%,#acc84f 100%));
+                }
+                &:active, &:focus{
+                    outline: none;
+                }
+            }
+            .filter_results{
+                position: absolute;
+                left: 0px;
+                z-index: 2;
+                bottom: -45px;
+                color: #4d3522;
+                @extend %bruskovaya;
+                font-size: 24px;
+            }
+
+            >div{
+                width: 46%;
+                margin-bottom: 15px;
+                .property-values{
+                    @include display-flex;
+                    @include flex-direction(row);
+                    @include justify-content(space-between);
+                    @include flex-wrap(wrap); //otherwise all the items will take 1 like
+                    >li{
+                        width: 45%;
+                        &:first-child{
+                            width: 100%;
+                            border-bottom: 1px solid #dbd5cf;
+                            padding-bottom: 8px;
+                            padding-top: 8px;
+                            color: #4d3522;
+                            font-size: 20px;
+                            @extend %bruskovaya;
+                        }
+                        label{
+                            font-family: Tahoma;
+                            font-size: 11px;
+                            color: #695a4e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

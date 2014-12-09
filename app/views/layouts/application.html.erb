@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="layout">
-      <div class="menu-wrapper">
+      <div id="menu-wrapper" class="menu-wrapper state-default">
         <div class="menu">
             <div class="menu-holder">
           <div class="shining sprite-common-shining"></div>
@@ -19,7 +19,7 @@
               <input type="text" class="search-input" placeholder="Введите ваш запрос" />
             </div>
             <div class="buttons-holder">
-              <div class="button-filter"></div>
+              <div class="button-filter"><div class="tip">Фильтр</div></div>
               <div class="button-close"></div>
             </div>
           </div>
@@ -330,16 +330,578 @@
 
           </ul>
           <div id="state-filter" class="filter-holder state-container">
-            <div class="state-header">Поиск</div>
-            <div class="state-content"></div>
+            <div class="state-header">Фильтр</div>
+            <div class="state-content">
+              <div class="filter-tab active" attr-control="tea">Чай</div>
+              <div class="filter-tab" attr-control="coffee">Кофе</div>
+              <div class="filter-tab" attr-control="posuda">Посуда</div>
+              <div class="shape filter-shape tea">
+                <div class="top-helper"></div>
+                <div class="bottom-helper"></div>
+                <div class="c">
+                  <form class="flex-box" action="#" name="">
+                  <div class="">
+                    <ul class="property-values">
+                      <li>Способ обработки</li>
+                      <li>
+                        <input type="checkbox" name="1"/>
+                        <label for="1">Черный</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="2"/>
+                        <label for="2">Зеленый</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="3"/>
+                        <label for="3">Красный</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>Степень качества</li>
+                      <li>
+                        <input type="checkbox" name="4"/>
+                        <label for="4">BOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="5"/>
+                        <label for="5">FOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="6"/>
+                        <label for="6">GFOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="7"/>
+                        <label for="7">OP</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="8"/>
+                        <label for="8">Африканский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="9"/>
+                        <label for="9">Европейский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="10"/>
+                        <label for="10">Индийский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="11"/>
+                        <label for="11">Китайский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="12"/>
+                        <label for="12">Цейлонский</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>Вкусовые характеристики</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="13">С ароматом жасмина</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- right filter column -->
+                  <div class="">
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="12">Ананас</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="14"/>
+                        <label for="14">Апельсин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="15"/>
+                        <label for="15">Вишня</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="16"/>
+                        <label for="16">Гибискус</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="17"/>
+                        <label for="17">Жасмин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="18"/>
+                        <label for="18">Женьшень</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="19"/>
+                        <label for="19">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="20"/>
+                        <label for="20">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="21"/>
+                        <label for="21">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="22"/>
+                        <label for="22">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="23"/>
+                        <label for="23">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="24"/>
+                        <label for="24">Мате</label>
+                      </li>
+
+                      <li>
+                        <input type="checkbox" name="25"/>
+                        <label for="25">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="26"/>
+                        <label for="26">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="27"/>
+                        <label for="27">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="28"/>
+                        <label for="28">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="29"/>
+                        <label for="29">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="30"/>
+                        <label for="30">Мате</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="31"/>
+                        <label for="31">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="32"/>
+                        <label for="32">Календула</label>
+                      </li>
+
+                    </ul>
+                    <ul class="property-values">
+                      <li>Добавки</li>
+                      <li>
+                        <input type="checkbox" name="35"/>
+                        <label for="35">Травы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="36"/>
+                        <label for="36">Цветы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="37"/>
+                        <label for="37">Фрукты</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /right filter column-->
+                  <span class="filter_results">
+                    Найдено <span>13</span> товаров
+                  </span>
+                  <input type="button" class="filter-button" name="filter-button" value="Найти"/>
+                  </form>
+                </div>
+                <div class="lb sprite-shape-vertical-pattern-corner-lb-filter"></div>
+                <div class="rb sprite-shape-vertical-pattern-corner-rb-filter"></div>
+                <div class="l sprite-shape-horizontal-pattern-filter-left-right"></div>
+
+                <div class="r sprite-shape-horizontal-pattern-filter-left-right"></div>
+                <div class="b sprite-shape-vertical-pattern-filter-top-bottom"></div>
+              </div>
+              <div class="shape filter-shape coffee">
+                <div class="top-helper"></div>
+                <div class="bottom-helper"></div>
+                <div class="c">
+                  <form class="flex-box" action="#" name="">
+                    <div class="">
+
+                    <ul class="property-values">
+                      <li>Обжарка</li>
+
+                      <li>
+                        <input type="checkbox" name="2"/>
+                        <label for="2">Частичная</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="3"/>
+                        <label for="3">Полная</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>Степень качества</li>
+                      <li>
+                        <input type="checkbox" name="4"/>
+                        <label for="4">BOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="5"/>
+                        <label for="5">FOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="6"/>
+                        <label for="6">GFOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="7"/>
+                        <label for="7">OP</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="8"/>
+                        <label for="8">Африканский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="9"/>
+                        <label for="9">Европейский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="10"/>
+                        <label for="10">Индийский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="11"/>
+                        <label for="11">Китайский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="12"/>
+                        <label for="12">Цейлонский</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>Вкусовые характеристики</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="13">С ароматом жасмина</label>
+                      </li>
+                    </ul>
+
+                  </div>
+                    <!-- right filter column -->
+                    <div class="">
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="12">Ананас</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="14"/>
+                        <label for="14">Апельсин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="15"/>
+                        <label for="15">Вишня</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="16"/>
+                        <label for="16">Гибискус</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="17"/>
+                        <label for="17">Жасмин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="18"/>
+                        <label for="18">Женьшень</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="19"/>
+                        <label for="19">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="20"/>
+                        <label for="20">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="21"/>
+                        <label for="21">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="22"/>
+                        <label for="22">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="23"/>
+                        <label for="23">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="24"/>
+                        <label for="24">Мате</label>
+                      </li>
+
+                      <li>
+                        <input type="checkbox" name="25"/>
+                        <label for="25">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="26"/>
+                        <label for="26">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="27"/>
+                        <label for="27">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="28"/>
+                        <label for="28">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="29"/>
+                        <label for="29">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="30"/>
+                        <label for="30">Мате</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="31"/>
+                        <label for="31">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="32"/>
+                        <label for="32">Календула</label>
+                      </li>
+
+                    </ul>
+                    <ul class="property-values">
+                      <li>Добавки</li>
+                      <li>
+                        <input type="checkbox" name="35"/>
+                        <label for="35">Травы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="36"/>
+                        <label for="36">Цветы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="37"/>
+                        <label for="37">Фрукты</label>
+                      </li>
+                    </ul>
+                  </div>
+                    <!-- /right filter column-->
+                    <span class="filter_results">
+                    Найдено <span>13</span> товаров
+                  </span>
+                    <input type="button" class="filter-button" name="filter-button" value="Найти"/>
+                  </form>
+                </div>
+                <div class="lb sprite-shape-vertical-pattern-corner-lb-filter"></div>
+                <div class="rb sprite-shape-vertical-pattern-corner-rb-filter"></div>
+                <div class="l sprite-shape-horizontal-pattern-filter-left-right"></div>
+
+                <div class="r sprite-shape-horizontal-pattern-filter-left-right"></div>
+                <div class="b sprite-shape-vertical-pattern-filter-top-bottom"></div>
+              </div>
+              <div class="shape filter-shape posuda">
+                <div class="top-helper"></div>
+                <div class="bottom-helper"></div>
+                <div class="c">
+                  <form class="flex-box" action="#" name="">
+                  <div class="">
+                    <ul class="property-values">
+                      <li>Стиль</li>
+                      <li>
+                        <input type="checkbox" name="1"/>
+                        <label for="1">Классическая</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="2"/>
+                        <label for="2">Этно</label>
+                      </li>
+
+                    </ul>
+                    <ul class="property-values">
+                      <li>Степень качества</li>
+                      <li>
+                        <input type="checkbox" name="4"/>
+                        <label for="4">BOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="5"/>
+                        <label for="5">FOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="6"/>
+                        <label for="6">GFOP</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="7"/>
+                        <label for="7">OP</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="8"/>
+                        <label for="8">Африканский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="9"/>
+                        <label for="9">Европейский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="10"/>
+                        <label for="10">Индийский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="11"/>
+                        <label for="11">Китайский</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="12"/>
+                        <label for="12">Цейлонский</label>
+                      </li>
+                    </ul>
+                    <ul class="property-values">
+                      <li>Вкусовые характеристики</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="13">С ароматом жасмина</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- right filter column -->
+                  <div class="">
+                    <ul class="property-values">
+                      <li>География</li>
+                      <li>
+                        <input type="checkbox" name="13"/>
+                        <label for="12">Ананас</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="14"/>
+                        <label for="14">Апельсин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="15"/>
+                        <label for="15">Вишня</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="16"/>
+                        <label for="16">Гибискус</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="17"/>
+                        <label for="17">Жасмин</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="18"/>
+                        <label for="18">Женьшень</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="19"/>
+                        <label for="19">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="20"/>
+                        <label for="20">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="21"/>
+                        <label for="21">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="22"/>
+                        <label for="22">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="23"/>
+                        <label for="23">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="24"/>
+                        <label for="24">Мате</label>
+                      </li>
+
+                      <li>
+                        <input type="checkbox" name="25"/>
+                        <label for="25">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="26"/>
+                        <label for="26">Календула</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="27"/>
+                        <label for="27">Клубника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="28"/>
+                        <label for="28">Клюква</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="29"/>
+                        <label for="29">Липа</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="30"/>
+                        <label for="30">Мате</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="31"/>
+                        <label for="31">Земляника</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="32"/>
+                        <label for="32">Календула</label>
+                      </li>
+
+                    </ul>
+                    <ul class="property-values">
+                      <li>Добавки</li>
+                      <li>
+                        <input type="checkbox" name="35"/>
+                        <label for="35">Травы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="36"/>
+                        <label for="36">Цветы</label>
+                      </li>
+                      <li>
+                        <input type="checkbox" name="37"/>
+                        <label for="37">Фрукты</label>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /right filter column-->
+                    <span class="filter_results">
+                    Найдено <span>13</span> товаров
+                  </span>
+                    <input type="button" class="filter-button" name="Найти" value="Найти"/>
+                  </form>
+                </div>
+                <div class="lb sprite-shape-vertical-pattern-corner-lb-filter"></div>
+                <div class="rb sprite-shape-vertical-pattern-corner-rb-filter"></div>
+                <div class="l sprite-shape-horizontal-pattern-filter-left-right"></div>
+
+                <div class="r sprite-shape-horizontal-pattern-filter-left-right"></div>
+                <div class="b sprite-shape-vertical-pattern-filter-top-bottom"></div>
+              </div>
+
+            </div>
             <div class="buttons-holder">
-              <div class="button-search"></div>
+              <div class="button-search"><div class="tip">Поиск</div></div>
               <div class="button-close"></div>
             </div>
           </div>
-
-
-
         </div>
         </div>
       </div>

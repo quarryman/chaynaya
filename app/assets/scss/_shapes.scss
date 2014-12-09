@@ -77,7 +77,7 @@ $shape_size: 36px;
         background-repeat: repeat-x;
     }
 
-    &.white-shape, &.pattern-shape, &.submenu-shape{
+    &.white-shape, &.pattern-shape, &.submenu-shape, &.filter-shape{
         .c {
             background: rgba(255,255,255, .8);
             height: 100%;
@@ -99,7 +99,7 @@ $shape_size: 36px;
 
         .rb {
             @include transform(rotate(180deg));
-            &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb{
+            &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb, &.sprite-shape-vertical-pattern-corner-rb-filter{
                 @include transform(rotate(0deg));
             }
         }
@@ -107,7 +107,7 @@ $shape_size: 36px;
         .lb {
 
             @include transform(rotate(270deg));
-            &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb{
+            &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb, &.sprite-shape-vertical-pattern-corner-lb-filter{
                 @include transform(rotate(0deg));
             }
         }
@@ -131,13 +131,14 @@ $shape_size: 36px;
         .b{
 
             @include transform(rotate(180deg));
-            &.sprite-shape-vertical-pattern-menu-top-bottom{
+            &.sprite-shape-vertical-pattern-menu-top-bottom, &.sprite-shape-vertical-pattern-filter-top-bottom{
                 @include transform(rotate(0deg));
 
             }
         }
     }
 }
+
 
 .shape.pattern-shape{
     position: relative;
@@ -156,3 +157,27 @@ $shape_size: 36px;
         @include background(image-url("pattern-bg.png"));
     }
 }
+.shape.filter-shape{
+    position: absolute;
+    width: 655px;
+    top: 6px;
+    &.tea{
+        left: -16px;
+        display: block;
+    }
+    &.coffee{
+        left:  -16px;;
+        display: none;
+    }
+    &.posuda{
+        left:  -16px;;
+        display: none;
+    }
+    .c{
+        background-color: #fefefc;
+        @include min-height(9px);
+        margin-bottom: 40px;
+
+    }
+}
+

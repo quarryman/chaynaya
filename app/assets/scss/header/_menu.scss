@@ -293,6 +293,12 @@ $menu-color: #54321b;
 .state-header{
     display: none;
 }
+#state-filter{
+    .state-header{
+        position: relative;
+        left: -4px;
+    }
+}
 .buttons-holder{
     display: none;
 }
@@ -337,7 +343,8 @@ $menu-color: #54321b;
         width: 80px;
         display: block;
         font-size: 0; /*inline block children space hack*/
-        div{
+        >div{
+            position: relative;
             width: 20px;
             height: 18px;
             display: inline-block;
@@ -346,6 +353,37 @@ $menu-color: #54321b;
             @include opacity(0.5);
             &:hover{
                 @include opacity(1);
+                .tip{
+                    display: block;
+                }
+            }
+            .tip{
+                @include opacity(1);
+                display: none;
+                position: absolute;
+                top: -38px;
+                left: -24px;
+                vertical-align: middle;
+                background-color: #4d3522;
+                padding: 8px 10px;
+                white-space: nowrap;
+                color: #fff;
+                font-size: 12px;
+                @include border-radius(3px);
+                @include box-shadow(#897566 1px 1px 3px);
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    bottom: -3px;
+                    left: 49%;
+                    background-color: #4d3522;
+                    transform: rotate(45deg);
+                    -moz-box-shadow: #897566 1px 1px 2px;
+                    -webkit-box-shadow: #897566 1px 1px 2px;
+                    box-shadow: #897566 1px 1px 2px;
+                }
             }
         }
         .button-filter{
@@ -362,6 +400,17 @@ $menu-color: #54321b;
 
 .menu-wrapper.state-search{
 
+}
+.menu-wrapper{
+    #state-search{
+        display: block;
+    }
+    #state-menu{
+        display: block;
+    }
+    #state-filter{
+        display: none;
+    }
 }
 .menu-wrapper.state-search {
     #state-search{

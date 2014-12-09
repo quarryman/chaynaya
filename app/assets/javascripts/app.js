@@ -174,4 +174,34 @@ $(function(){
         else
             $(this).next().attr({"value" : val - 1})
     });
+
+    $(".menu-wrapper.state-default .search-input").click(function () {
+        if ($("#menu-wrapper").hasClass("state-default"))
+            $("#menu-wrapper").toggleClass("state-default state-search");
+    });
+
+    $(".button-close").click(function () {
+        $("#menu-wrapper").removeClass("state-search").removeClass("state-filter").addClass("state-default");
+    });
+
+    $(".button-filter").click(function () {
+        $("#menu-wrapper").removeClass("state-search").removeClass("state-default").addClass("state-filter");
+    });
+
+    $(".button-search").click(function () {
+        $("#menu-wrapper").removeClass("state-filter").removeClass("state-default").addClass("state-search");
+    });
+
+
+    $(".filter-tab", "#state-filter").click(function () {
+        var tab = "." + $(this).attr("attr-control");
+        $(".filter-tab", "#state-filter").removeClass("active");
+        $(this).addClass("active");
+        $(".filter-shape", "#state-filter")
+
+            .hide();
+        $(tab , "#state-filter")
+
+            .show();
+    });
 });

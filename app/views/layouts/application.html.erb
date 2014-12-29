@@ -1711,16 +1711,16 @@
       <h1>Обратная связь</h1>
       <div class="separator"></div>
       <form class="">
-        <div>
+        <div class="mandatory">
             <input type="text"   value="" placeholder="Имя"/>
         </div>
         <div class="validation-succeeded">
             <input type="text"  value="+7 495 777-77-77" placeholder="Телефон"/>
         </div>
-        <div>
+        <div class="mandatory">
             <textarea placeholder="Сообщение"></textarea>
         </div>
-        <div>
+        <div class="mandatory">
           <select>
             <option>Обращение на общую тему</option>
             <option>В отдел логистики</option>
@@ -1763,18 +1763,18 @@
           <h1>Заказ обратного звонка</h1>
           <div class="separator"></div>
           <form class="">
-            <div class="validation-error">
+            <div class="validation-error mandatory">
               <input type="text"   value="" placeholder="Имя"/>
               <div class="mention-text error-text">Не введено имя</div>
             </div>
-            <div class="validation-succeeded">
+            <div class="validation-succeeded mandatory">
               <input type="text"  value="alexey@melius.ru" placeholder="Email"/>
             </div>
             <div class="">
               <input type="text"  value="" placeholder="Телефон"/>
             </div>
             <div class="mention-text ">Например: +7 495 77-77-77</div>
-            <div class="">
+            <div class="mandatory">
               <select>
                 <option>
                   Тип торговой точки

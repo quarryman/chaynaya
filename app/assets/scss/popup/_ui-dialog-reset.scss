@@ -1,0 +1,38 @@
+.ui-dialog{
+    padding: 0;
+    .ui-dialog-titlebar{
+        padding: 0;
+        .ui-dialog-titlebar-close{
+            border: 0;
+            width: 18px;
+            height: 18px;
+            background-color: transparent;
+            z-index: 100;
+            @include opacity(.5);
+            @extend .sprite-common-icon-close-active-state;
+            &:hover{
+                @include opacity(1);
+            }
+            .ui-icon{
+                display: none;
+            }
+            .ui-button-text{
+                display: none;
+            }
+        }
+        .ui-dialog-title{
+            display: none;
+        }
+        .ui-dialog-titlebar-close{
+            right: 35px;
+            top: 47px;
+        }
+    }
+    .ui-dialog-content{
+        padding: 0;
+    }
+}
+
+.ui-widget-overlay{
+    background-color: rgba(88, 58 ,35 , .8);
+}

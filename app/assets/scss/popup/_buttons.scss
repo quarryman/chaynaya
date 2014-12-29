@@ -1,0 +1,29 @@
+.popup-shape{
+
+    button{
+        height: 42px;
+        padding: 10px 20px;
+        background: none;
+        @include background(linear-gradient(#acc84f, #7da931));
+        @include box-shadow(rgba(77,53,34, 0.34) -1px -1px 1px 0px inset);
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        color: #fff;
+        @extend %bruskovaya;
+        font-size: 21px;
+        line-height: 0.5em;
+        @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
+        &.buy-button{
+            width: 70px;
+            margin-top: 3px;
+            @include background(image-url("icon-popup-cart.png") center center no-repeat, linear-gradient(#acc84f, #7da931));
+        }
+
+    }
+
+    .button-holder{
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+}

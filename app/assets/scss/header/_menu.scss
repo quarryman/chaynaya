@@ -1,7 +1,7 @@
-@mixin placeholder( $color: #ccc, $hide: false){
+@mixin placeholder( $color: #ccc, $hide: false, $line-height: 0.9em){
     ::-webkit-input-placeholder { /* WebKit browsers */
         color:    $color;
-        line-height: 0.9em;
+        line-height:  $line-height;
         font-size: 13px;
         @if  $hide  {
             opacity:  0;
@@ -152,6 +152,7 @@ $menu-color: #54321b;
                             display: block;
                         }
                     }
+
 
                     >a{
                         display: block;

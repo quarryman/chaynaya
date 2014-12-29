@@ -274,6 +274,7 @@
                     border: none;
                     outline: none;
                     margin-top: 12px;
+                    background-color: transparent;
                     @extend .sprite-common-icon-add-to-cart;
                     &:hover{
                         cursor: pointer;

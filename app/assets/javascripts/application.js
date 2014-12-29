@@ -12,5 +12,6 @@
 //
 //= require jquery
 //= require jquery-ui
+//= require select2.min
 //= require app
 

@@ -77,7 +77,7 @@ $shape_size: 36px;
         background-repeat: repeat-x;
     }
 
-    &.white-shape, &.pattern-shape, &.submenu-shape, &.filter-shape{
+    &.white-shape, &.pattern-shape, &.submenu-shape, &.filter-shape, &.popup-shape{
         .c {
             background: rgba(255,255,255, .8);
             height: 100%;
@@ -91,15 +91,18 @@ $shape_size: 36px;
 
         .rt {
             @include transform(rotate(90deg));
-            &.sprite-shape-vertical-white-corner-rt{
+            &.sprite-shape-vertical-white-corner-rt, &.sprite-shape-vertical-pattern-corner-rt-popup{
                 @include transform(rotate(0deg));
 
+            }
+            &.sprite-shape-vertical-pattern-corner-message-lb-popup{
+                @include transform(rotate(180deg));
             }
         }
 
         .rb {
             @include transform(rotate(180deg));
-            &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb, &.sprite-shape-vertical-pattern-corner-rb-filter{
+            &.sprite-shape-vertical-pattern-corner-rb-menu, &.sprite-shape-vertical-white-corner-rb, &.sprite-shape-vertical-pattern-corner-rb-filter, &.sprite-shape-vertical-pattern-corner-rb-popup,  &.sprite-shape-vertical-pattern-corner-rb-popup-w-footer{
                 @include transform(rotate(0deg));
             }
         }
@@ -107,7 +110,7 @@ $shape_size: 36px;
         .lb {
 
             @include transform(rotate(270deg));
-            &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb, &.sprite-shape-vertical-pattern-corner-lb-filter{
+            &.sprite-shape-vertical-pattern-corner-lb-partial-shade, &.sprite-shape-vertical-pattern-corner-lb-menu, &.sprite-shape-vertical-white-corner-lb, &.sprite-shape-vertical-pattern-corner-lb-filter, &.sprite-shape-vertical-pattern-corner-lb-popup, &.sprite-shape-vertical-pattern-corner-lb-popup-w-footer, &.sprite-shape-vertical-pattern-corner-message-lb-popup{
                 @include transform(rotate(0deg));
             }
         }
@@ -117,7 +120,7 @@ $shape_size: 36px;
         }
         .r{
             @include transform(rotate(180deg));
-            &.sprite-shape-horizontal-pattern-right-no-shade{
+            &.sprite-shape-horizontal-pattern-right-no-shade, &.sprite-shape-horizontal-popup-right{
                 @include transform(rotate(0deg));
 
 
@@ -131,7 +134,7 @@ $shape_size: 36px;
         .b{
 
             @include transform(rotate(180deg));
-            &.sprite-shape-vertical-pattern-menu-top-bottom, &.sprite-shape-vertical-pattern-filter-top-bottom{
+            &.sprite-shape-vertical-pattern-menu-top-bottom, &.sprite-shape-vertical-pattern-filter-top-bottom, &.sprite-shape-vertical-pattern-bottom-popup-w-footer{
                 @include transform(rotate(0deg));
 
             }
@@ -149,6 +152,7 @@ $shape_size: 36px;
         @include background(image-url("pattern-bg.png"));
     }
 }
+
 .shape.submenu-shape{
     width: auto;
     //left: 700px;
@@ -179,5 +183,40 @@ $shape_size: 36px;
         margin-bottom: 40px;
 
     }
+}
+
+.shape.popup-shape{
+    .c{
+        padding: 20px;
+        background-color: #fefefc;
+        margin: -1px;
+    }
+
+    &.popup-message{
+        .c{
+            @include opacity(1);
+            @include background(transparent image-url("pattern-bg.png"));
+        }
+    }
+}
+
+
+.shape.popup-shape-w-footer{
+    .bottom-helper{
+        position: absolute;
+        background-color: #dbd6d0;
+        height: 50px;
+        bottom: 35px;
+        left: 20px;
+        right: 21px;
+        z-index: 1;
+    }
+    .c{
+        padding-bottom: 70px;
+        position: relative;
+    }
+    /*.button-holder{
+        z-index: 2;
+    }*/
 }
 

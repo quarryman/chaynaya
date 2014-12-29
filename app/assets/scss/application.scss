@@ -14,7 +14,9 @@ $max-content-width: 1200px;
 $cart-width: 204px;
 
 $sprite-common-spacing: 15px;  //won't work
-$sprite-shape-horizontal-spacing: 15px;
+$sprite-shape-horizontal-spacing: 20px;
+$sprite-shape-vertical-spacing: 5px;
+
 
 
 @import "sprites/sprite-shape-horizontal/*.png";
@@ -32,6 +34,14 @@ $sprite-shape-horizontal-spacing: 15px;
 @import "common";
 @import "filter";
 //@import "mixins/placeholder";
+@import "jquery-ui-1.11.2-no-theme";
+@import "popup/common";
+@import "popup/buttons";
+@import "popup/ui-dialog-reset";
+@import "select2";
+@import "select2-custom";
+
+
 
 @include font-face('BruskovayaPlain',
     font-files(

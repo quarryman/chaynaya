@@ -204,4 +204,68 @@ $(function(){
 
             .show();
     });
+
+    //popups
+    dialogify = function(dialog, cls, modal) {
+        var cfg, resizeFn;
+
+        cfg = {
+            modal: modal !== undefined ? modal : true,
+            autoOpen: false,
+            width: 550,
+            closeText: 'Закрыть',
+            dialogClass: cls,
+            close: function() {
+                //dialog.remove();
+                $(window).unbind('resize', resizeFn);
+            },
+            create: function() {
+                $('select', dialog).select2();
+            }
+        };
+
+        resizeFn = function() {
+            if (dialog.dialog('isOpen')) {
+                dialog.dialog(cfg);
+            }
+        };
+
+        dialog.dialog(cfg);
+
+        $(window).bind('resize', resizeFn);
+    };
+
+    dialogify($('#dialog'), 'fixed_on_scroll', true);
+    dialogify($('#dialog2'), 'fixed_on_scroll', true);
+    dialogify($('#dialog3'), 'fixed_on_scroll', true);
+    dialogify($('#dialog4'), 'fixed_on_scroll', true);
+    dialogify($('#dialog5'), 'fixed_on_scroll', true);
+    dialogify($('#dialog6'), 'fixed_on_scroll', true);
+    dialogify($('#dialog7'), 'fixed_on_scroll', true);
+    dialogify($('#dialog8'), 'fixed_on_scroll', true);
+    dialogify($('#dialog9'), 'fixed_on_scroll', true);
+    dialogify($('#dialog10'), 'fixed_on_scroll', true);
+
+    $('#login').on('click', function() {
+        $('#dialog6').dialog('open');
+    });
+
+    $('#register').on('click', function() {
+        $('#dialog9').dialog('open');
+    });
+
+    $('.buy-button').on('click', function() {
+        $('#dialog10').dialog('open');
+    });
+
+    $('.wishlist-count').on('click', function() {
+        $('#dialog3').dialog('open');
+    });
+
+    $('.basket-icon').on('click', function() {
+        $('#dialog4').dialog('open');
+    });
+
+
+
 });

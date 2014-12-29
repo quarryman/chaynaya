@@ -117,6 +117,16 @@
     height: 194px;
     background: image-url('basket.png') 0 0 no-repeat;
     right: 0px;
+    .basket-icon{
+        position: absolute;
+        top: 5px;
+        left: 20px;
+        height: 50px;
+        width: 50px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
     .basket-sum{
         position: absolute;
         top: 20px;
@@ -138,17 +148,22 @@
     .wishlist-count{
         position: absolute;
         display: block;
-        bottom:19px;
-        left: 96px;
+        bottom: 29px;
+        left: 85px;
         width: 30px;
-        height: 30px;
+        height: 20px;
         color: #897566;
         font-size: 14px;
+        text-align: center;
+        padding-top: 10px;
+        vertical-align: middle;
         &:hover{
+            cursor: pointer;
             .wishlist-tip{
                 display: block;
             }
         }
+
         .wishlist-tip{
             display: none;
             position: absolute;

@@ -911,10 +911,11 @@
           <div class="town-select"></div>
         </div>
         <div class="login-block">
-          <a class="sprite-common-icon-key" href="#">Войти</a>
-          <a class="sprite-common-icon-login" href="#">Регистрация</a>
+          <a id="login" class="sprite-common-icon-key" href="#">Войти</a>
+          <a id="register" class="sprite-common-icon-login" href="#">Регистрация</a>
         </div>
         <div class="basket">
+          <div class="basket-icon"></div>
           <div class="basket-sum">11 570</div>
           <div class="wishlist-count">
             <span>2</span>
@@ -1703,5 +1704,651 @@
 
 <%= yield %>
 
+<!-- Обратная связь -->
+<div id="dialog">
+  <div class="shape popup-shape">
+    <div class="c">
+      <h1>Обратная связь</h1>
+      <div class="separator"></div>
+      <form class="">
+        <div>
+            <input type="text"   value="" placeholder="Имя"/>
+        </div>
+        <div class="validation-succeeded">
+            <input type="text"  value="+7 495 777-77-77" placeholder="Телефон"/>
+        </div>
+        <div>
+            <textarea placeholder="Сообщение"></textarea>
+        </div>
+        <div>
+          <select>
+            <option>Обращение на общую тему</option>
+            <option>В отдел логистики</option>
+            <option>В отдел маркетинга</option>
+            <option>В отдел продаж г. Москва</option>
+            <option>В отдел продаж г. Санкт-Петербург</option>
+            <option>В отдел продаж г. Казань</option>
+            <option>В отдел продаж г. Тула</option>
+            <option>В отдел продаж г. Краснодар</option>
+          </select>
+        </div>
+        <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+        <div class="captcha_block">
+          <img src="<%= asset_path('captcha-image.png')%>" />
+          <img src="<%= asset_path('icon-captcha-reload.png')%>" />
+          <input type="text" placeholder="Введите слово с картинки"/>
+        </div>
+        <div class="button-holder">
+          <button>Отправить</button>
+        </div>
+      </form>
+
+    </div>
+    <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+    <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+    <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+    <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+    <div class="l sprite-shape-horizontal-popup-left"></div>
+    <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+    <div class="r sprite-shape-horizontal-popup-right"></div>
+    <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
+  </div>
+
+</div>
+    <!-- Обратный звонок -->
+    <div id="dialog2">
+
+      <div class="shape popup-shape">
+        <div class="c">
+          <h1>Заказ обратного звонка</h1>
+          <div class="separator"></div>
+          <form class="">
+            <div class="validation-error">
+              <input type="text"   value="" placeholder="Имя"/>
+              <div class="mention-text error-text">Не введено имя</div>
+            </div>
+            <div class="validation-succeeded">
+              <input type="text"  value="alexey@melius.ru" placeholder="Email"/>
+            </div>
+            <div class="">
+              <input type="text"  value="" placeholder="Телефон"/>
+            </div>
+            <div class="mention-text ">Например: +7 495 77-77-77</div>
+            <div class="">
+              <select>
+                <option>
+                  Тип торговой точки
+                </option>
+                <option>
+                  Магазин
+                </option>
+                <option>
+                  Киоск
+                </option>
+                <option>
+                  Площадь в ТЦ
+                </option>
+              </select>
+              <select>
+                <option>
+                 Регион
+                </option>
+                <option>
+                  Москва и область
+                </option>
+                <option>
+                  Санкт-Петербург
+                </option>
+                <option>
+                  Другие регионы
+                </option>
+              </select>
+              <select>
+                <option>
+                  Откуда Вы узнали о нас
+                </option>
+                <option>
+                  Yandex
+                </option>
+                <option>
+                  Google
+                </option>
+                <option>
+                  Печатная реклама
+                </option>
+                <option>
+                  Реклама на телевидении
+                </option>
+                <option>
+                  Социальные сети и сервисы
+                </option>
+                <option>
+                  Другое
+                </option>
+              </select>
+            </div>
+
+            <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+            <div class="captcha_block">
+              <img src="<%= asset_path('captcha-image.png')%>" />
+              <img src="<%= asset_path('icon-captcha-reload.png')%>" />
+              <input type="text" placeholder="Введите слово с картинки"/>
+            </div>
+            <div class="button-holder">
+              <button>Отправить</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Мне нравится -->
+    <div id="dialog3">
+      <div class="shape popup-shape popup-shape-w-footer">
+        <div class="bottom-helper"></div>
+        <div class="c">
+          <h1>Мне нравится</h1>
+          <div class="separator"></div>
+          <form class="cart-form">
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                <div class="price">
+                  <div class="note">
+                    за 1.8кг
+                  </div>
+                  <div class="value ruble">9'410</div>
+
+                </div>
+
+                <div class="buy">
+                  <button class="buy-button"></button>
+                </div>
+                <div class="amount">
+                  <div class="note">
+                    кол-во
+                  </div>
+                  <i class="minus"></i>
+                  <input type="text" name="count" value="1">
+                  <i class="plus"></i>
+                </div>
+
+              </div>
+            </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+
+                  </div>
+
+                  <div class="buy">
+                    <button class="buy-button"></button>
+                  </div>
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+
+                  </div>
+
+                  <div class="buy">
+                    <button class="buy-button"></button>
+                  </div>
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+
+                  </div>
+
+                  <div class="buy">
+                    <button class="buy-button"></button>
+                  </div>
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="form-footer">
+              <div class="items-count">В корзине товаров на:</div>
+              <div class="items-price ruble">9'410</div>
+              <button>Оформить заказ</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup-w-footer"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup-w-footer"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-bottom-popup-w-footer"></div>
+      </div>
+
+    </div>
+    <!-- Корзина -->
+     <div id="dialog4">
+      <div class="shape popup-shape popup-shape-w-footer">
+        <div class="bottom-helper"></div>
+        <div class="c">
+          <h1>Корзина</h1>
+          <div class="separator"></div>
+          <form class="cart-form wo-buy-button-form">
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+
+                  </div>
+
+
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+
+                  </div>
+
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+                  </div>
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="cart-item">
+              <img src="<%=image_url("cart-item-img.png")%>" />
+              <div class="cart-item-details">
+                <div class="name">Граф калиостро</div>
+                <div class="articul">Артикул: 1772316</div>
+
+                <div class="cart-options">
+                  <div class="price">
+                    <div class="note">
+                      за 1.8кг
+                    </div>
+                    <div class="value ruble">9'410</div>
+                  </div>
+
+                  <div class="amount">
+                    <div class="note">
+                      кол-во
+                    </div>
+                    <i class="minus"></i>
+                    <input type="text" name="count" value="1">
+                    <i class="plus"></i>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="form-footer">
+              <div class="items-count">В корзине товаров на:</div>
+              <div class="items-price ruble">9'410</div>
+              <button>Оформить заказ</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup-w-footer"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup-w-footer"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-bottom-popup-w-footer"></div>
+      </div>
+
+    </div>
+
+    <div id="dialog5">
+
+      <div class="shape popup-shape">
+        <div class="c">
+          <h1>Обратная связь</h1>
+          <div class="separator"></div>
+          <form class="">
+            <div>
+              <input type="text"   value="" placeholder="Имя"/>
+            </div>
+            <div class="validation-succeeded">
+              <input type="text"  value="" placeholder="Адрес"/>
+            </div>
+            <div>
+              <textarea placeholder="Сообщение"></textarea>
+            </div>
+            <div>
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+              </select>
+            </div>
+            <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+            <div class="captcha_block">
+              <img src="<%= asset_path('captcha-image.png')%>" />
+              <img src="<%= asset_path('icon-captcha-reload.png')%>" />
+              <input type="text" placeholder="Введите слово с картинки"/>
+            </div>
+            <div class="button-holder">
+              <button>Отправить</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
+      </div>
+
+    </div>
+
+    <!-- Авторизация  -->
+    <div id="dialog6">
+
+      <div class="shape popup-shape auth-form">
+        <div class="c">
+          <h1>Авторизация</h1>
+          <div class="separator"></div>
+          <form class="">
+            <div>
+              <input type="text"   value="" placeholder="Логин"/>
+            </div>
+            <div>
+              <input type="text"  value="" placeholder="Пароль"/>
+            </div>
+            <div class="login-options">
+              <input type="checkbox" name="remember-me" id="remember-me"/>
+              <label for="remember-me">Запомнить меня</label>
+              <a href="#" class="registration">Регистрация</a>
+              <a href="#" class="password-restore">Восстановить пароль</a>
+            </div>
+            <div class="button-holder">
+              <button>Отправить</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Сообщение о успешной регистрации-->
+    <div id="dialog7">
+      <div class="shape popup-shape popup-message">
+        <div class="c">
+          <div class="sprite-common-icon-auth">
+
+          </div>
+          <div class="popup-message-header">Вы успешно зарегистрировались</div>
+          <div class="popup-message-text">Можете продолжить как зарегистрированный пользователь</div>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="l sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="t sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="b sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Сообщение о успешнйо отпарвке -->
+    <div id="dialog8">
+
+      <div class="shape popup-shape popup-message">
+        <div class="c">
+          <div class="sprite-common-icon-success-responce">
+
+          </div>
+          <div class="popup-message-header">Вы успешно отправили сообщение</div>
+          <div class="popup-message-text">И получите ответ в течении 24-х часов</div>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="l sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="t sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="b sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Регистрация -->
+    <div id="dialog9">
+      <div class="shape popup-shape">
+        <div class="c">
+          <h1>Регистрация</h1>
+          <div class="separator"></div>
+          <form class="">
+            <div>
+              <select>
+                <option>Розничный покупатель</option>
+                <option>Оптовый покупатель</option>
+              </select>
+            </div>
+            <div class="validation-succeeded">
+              <input type="text"   value="Алексей" placeholder="Имя"/>
+            </div>
+            <div class="validation-succeeded">
+              <input type="text"  value="+7 495 777-77-77" placeholder="Фамилия"/>
+            </div>
+            <div class="">
+              <input type="text"  value="" placeholder="Логин"/>
+            </div>
+            <div class="">
+              <input type="text"  value="" placeholder="Пароль"/>
+            </div>
+            <div class="">
+              <input type="text"  value="" placeholder="Подтверждение пароля"/>
+            </div>
+            <div class="">
+              <input type="text"  value="" placeholder="Email"/>
+            </div>
+
+            <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+            <div class="captcha_block">
+              <img src="<%= asset_path('captcha-image.png')%>" />
+              <img src="<%= asset_path('icon-captcha-reload.png')%>" />
+              <input type="text" placeholder="Введите слово с картинки"/>
+            </div>
+            <div class="button-holder">
+              <button>Отправить</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Сообщение о добавлении в корзину  -->
+    <div id="dialog10">
+
+      <div class="shape popup-shape popup-message">
+        <div class="c">
+          <div class="sprite-common-icon-success-responce">
+
+          </div>
+          <div class="popup-message-header">Товар добавлен в корзину</div>
+          <div class="popup-message-text">Можете прожолжить покупки или сделать заказ</div>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-message-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-message-lt-popup"></div>
+        <div class="l sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="t sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-pattern-message-left-right-popup"></div>
+        <div class="b sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+      </div>
+
+    </div>
 </body>
 </html>

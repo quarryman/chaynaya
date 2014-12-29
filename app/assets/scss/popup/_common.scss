@@ -82,6 +82,15 @@ $popup-brown: #4d3522;
                     }
                 }*/
             }
+            &.mandatory:before{
+                content: '*';
+                color: #ff5400;
+                font-size: 26px;
+                position: absolute;
+                right: -15px;
+                top: -5px;
+                font-family: Tahoma, sans-serif;
+            }
         }
         input[type=text]{
             width: 100%;
@@ -114,6 +123,16 @@ $popup-brown: #4d3522;
             font-size: 11px;
             padding: 16px 0;
             border-bottom: 1px solid #dbd6d0;
+            padding-left: 20px;
+            position: relative;
+            &:before{
+                content: '*';
+                color: #ff5400;
+                font-size: 26px;
+                position: absolute;
+                left: 0px;
+                top: 5px;
+            }
         }
         .captcha_block{
             margin-top: 20px;

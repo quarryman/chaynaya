@@ -235,16 +235,17 @@ $(function(){
         $(window).bind('resize', resizeFn);
     };
 
-    dialogify($('#dialog'), 'fixed_on_scroll', true);
-    dialogify($('#dialog2'), 'fixed_on_scroll', true);
-    dialogify($('#dialog3'), 'fixed_on_scroll', true);
-    dialogify($('#dialog4'), 'fixed_on_scroll', true);
-    dialogify($('#dialog5'), 'fixed_on_scroll', true);
-    dialogify($('#dialog6'), 'fixed_on_scroll', true);
-    dialogify($('#dialog7'), 'fixed_on_scroll', true);
-    dialogify($('#dialog8'), 'fixed_on_scroll', true);
-    dialogify($('#dialog9'), 'fixed_on_scroll', true);
-    dialogify($('#dialog10'), 'fixed_on_scroll', true);
+    dialogify($('#dialog'), '', true);
+    dialogify($('#dialog2'), '', true);
+    dialogify($('#dialog3'), '', true);
+    dialogify($('#dialog4'), '', true);
+    dialogify($('#dialog5'), '', true);
+    dialogify($('#dialog6'), '', true);
+    dialogify($('#dialog7'), '', true);
+    dialogify($('#dialog8'), '', true);
+    dialogify($('#dialog9'), '', true);
+    dialogify($('#dialog10'), '', true);
+    //fixed_on_scroll class scrolls popup along with page but produces bug in Safari/iOS
 
     $('#login').on('click', function() {
         $('#dialog6').dialog('open');

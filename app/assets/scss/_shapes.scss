@@ -10,6 +10,8 @@ $shape_size: 36px;
 
     .c {
         padding: 10px 10px;
+        position: relative;
+        margin: -2px;
     }
 
     .lt,
@@ -77,6 +79,11 @@ $shape_size: 36px;
         background-repeat: repeat-x;
     }
 
+    &.white-shape{
+        c{
+            margin: 0;
+        }
+    }
     &.white-shape, &.pattern-shape, &.submenu-shape, &.filter-shape, &.popup-shape{
         .c {
             background: rgba(255,255,255, .8);

@@ -1,8 +1,17 @@
+/**
+ * @see http://stackoverflow.com/questions/12434416/overflowhidden-on-body-is-broken-in-ios6/18395346#18395346
+ */
+
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 h2{
     font-size: 24px;
     color: #4d3522;
     padding-bottom: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 36px;
     margin-top: 10px;
     @extend %bruskovaya;
     font-size: 32px;

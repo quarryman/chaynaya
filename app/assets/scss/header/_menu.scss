@@ -380,7 +380,7 @@ $menu-color: #54321b;
                     bottom: -3px;
                     left: 49%;
                     background-color: #4d3522;
-                    transform: rotate(45deg);
+                    @include transform(rotate(45deg));
                     -moz-box-shadow: #897566 1px 1px 2px;
                     -webkit-box-shadow: #897566 1px 1px 2px;
                     box-shadow: #897566 1px 1px 2px;

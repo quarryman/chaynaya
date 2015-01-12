@@ -1,0 +1,79 @@
+.shape{
+    &.pattern-shape, &.popup-shape, &.ios-shape{
+        .l{
+            bottom: 35px;
+            top: 35px;
+        }
+        .r{
+            bottom: 35px;
+            top: 35px;
+        }
+        .t{
+            left: 35px;
+            right: 35px;
+        }
+        .b{
+            left: 35px;
+            right: 35px;
+        }
+    }
+}
+.shape{
+    &.ios-shape{
+
+        .lt{
+            background: image-url('shape/lt.png') 0 0 no-repeat;
+        }
+        .l{
+            background: image-url('shape/l.png') 0 0 repeat-y;
+        }
+        .rt{
+            background: image-url('shape/rt.png') 0 0 no-repeat;
+        }
+        .r{
+            background: image-url('shape/r.png') 0 0 repeat-y;
+        }
+        .lb{
+            background: image-url('shape/bl.png') 0 0 no-repeat;
+        }
+        .b{
+            background: image-url('shape/b.png') 0 0 repeat-x;
+        }
+        .rb{
+            background: image-url('shape/br.png') 0 0 no-repeat;
+        }
+        .t{
+            background: image-url('shape/t.png') 0 0 repeat-x;
+        }
+        .c{
+            background: #f4efeb;
+            @include opacity(1);
+        }
+
+    }
+}
+
+/*не работает для эмулятора*/
+@media only screen and (device-width: 768px) {
+/* For general iPad layouts */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
+}

@@ -79,11 +79,7 @@ $shape_size: 36px;
         background-repeat: repeat-x;
     }
 
-    &.white-shape{
-        c{
-            margin: 0;
-        }
-    }
+
     &.white-shape, &.pattern-shape, &.submenu-shape, &.filter-shape, &.popup-shape{
         .c {
             background: rgba(255,255,255, .8);
@@ -147,6 +143,11 @@ $shape_size: 36px;
             }
         }
     }
+    &.white-shape{
+        .c{
+            margin: 0;
+        }
+    }
 }
 
 
@@ -206,7 +207,6 @@ $shape_size: 36px;
     }
 }
 
-
 .shape.popup-shape-w-footer{
     .bottom-helper{
         position: absolute;
@@ -221,8 +221,50 @@ $shape_size: 36px;
         padding-bottom: 70px;
         position: relative;
     }
-    /*.button-holder{
-        z-index: 2;
-    }*/
+}
+
+.shape{
+    &.pattern-shape, &.popup-shape{
+        .l{
+            bottom: 35px;
+            top: 35px;
+        }
+        .r{
+            bottom: 35px;
+            top: 35px;
+        }
+        .t{
+            left: 35px;
+            right: 35px;
+        }
+        .b{
+            left: 35px;
+            right: 35px;
+        }
+    }
+}
+
+@media only screen and (device-width: 768px) {
+/* For general iPad layouts */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+    .shape.white-shape .c{
+        margin: -1px;
+    }
+
 }
 

@@ -2,10 +2,9 @@
   width: 100%;
   max-width: 2000px;
   min-width: 980px;
-  height: 3650px;
+  height: 3750px;
   position: relative;
   @extend %MuseoCyrl500;
-
 
   @include background(
     image-url("cloud.png"),
@@ -59,13 +58,13 @@
         overflow: hidden;
         .footer-shape{
             max-width: 1128px;
-            @include min-width(940px);
+            /*@include min-width(940px); */
             margin: 0 auto;
             position: relative;
             top: 32px;
-            height: 70px;
+            height: 71px;
             .c{
-                height: 50px;
+                height: 54px;
                 font-size: 11px;
                 color: #695a4e;
             }

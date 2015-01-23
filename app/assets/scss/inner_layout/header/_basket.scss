@@ -1,0 +1,24 @@
+.inner{
+    .basket{
+        background: image-url('basket-minimized.png') 0 -9px no-repeat;
+        width: 282px;
+        height: 62px;
+        right: 10px;
+        .basket-sum{
+            left: 150px;
+        }
+        .wishlist-count{
+            top: 14px;
+            left: 25px;
+        }
+        .basket-count{
+            font-family: Tahoma, sans-serif;
+            font-size: 9px;
+            color: white;
+            @include text-shadow(rgba(black, 0.2) 1px 1px 0);
+            position: absolute;
+            top: 20px;
+            left: 128px;
+        }
+    }
+}

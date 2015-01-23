@@ -223,6 +223,14 @@ $shape_size: 36px;
     }
 }
 
+.shape.inner-shape{
+    .c{
+        padding: 0;
+        background-color: #fff;
+        overflow: hidden; /*for 2 columns layout inside*/
+    }
+}
+
 .shape{
     &.pattern-shape, &.popup-shape{
         .l{

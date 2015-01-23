@@ -11,8 +11,9 @@ $sprite-shape-horizontal-layout: 'horizontal';
 $sprite-shape-vertical-layout: 'vertical';
 $min-content-width: 980px;
 $max-content-width: 1200px;
+$max-inner-content-width: 1500px;
 $cart-width: 204px;
-
+$header-color: #4d3522;
 $sprite-common-spacing: 15px;  //won't work
 $sprite-shape-horizontal-spacing: 20px;
 $sprite-shape-vertical-spacing: 5px;
@@ -42,6 +43,14 @@ $sprite-shape-vertical-spacing: 5px;
 @import "select2";
 @import "select2-custom";
 
+//inner-page-layout
+@import "inner_layout/common";
+@import "inner_layout/header/basket";
+@import "inner_layout/header/search";
+@import "inner_layout/header/login";
+@import "inner_layout/content/breadcrump";
+@import "inner_layout/content/view-togglers";
+@import "inner_layout/content/sorting";
 
 
 @include font-face('BruskovayaPlain',

@@ -7,8 +7,15 @@ html{
     width: 100%;
 }
 
+h1{
+    @extend %bruskovaya;
+    font-size: 42px;
+    color: $header-color;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
 h2{
-    font-size: 24px;
     color: #4d3522;
     padding-bottom: 15px;
     margin-bottom: 36px;

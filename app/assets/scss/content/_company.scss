@@ -44,7 +44,8 @@
             top: 8px;
             color: #1d8dcf;
             text-decoration: underline;
-            font-size: 16px;
+            @extend %MuseoCyrl500;
+            font-size: 14px;
         }
     }
     .about-company{

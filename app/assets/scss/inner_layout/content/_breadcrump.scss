@@ -1,0 +1,29 @@
+$breadcrump-color: #0d94cc;
+.breadcrumps{
+    padding-bottom: 10px 0;
+    @extend %MuseoCyrl500;
+
+    font-size: 13px;
+    a{
+        position: relative;
+        margin-right: 15px;
+        margin-left: 0px;
+        color: $breadcrump-color;
+        &:after{
+            content: '';
+            position: absolute;
+            right: -12px;
+            top: 5px;
+            width: 4px;
+            height: 4px;
+            border-right:1px solid $breadcrump-color;
+            border-bottom:1px solid $breadcrump-color;
+            @include transform(rotate(-45deg));
+        }
+        &:last-child{
+            &:after{
+                display: none;
+            }
+        }
+    }
+}

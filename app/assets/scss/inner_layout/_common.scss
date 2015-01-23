@@ -1,0 +1,35 @@
+body.inner{
+
+    #layout{
+        #content{
+            max-width: $max-inner-content-width;
+        }
+    }
+
+    .menu-wrapper{
+        .menu{
+            .menu-holder{
+                max-width: 1440px;
+                .shining{
+                    height: 215px;
+                }
+            }
+        }
+    }
+    #content-holder{
+        margin-top: $menu-height + $menu-top-offset + 25;
+        .left {
+            width: 265px;
+            float: left;
+
+        }
+
+        .right {
+            float: none;
+            padding-left: 20px;
+            /* the next props are meant to keep this block independent from the other floated one */
+            width: auto;
+            overflow: hidden;
+        }
+    }
+}

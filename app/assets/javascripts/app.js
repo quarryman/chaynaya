@@ -268,5 +268,5 @@ $(function(){
     });
 
 
-
+    $('.header-select').select2();
 });

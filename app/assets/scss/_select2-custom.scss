@@ -14,6 +14,9 @@ $select-radius: 4px;
     vertical-align: middle;
     font-size: 14px;
 }
+.select2-dropdown-open{
+    background: #fff;
+}
 .select2-container .select2-choice {
     height: 100%;
     border: none;
@@ -44,12 +47,14 @@ $select-radius: 4px;
 }
 
 .select2-results{
+    @extend %MuseoCyrl500;
+    font-size: 14px;
     margin: 0;
     padding: 0;
 }
 .select2-results li {
     margin: 0;
-    padding: 10px 3px;
+    padding: 7px 3px;
     border-bottom: 1px solid #d0bcaa;
 }
 .select2-results li:hover{
@@ -120,3 +125,35 @@ $select-radius: 4px;
     border-top: none;
 }
 /*}}} select2*/
+
+/*header-select styles*/
+
+.select2-results li:hover{
+    background-color: #f7f5f2;
+}
+ .select2-container.header-select .select2-choice .select2-chosen{
+    position: relative;
+    padding-left: 32px;
+    &:before{
+        content: '';
+        position: absolute;
+        width: 21px;
+        height: 14px;
+        top: 7px;
+        left: 3px;
+        @extend .sprite-common-ru-flag-icon;
+    }
+}
+li.country{
+    position: relative;
+    padding-left: 32px;
+    .select2-result-label:before{
+        content: '';
+        position: absolute;
+        width: 21px;
+        height: 14px;
+        top: 10px;
+        left: 11px;
+        @extend .sprite-common-ru-flag-icon;
+    }
+}

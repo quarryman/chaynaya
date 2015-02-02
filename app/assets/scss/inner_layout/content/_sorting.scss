@@ -1,4 +1,12 @@
 .sort-holder{
-    float: right;
-    height: 24px;
+    height: 38px;
+    padding-right: 8px;
+    font-size: 14px;
+    .sort-holder-select{
+        float: right;
+    }
+    >span{
+        line-height: 36px;
+        margin-right: 6px;
+    }
 }

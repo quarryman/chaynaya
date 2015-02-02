@@ -162,7 +162,11 @@ $(function(){
             }
         });
     })(jQuery);
+    var index_scope = "body.index",
+        inner_scope = "body.inner";
+
     $('.banner-slide-wrapper').slideshow();
+
     $('.amount .plus').click(function () {
         var val = parseInt($(this).prev().attr("value"));
         $(this).prev().attr({"value" : val + 1});
@@ -175,7 +179,7 @@ $(function(){
             $(this).next().attr({"value" : val - 1})
     });
 
-    $(".menu-wrapper.state-default .search-input").click(function () {
+    $(".menu-wrapper.state-default .search-input", index_scope).click(function () {
         if ($("#menu-wrapper").hasClass("state-default"))
             $("#menu-wrapper").toggleClass("state-default state-search");
     });
@@ -269,4 +273,5 @@ $(function(){
 
 
     $('.header-select').select2();
+    $('select', inner_scope).select2();
 });

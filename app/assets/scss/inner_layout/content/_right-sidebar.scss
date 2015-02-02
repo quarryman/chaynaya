@@ -1,0 +1,70 @@
+body.inner {
+    .right-sidebar{
+        @extend %MuseoCyrl500;
+        h2{
+            position: relative;
+            margin-top: 4px;
+            a{
+                font-size: 13px;
+                position: absolute;
+                right: 0;
+                top: 1em;
+            }
+        }
+        a.item-header{
+            @extend %bruskovaya;
+            font-size: 22px;
+            display: table;
+            overflow: hidden;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: #795e4a;
+            text-decoration: none;
+        }
+        ul{
+            padding-bottom: 15px;
+
+            &.honors{
+                li{
+                    border: none;
+                    padding-bottom: 2px;
+                    &:first-child{
+                        margin-top: 16px;
+                    }
+                    a.item-header{
+                        margin-top: 6px;
+                    }
+                }
+            }
+            li{
+                @include reset-ul-styles;
+                padding-bottom: 16px;
+                border-bottom: 1px solid #cac2bc;
+                &:last-child{
+                    border-bottom: none;
+                }
+                img{
+                    float: left;
+                    width: 73px;
+                    height: 73px;
+                    margin-right: 10px;
+                }
+                p{
+                    display:table-cell;
+                    height:100%;
+                    vertical-align:middle;
+                    padding: 0;
+                }
+            }
+        }
+        .item-preview{
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .date{
+            color: #ff6c00;
+            font-size: 11px;
+            @extend %Tahoma;
+        }
+    }
+}

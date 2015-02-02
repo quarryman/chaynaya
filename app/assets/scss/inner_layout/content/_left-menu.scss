@@ -1,0 +1,22 @@
+ul.vertical-menu{
+    @include reset-list-style;
+    margin-top: 0;
+    li{
+        padding: 0;
+        border-bottom: 1px solid #d0c8c2;
+        &:first-child{
+            border-top: 1px solid #d0c8c2;
+        }
+        a{
+            display: block;
+            padding: 10px 0 10px 20px;
+            @extend %bruskovaya;
+            font-size: 22px;
+            color: #4d3522;
+            text-decoration: none;
+            &:hover{
+                background: #f3f1ef;
+            }
+        }
+    }
+}

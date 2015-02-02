@@ -1,0 +1,58 @@
+.content-holder{
+    h2{
+        @extend %bruskovaya;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 0;
+        padding-top: 0;
+        color: $header-color;
+        &.sidebar-header{
+            position: relative;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #cac2bc;
+        }
+    }
+    h3{
+        @extend %bruskovaya;
+        font-size: 22px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #795e4a;
+
+    }
+    h4{
+        @extend %bruskovaya;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: $header-color;
+    }
+    a{
+        @extend %MuseoCyrl500;
+        font-size: 13px;
+        color: $color-link-blue;
+        text-decoration: underline;
+    }
+    p{
+        padding: 10px 0;
+    }
+    /*styles that must be reseted in non-content page blocks and so only content block can get styles fot those tags*/
+    .content-view{
+        ul {
+            list-style: none;
+            padding:0;
+            margin:0;
+            li {
+                padding-left: 1em;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                text-indent: -.7em;
+                &:before {
+                    content: "• ";
+                    color: #cac2bc;
+                }
+            }
+        }
+    }
+}

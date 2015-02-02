@@ -79,6 +79,9 @@
             ul{
                 @include reset-list-style();
                 color: #4d3522;
+                li{
+                    @include reset-ul-styles;
+                }
             }
             .price{
                 color: #b95d39;
@@ -246,7 +249,7 @@
                 .value{
                     line-height: 18px;
                     font-size: 26px;
-                    display: inline;
+                    display: inline-block;
                     padding-right: 16px;
                     @extend %bruskovaya;
                     &.ruble{
@@ -257,7 +260,7 @@
                             width: 15px;
                             height: 19px;
                             right: -4px;
-                            top: 6px;
+                            top: -1px;
 
                             @extend .sprite-common-rubl;
                         }

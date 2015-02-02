@@ -1,8 +1,11 @@
 body.inner{
-    .catalog-view-toggler {
+    .toolbar-section{
         float: right;
+        margin-top: 8px;
+    }
+    .catalog-view-toggler{
         height: 24px;
-        margin-top: 16px;
+        margin-top:  16px;
     }
     .view-float{
         width: 24px;
@@ -10,12 +13,16 @@ body.inner{
         float: right;
         margin: 0 3px;
         @extend .sprite-common-icon-list-view-float;
+        &.selected{
+            @extend .sprite-common-icon-list-view-float-selected;
+        }
+
     }
     .view-lines{
         width: 24px;
         height: 24px;
         float: right;
         margin: 0 3px;
-        @extend .sprite-common-icon-list-view-lines-initial;
+        @extend .sprite-common-icon-list-view-lines;
     }
 }

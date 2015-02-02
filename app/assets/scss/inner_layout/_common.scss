@@ -16,20 +16,55 @@ body.inner{
             }
         }
     }
-    #content-holder{
+    .content-holder{
         margin-top: $menu-height + $menu-top-offset + 25;
-        .left {
-            width: 265px;
+        .sidebar {
+            width: $inner-sidebar-width;
             float: left;
-
+            &.right-sidebar{
+                float: right;
+            }
         }
-
-        .right {
+        .content-view {
             float: none;
-            padding-left: 20px;
             /* the next props are meant to keep this block independent from the other floated one */
             width: auto;
             overflow: hidden;
+            font-size: 14px;
+            padding: 0 20px 0 0;
+            &.page-content-view{
+                padding-left: 20px;
+                padding-right: 17px;
+            }
+            .separator{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid #cac2bc;
+                position: relative;
+                &:after{
+                    content: '';
+                    width: 37px;
+                    height: 25px;
+                    @extend .sprite-common-icon-horizontal-separator;
+                    position: absolute;
+                    bottom: -12px;
+                    left: 50%;
+                    margin-left: -18px;
+                }
+            }
+            .loader-holder{
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    border-bottom: 1px dashed;
+                    &:hover{
+                        border-bottom: none;
+                    }
+                }
+            }
+            h1{
+                border-bottom: 1px solid;
+            }
         }
     }
 }

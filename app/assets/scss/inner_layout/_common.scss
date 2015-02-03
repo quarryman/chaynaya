@@ -1,8 +1,42 @@
 body.inner{
 
     #layout{
+        height: auto;
+        @include background(
+                image-url("cloud.png"),
+                image-url("cloud.png"),
+                image-url("buddah.png"),
+                //image-url("towers.png"),
+                image-url("sky.png"),
+                image-url("bg.png"),
+                linear-gradient(to right, #94694f 0%,#ffdec2 44%,#ffdec2 56%,#94694f 100%)
+
+        );
+
+        background-position:
+            50% 1000px,
+            -50% 500px,
+            center bottom,
+            //center 105%,
+            50% top,
+            50% 600px,
+
+            center top;
+        background-repeat: no-repeat, no-repeat,no-repeat, no-repeat, no-repeat;
+
         #content{
             max-width: $max-inner-content-width;
+        }
+        #bottom{
+            background: none;
+            height: 100px;
+            .footer-holder {
+                left: 2px;
+                right: 2px;
+                .footer-shape {
+                     max-width: 1500px;
+                }
+            }
         }
     }
 

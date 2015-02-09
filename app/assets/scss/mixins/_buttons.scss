@@ -1,0 +1,15 @@
+@mixin button {
+    height: 42px;
+    padding: 10px 20px;
+    background: none;
+    @include background(linear-gradient(#acc84f, #7da931));
+    @include box-shadow(rgba(77,53,34, 0.34) -1px -1px 1px 0px inset);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    @extend %bruskovaya;
+    font-size: 21px;
+    line-height: 0.5em;
+    @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
+}

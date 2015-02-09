@@ -20,10 +20,13 @@ body.inner {
             margin-bottom: 10px;
             color: #795e4a;
             text-decoration: none;
+            &:hover{
+                color: #ff0000;
+            }
         }
         ul{
             padding-bottom: 15px;
-
+            @include reset-ul-styles;
             &.honors{
                 li{
                     border: none;
@@ -37,7 +40,7 @@ body.inner {
                 }
             }
             li{
-                @include reset-ul-styles;
+                @include reset-li-styles;
                 padding-bottom: 16px;
                 border-bottom: 1px solid #cac2bc;
                 &:last-child{
@@ -65,6 +68,10 @@ body.inner {
             color: #ff6c00;
             font-size: 11px;
             @extend %Tahoma;
+        }
+        .banner{
+            margin: 20px auto;
+            display: block;
         }
     }
 }

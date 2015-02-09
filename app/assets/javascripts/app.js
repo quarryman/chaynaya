@@ -239,4 +239,6 @@ $(function(){
 
     $('.header-select').select2();
     $('select', inner_scope).select2();
+
+    $(".tabs-holder").tabs();
 });

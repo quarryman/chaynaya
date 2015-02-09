@@ -5,6 +5,8 @@
 @import "compass/reset";
 @import "compass/utilities/general/min";
 @import "compass/css3/transform";
+@import "compass/utilities/tables/borders";
+@import "compass/utilities/tables/alternating-rows-and-columns";
 
 
 $sprite-shape-horizontal-layout: 'horizontal';
@@ -12,7 +14,7 @@ $sprite-shape-vertical-layout: 'vertical';
 $min-content-width: 980px;
 $max-content-width: 1200px;
 $max-inner-content-width: 1500px;
-$inner-sidebar-width: 265px;
+$inner-sidebar-width: 250px;
 $cart-width: 204px;
 $header-color: #4d3522;
 $color-link-blue: #0d94cc;
@@ -21,11 +23,11 @@ $sprite-shape-horizontal-spacing: 20px;
 $sprite-shape-vertical-spacing: 5px;
 
 
-
 @import "sprites/sprite-shape-horizontal/*.png";
 @import "sprites/sprite-shape-vertical/*.png";
 @import "sprites/sprite-common/*.png";
 @import "mixins/item-width-scalable";
+@import "mixins/buttons";
 @import "parallax";
 @import "header/menu";
 @import "shapes";
@@ -59,6 +61,7 @@ $sprite-shape-vertical-spacing: 5px;
 @import "inner_layout/content/left-menu";
 @import "inner_layout/content/text-styles";
 @import "inner_layout/content/right-sidebar";
+@import "inner_layout/content/ui-tabs-theme";
 
 
 @include font-face('BruskovayaPlain',

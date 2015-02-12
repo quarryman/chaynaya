@@ -1,15 +1,110 @@
-@mixin button {
-    height: 42px;
-    padding: 10px 20px;
+@mixin button($state: default, $height:42px, $width: auto, $padding:10px 20px, $background:'', $bg-repeat:'', $bg-position:'', $box-shadow:'') {
     background: none;
-    @include background(linear-gradient(#acc84f, #7da931));
-    @include box-shadow(rgba(77,53,34, 0.34) -1px -1px 1px 0px inset);
+    height: $height;
+    width: $width;
+    padding: $padding;
+
+    $arbitrary-box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px";
+
+    $arbitrary-bg: linear-gradient(#acc84f, #7da931);
+    $arbitrary-bg-repeat: no-repeat;
+    $arbitrary-bg-position: 0 0;
+
+    @if ($box-shadow) != '' {
+        $arbitrary-box-shadow: join(unquote($box-shadow), unquote($arbitrary-box-shadow), comma);
+    }
+
+    @if ($background) != '' {
+        $arbitrary-bg: join(unquote($background), $arbitrary-bg, comma);
+    }
+
+    @if ($bg-repeat) != '' {
+        $arbitrary-bg-repeat: join(unquote($bg-repeat), $arbitrary-bg-repeat, comma);
+    }
+
+    @if ($bg-position) != '' {
+        $arbitrary-bg-position: join(unquote($bg-position), $arbitrary-bg-position, comma );
+    }
+
+    @include background($arbitrary-bg);
+    background-repeat: $arbitrary-bg-repeat;
+    background-position: $arbitrary-bg-position;
+
+    @include box-shadow(unquote($arbitrary-box-shadow));
     border-radius: 5px;
     border: none;
     outline: none;
     color: #fff;
     @extend %bruskovaya;
     font-size: 21px;
-    line-height: 0.5em;
+    line-height: 1.2em;
     @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
+    text-align: center;
+}
+@mixin cart-button(){
+    @include button(
+        $background: image-url('cart-button-bg.png'),
+        $bg-repeat: "no-repeat",
+        $bg-position: "10px 50%", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $height: 32px,
+        $width: 92px
+    );
+}
+
+@mixin cart-button-hover(){
+    @include button(
+        $background: image-url('cart-button-bg.png') + ", linear-gradient(#97c23a, #bad65d)",
+        $bg-repeat: "no-repeat, no-repeat",
+        $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $height: 32px,
+        $width: 92px
+    );
+}
+
+@mixin cart-button-active(){
+    @include button(
+        $background: image-url('cart-button-bg.png') + ", linear-gradient(#97c23a, #bad65d)",
+        $bg-repeat: "no-repeat, no-repeat",
+        $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset",
+        $height: 32px,
+        $width: 92px
+    );
+}
+
+@mixin cart-button-complete(){
+    @include button(
+        $background: image-url('cart-button-bg.png') + ", linear-gradient(#916e57, #b6a08c)",
+        $bg-repeat: "no-repeat, no-repeat",
+        $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $height: 32px,
+        $width: 92px
+    );
+}
+
+@mixin cart-button-complete-hover(){
+    @include button(
+        $background: image-url('cart-button-bg.png') + ", linear-gradient(#ae926a, #c7b79a)",
+        $bg-repeat: "no-repeat, no-repeat",
+        $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $height: 32px,
+        $width: 92px
+    );
+}
+
+@mixin cart-button-complete-active(){
+    @include button(
+        $background: image-url('cart-button-bg.png') + ", linear-gradient(#ae926a, #c7b79a)",
+        $bg-repeat: "no-repeat, no-repeat",
+        $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 5px 0px 10px 62px,
+        $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset",
+        $height: 32px,
+        $width: 92px
+    );
 }

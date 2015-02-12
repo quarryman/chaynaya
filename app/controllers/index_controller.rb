@@ -9,6 +9,11 @@ class IndexController < ApplicationController
       format.html {render :layout => 'inner'}
     end
   end
+  def section
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+    end
+  end
   def text
     respond_to do |format|
       format.html {render :layout => 'inner'}

@@ -89,7 +89,7 @@ form.flex-box{
         background-color: #acc84f; // Old browsers
         @include filter-gradient(#acc84f, #7da931, vertical); // IE6-9
         @include background-image(linear-gradient(top, #acc84f 0%,#7da931 100%));
-        @include box-shadow(1px, 0px, 0px, 0px, #4d3522);
+        @include box-shadow(1px 1px 1px 0px rgb(109,133,50));
         color: #fff;
         @extend %bruskovaya;
         @include text-shadow(rgba(black, 0.5) 1px 1px 0);

@@ -268,11 +268,16 @@
                 }
             }
             .buy{
-                float: right;
+                /*float: right;
                 width: 30%;
                 text-align: center;
+                */
+                float: right;
+                width: 50%;
+                text-align: center;
+                padding-top: 5px;
                 button{
-                    width: 52px;
+                    /*width: 52px;
                     height: 32px;
                     border: none;
                     outline: none;
@@ -281,6 +286,24 @@
                     @extend .sprite-common-icon-add-to-cart;
                     &:hover{
                         cursor: pointer;
+                    }*/
+                }
+                button{
+                    @include cart-button;
+                    &:hover{
+                        @include cart-button-hover;
+                    }
+                    &:active{
+                        @include cart-button-active;
+                    }
+                    &.in-cart{
+                        @include cart-button-complete;
+                        &:hover{
+                            @include cart-button-complete-hover;
+                        }
+                        &:active{
+                            @include cart-button-complete-active;
+                        }
                     }
                 }
             }

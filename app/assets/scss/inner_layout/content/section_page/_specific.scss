@@ -1,0 +1,28 @@
+body.inner {
+    .content-holder {
+        .content-view {
+            &.section-page{
+                h1{
+                    border-bottom: none;
+                    padding-bottom: 0px;
+                    margin-bottom: 10px;
+                    padding-top: 10px;
+                }
+                h2{
+                    border-bottom: 1px solid;
+                    padding-bottom: 15px;
+                }
+                .header-holder{
+                    position: relative;
+                    .count{
+                        position: absolute;
+                        right: 0;
+                        bottom: 15px;
+                        font-size: 13px;
+                        color: #9f9186;
+                    }
+                }
+            }
+        }
+    }
+}

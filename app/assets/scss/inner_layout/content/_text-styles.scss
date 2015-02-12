@@ -103,12 +103,13 @@
             tr{
                 td, th{
                     text-align: center;
-                    padding: 8px;
+                    padding: 8px 4px;
                 }
             }
         }
-        button{
+        button.common{
             @include button;
+
         }
         .button-holder{
             text-align: center;
@@ -153,6 +154,23 @@
                 box-sizing: border-box;
                 img{
                     margin-top: 20px;
+                }
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            .two_columns_layout{
+                max-resolution: 10px 0;
+                .left_column{
+                    float: none;
+                    width: 100%;
+                    overflow: hidden; // allows large images on smaller resolutions to be placed in both right and left columns
+                    padding-right: 0px;
+
+                }
+                .right_column{
+
+                    padding-left: 0px;
+
                 }
             }
         }

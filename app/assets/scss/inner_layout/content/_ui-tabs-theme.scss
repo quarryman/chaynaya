@@ -40,6 +40,9 @@ $tab-top-padding: 0.7em;
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
     padding: $tab-top-padding 2em;
     font-size: 15px;
+    span{
+        color: #c8b7a9;
+    }
 }
 /*horizontal tabs*/
 @media screen and (max-width: 1100px) {

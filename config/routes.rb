@@ -9,6 +9,7 @@ Rails.application.routes.draw do
    get 'index/catalog' => 'index#catalog'
    get 'index/text' => 'index#text'
    get 'index/section' => 'index#section'
+   get 'index/item' => 'index#item'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

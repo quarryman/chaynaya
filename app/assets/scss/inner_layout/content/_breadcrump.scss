@@ -1,8 +1,7 @@
 $breadcrump-color: #0d94cc;
 .breadcrumps{
-    padding-bottom: 10px 0;
+    padding-bottom: 16px;
     @extend %MuseoCyrl500;
-
     font-size: 13px;
     a{
         position: relative;

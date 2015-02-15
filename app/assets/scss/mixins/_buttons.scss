@@ -41,6 +41,69 @@
     @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
     text-align: center;
 }
+@mixin cart-button-large(){
+    @include button(
+        $background: image-url('cart-button-bg-large.png'),
+        $bg-repeat: "no-repeat",
+        $bg-position: "10px 50%", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 10px 0px 10px 82px,
+        $height: 42px,
+        $width: 122px
+    );
+    &:hover{
+        @include button(
+            $background: image-url('cart-button-bg-large.png') + ", linear-gradient(#97c23a, #bad65d)",
+            $bg-repeat: "no-repeat, no-repeat",
+            $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+            $padding: 10px 0px 10px 82px,
+            $height: 42px,
+            $width: 122px
+        );
+    }
+    &:active{
+        @include button(
+            $background: image-url('cart-button-bg-large.png') + ", linear-gradient(#97c23a, #bad65d)",
+            $bg-repeat: "no-repeat",
+            $bg-position: "10px 50%", // must be qouted in order to be handled the right way by mixin 'join' function
+            $padding: 10px 0px 10px 82px,
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset",
+            $height: 42px,
+            $width: 122px
+        );
+    }
+}
+@mixin cart-button-large-complete(){
+    @include button(
+        $background: image-url('cart-button-bg-large.png') + ", linear-gradient(#916e57, #b6a08c)",
+        $bg-repeat: "no-repeat",
+        $bg-position: "10px 50%", // must be qouted in order to be handled the right way by mixin 'join' function
+        $padding: 10px 0px 10px 82px,
+        $height: 42px,
+        $width: 122px
+    );
+    &:hover{
+        @include button(
+            $background: image-url('cart-button-bg-large.png') + ", linear-gradient(#ae926a, #c7b79a)",
+            $bg-repeat: "no-repeat, no-repeat",
+            $bg-position: "10px 50%, 0 0", // must be qouted in order to be handled the right way by mixin 'join' function
+            $padding: 10px 0px 10px 82px,
+            $height: 42px,
+            $width: 122px
+        );
+    }
+    &:active{
+        @include button(
+            $background: image-url('cart-button-bg-large.png') + ", linear-gradient(#ae926a, #c7b79a)",
+            $bg-repeat: "no-repeat",
+            $bg-position: "10px 50%", // must be qouted in order to be handled the right way by mixin 'join' function
+            $padding: 10px 0px 10px 82px,
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset",
+            $height: 42px,
+            $width: 122px
+        );
+    }
+}
+
 @mixin cart-button(){
     @include button(
         $background: image-url('cart-button-bg.png'),

@@ -42,6 +42,7 @@ $sprite-shape-vertical-spacing: 5px;
 @import "filter";
 //@import "mixins/placeholder";
 @import "jquery-ui-1.11.2-no-theme";
+@import "forms";
 @import "popup/common";
 @import "popup/buttons";
 @import "popup/ui-dialog-reset";
@@ -63,7 +64,7 @@ $sprite-shape-vertical-spacing: 5px;
 @import "inner_layout/content/right-sidebar";
 @import "inner_layout/content/ui-tabs-theme";
 @import "inner_layout/content/section_page/specific";
-
+@import "inner_layout/content/item_page/specific";
 
 @include font-face('BruskovayaPlain',
     font-files(

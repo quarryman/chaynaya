@@ -44,23 +44,49 @@ $tab-top-padding: 0.7em;
         color: #c8b7a9;
     }
 }
-/*horizontal tabs*/
-@media screen and (max-width: 1100px) {
-    .ui-tabs .ui-tabs-nav{
-        border-bottom: 0;
+.page-block-content-view{
+    /*horizontal tabs*/
+    @media screen and (max-width: 1100px) {
+        .ui-tabs .ui-tabs-nav{
+            border-bottom: 0;
+        }
+        .ui-tabs .ui-tabs-nav li{
+            float: none;
+            @include border-radius(0);
+        }
+        .ui-tabs .ui-tabs-nav li.ui-tabs-active{
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 1px;
+            @include border-radius(0);
+        }
+        .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+            float: none;
+            display: block;
+        }
     }
-    .ui-tabs .ui-tabs-nav li{
-        float: none;
-        @include border-radius(0);
-    }
-    .ui-tabs .ui-tabs-nav li.ui-tabs-active{
-        margin-bottom: 0;
-        padding-bottom: 0;
-        margin-top: 1px;
-        @include border-radius(0);
-    }
-    .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
-        float: none;
-        display: block;
+}
+
+
+.item-holder{
+    /*horizontal tabs*/
+    @media screen and (max-width: 790px) {
+        .ui-tabs .ui-tabs-nav{
+            border-bottom: 0;
+        }
+        .ui-tabs .ui-tabs-nav li{
+            float: none;
+            @include border-radius(0);
+        }
+        .ui-tabs .ui-tabs-nav li.ui-tabs-active{
+            margin-bottom: 0;
+            padding-bottom: 0;
+            margin-top: 1px;
+            @include border-radius(0);
+        }
+        .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+            float: none;
+            display: block;
+        }
     }
 }

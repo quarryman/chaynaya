@@ -109,6 +109,15 @@ body.inner {
                         margin-top: 40px;
                         width: 60%;
                         margin-left: 340px;
+                        &.floating{
+                           margin-left: 25%;
+                        }
+                    }
+                    @media screen and (max-width: 1400px) {
+                        .tabs-holder.floating-at-min{
+                           margin-left: 25%;
+
+                        }
                     }
                     #testimonials{
                         #add_testimonial{

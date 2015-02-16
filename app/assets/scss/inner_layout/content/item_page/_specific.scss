@@ -1,5 +1,5 @@
-$main-picture-width: 555px;
-$pack-picture-width: 152px;
+$main-picture-width: 320px;
+$pack-picture-width: 120px;
 body.inner {
     .content-holder {
         .content-view {
@@ -27,7 +27,7 @@ body.inner {
                         width: $pack-picture-width;
                         position: absolute;
                         left: $main-picture-width - $pack-picture-width - 22px;
-                        top: 82px;
+                        top: 48px;
                     }
                     .item-data{
                         font-size: 13px;

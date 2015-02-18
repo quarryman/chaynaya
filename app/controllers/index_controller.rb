@@ -24,4 +24,9 @@ class IndexController < ApplicationController
       format.html {render :layout => 'inner'}
     end
   end
+  def cart
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+    end
+  end
 end

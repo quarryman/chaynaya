@@ -11,7 +11,10 @@
 <div class="tabs-holder">
   <ul>
     <li><a href="#active">В заказе</a></li>
-    <li class="delayed-tab"><a href="#delayed">Отложенные</a></li>
+    <li class="delayed-tab">
+      <a href="#delayed">Отложенные</a>
+      <span>Отложенный товар у не авторизованных пользователей хранится, только, 12 часов. </span>
+    </li>
   </ul>
   <div id="active">
     <table width=100%>
@@ -119,39 +122,100 @@
     <table width=100%>
       <thead>
       <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th></th>
+        <th>Фото</th>
+        <th>Наименование</th>
+        <th>Скидка</th>
+        <th>Цена</th>
+        <th>Количество</th>
+        <th>Действие</th>
       </tr>
-      </thead>
+      <thead>
+      <tr>
+        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="name">
+          <a href='#'>Ассам №17</a><br />
+          <span>Артикул: 277284</span>
+        </td>
+        <td class="discount"></td>
+        <td class="price">
+          <span class="value ruble">1800</span>
+        </td>
+        <td class="amount">
+          5 шт
+        </td>
+        <td class="actions">
+          <a href='#' class="remove">Удалить</a><br />
+          <a href='#' class="to-cart">В заказ</a>
+        </td>
+      </tr>
+      <tr class="even">
+        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="name">
+          <a href='#'>Ассам №17</a><br />
+          <span>Артикул: 277284</span>
+        </td>
+        <td class="discount"></td>
+        <td class="price">
+          <span class="value ruble">1800</span>
+        </td>
+        <td class="amount">
+          1 шт
+        </td>
+        <td class="actions">
+          <a href='#' class="remove">Удалить</a><br />
+          <a href='#' class="to-cart">В заказ</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="name">
+          <a href='#'>Ассам №17</a><br />
+          <span>Артикул: 277284</span>
+        </td>
+        <td class="discount"></td>
+        <td class="price">
+          <span class="value ruble">1800</span>
+        </td>
+        <td class="amount">
+          3 шт
+        </td>
+        <td class="actions">
+          <a href='#' class="remove">Удалить</a><br />
+          <a href='#' class="to-cart">В заказ</a>
+        </td>
+      </tr>
+      <tr class="even">
+        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="name">
+          <a href='#'>Ассам №17</a><br />
+          <span>Артикул: 277284</span>
+        </td>
+        <td class="discount"></td>
+        <td class="price">
+          <span class="value ruble">1800</span>
+        </td>
+        <td class="amount">
+          1 шт
+        </td>
+        <td class="actions">
+          <a href='#' class="remove">Удалить</a><br />
+          <a href='#' class="to-cart">В заказ</a>
+        </td>
+      </tr>
+      <tr>
+        <td><br /><br /></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
     </table>
   </div>
 </div>
 <div class="table-footer">
   <a href="#" class="action-back">Вернуться в каталог</a>
-  <table class="summary">
-    <tr>
-      <td>Общая стоимость товаров:</td>
-      <td>2130</td>
-    </tr>
-    <tr>
-      <td>Стоимость товаров с учетом скидок:</td>
-      <td>2100</td>
-    </tr>
-    <tr class="result">
-      <td>Итого</td>
-      <td class=""><span class="value ruble">2100</span></td>
-    </tr>
-    <tr>
-      <td colspan="2"><button>Оформить заказ</button></td>
-    </tr>
-    <tr >
-      <td class="order-clarification" colspan="2"><div>Нажмите на кнопку чтобы перейти к заказу</div></td>
-    </tr>
-  </table>
 </div>
+<div class="separator"></div>
 </form>
 </div>

@@ -5,7 +5,7 @@ body.inner {
                 width: 930px;
                 margin: 0 auto;
                 .separator{
-                    margin: 45px 0;
+                    margin: 20px 0 30px 0;
                 }
                 .tabs-holder{
                     margin-top: 12px;
@@ -50,7 +50,7 @@ body.inner {
                     table{
                         width: 100%;
                         margin-top: 10px;
-                        td, ht{
+                        td{
                             text-align: center;
                             vertical-align: middle;
                             padding: 3px;
@@ -61,11 +61,11 @@ body.inner {
                         .name{
                             text-align: left;
                             padding-left: 5px;
-                            @extend %bruskovaya;
                             a{
                                 font-size: 21px;
                                 color: #0d94cc;
                                 line-height: 30px;
+                                @extend %bruskovaya;
                             }
                             span{
                                 @extend %MuseoCyrl500;
@@ -183,6 +183,12 @@ body.inner {
 
                 }
                 .table-footer{
+                    &:after{
+                        content: '';
+                        display: table;
+                        clear: both;
+
+                    }
                     .action-back{
                         float: left;
                         margin-left: 6px;
@@ -190,6 +196,7 @@ body.inner {
                     table.summary{
                         width: 400px;
                         margin-top: 0;
+                        margin-bottom: 0;
                         float: right;
                         border: none;
                         td:first-child{
@@ -237,17 +244,18 @@ body.inner {
                         }
                     }
                 }
-                .value-small{
+                td.value-small{
                     font-size: 15px;
-                    padding-right: 16px;
+
                     .ruble{
                         position: relative;
+                        padding-right: 13px;
                         &:after{
                             content: '';
                             position: absolute;
                             width: 9px;
                             height: 11px;
-                            right: -11px;
+                            right: 0px;
                             top: 1px;
                             @extend .sprite-common-rubl-15px-museo;
                         }

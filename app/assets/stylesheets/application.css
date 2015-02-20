@@ -6985,46 +6985,45 @@ body.inner .content-holder .content-view.cart-page .tabs-holder table .name {
 /* line 71, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .name a {
   font-size: 21px;
-  color: #0d94cc;
   line-height: 30px;
 }
-/* line 77, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 76, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .name span {
   font-size: 14px;
   color: #ff6c00;
 }
-/* line 83, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 82, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .discount {
   width: 60px;
 }
-/* line 86, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 85, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .price {
   width: 80px;
   color: #4d3522;
 }
-/* line 91, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 90, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .amount {
   width: 120px;
   color: #5b4239;
   font-size: 15px;
   font-weight: bold;
 }
-/* line 96, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 95, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .amount i {
   display: inline-block;
   width: 10px;
   height: 10px;
   vertical-align: middle;
 }
-/* line 102, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 101, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .amount i.minus {
   cursor: pointer;
 }
-/* line 106, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 105, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .amount i.plus {
   cursor: pointer;
 }
-/* line 112, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 111, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .amount input {
   width: 42px;
   height: 22px;
@@ -7034,23 +7033,23 @@ body.inner .content-holder .content-view.cart-page .tabs-holder table .amount in
   font-size: 12px;
   margin: 0;
 }
-/* line 122, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 121, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions {
   width: 100px;
   text-align: left;
   padding-left: 10px;
 }
-/* line 126, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 125, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions a {
   font-size: 14px;
 }
-/* line 129, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 128, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .delay {
   position: relative;
   display: inline-block;
   padding-left: 23px;
 }
-/* line 133, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 132, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .delay:before {
   content: '';
   width: 15px;
@@ -7059,14 +7058,14 @@ body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .
   left: 0px;
   top: 0px;
 }
-/* line 149, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 148, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .remove {
   position: relative;
   display: inline-block;
   padding-left: 23px;
   padding-bottom: 14px;
 }
-/* line 154, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 153, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .remove:before {
   content: '';
   width: 18px;
@@ -7075,13 +7074,13 @@ body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .
   left: -2px;
   top: -2px;
 }
-/* line 169, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 168, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .to-cart {
   position: relative;
   display: inline-block;
   padding-left: 23px;
 }
-/* line 173, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 172, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .to-cart:before {
   content: '';
   width: 20px;
@@ -7090,18 +7089,18 @@ body.inner .content-holder .content-view.cart-page .tabs-holder table .actions .
   left: -2px;
   top: -5px;
 }
-/* line 193, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 192, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 199, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 198, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer .action-back {
   float: left;
   margin-left: 6px;
 }
-/* line 203, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 202, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary {
   width: 400px;
   margin-top: 0;
@@ -7109,45 +7108,45 @@ body.inner .content-holder .content-view.cart-page .table-footer table.summary {
   float: right;
   border: none;
 }
-/* line 209, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 208, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary td:first-child {
   text-align: left;
 }
-/* line 212, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 211, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary td:last-child {
   text-align: right;
 }
-/* line 215, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 214, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary td {
   font-size: 15px;
   border: 0;
 }
-/* line 218, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 217, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary td.order-clarification {
   font-size: 11px;
 }
-/* line 220, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 219, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary td.order-clarification div {
   width: 170px;
   display: inline-block;
 }
-/* line 227, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 226, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .table-footer table.summary tr.result td {
   font-size: 26px;
   color: #4d3522;
 }
-/* line 235, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 234, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .value {
   line-height: 18px;
   font-size: 26px;
   display: inline-block;
   padding-right: 13px;
 }
-/* line 241, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 240, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .value.ruble {
   position: relative;
 }
-/* line 243, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 242, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page .value.ruble:after {
   content: '';
   position: absolute;
@@ -7156,16 +7155,16 @@ body.inner .content-holder .content-view.cart-page .value.ruble:after {
   right: -4px;
   top: -1px;
 }
-/* line 254, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 253, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page td.value-small {
   font-size: 15px;
 }
-/* line 257, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 256, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page td.value-small .ruble {
   position: relative;
   padding-right: 13px;
 }
-/* line 260, ../scss/inner_layout/content/basket_page/_specific.scss */
+/* line 259, ../scss/inner_layout/content/basket_page/_specific.scss */
 body.inner .content-holder .content-view.cart-page td.value-small .ruble:after {
   content: '';
   position: absolute;

@@ -41,6 +41,18 @@
     @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
     text-align: center;
 }
+@mixin common-button(){
+    @include button();
+    &:hover{
+        @include button($background: "linear-gradient(#97c23a, #bad65d)");
+    }
+    &:active{
+        @include button(
+            $background: "linear-gradient(#97c23a, #bad65d)",
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
+        );
+    }
+}
 @mixin cart-button-large(){
     @include button(
         $background: image-url('cart-button-bg-large.png'),

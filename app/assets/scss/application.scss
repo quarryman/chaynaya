@@ -66,6 +66,8 @@ $sprite-shape-vertical-spacing: 5px;
 @import "inner_layout/content/section_page/specific";
 @import "inner_layout/content/item_page/specific";
 @import "inner_layout/content/basket_page/specific";
+@import "inner_layout/content/news/specific";
+@import "nav";
 
 @include font-face('BruskovayaPlain',
     font-files(

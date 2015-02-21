@@ -52,6 +52,22 @@ body.inner{
     }
     .content-holder{
         margin-top: $menu-height + $menu-top-offset + 25;
+        .separator{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #cac2bc;
+            position: relative;
+            &:after{
+                content: '';
+                width: 37px;
+                height: 25px;
+                @extend .sprite-common-icon-horizontal-separator;
+                position: absolute;
+                bottom: -12px;
+                left: 50%;
+                margin-left: -18px;
+            }
+        }
         .sidebar {
             width: $inner-sidebar-width;
             float: left;
@@ -70,22 +86,7 @@ body.inner{
                 padding-left: 20px;
                 padding-right: 17px;
             }
-            .separator{
-                margin-top: 30px;
-                margin-bottom: 30px;
-                border-bottom: 1px solid #cac2bc;
-                position: relative;
-                &:after{
-                    content: '';
-                    width: 37px;
-                    height: 25px;
-                    @extend .sprite-common-icon-horizontal-separator;
-                    position: absolute;
-                    bottom: -12px;
-                    left: 50%;
-                    margin-left: -18px;
-                }
-            }
+
             .loader-holder{
                 text-align: center;
                 a{

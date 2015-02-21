@@ -1,4 +1,4 @@
-@mixin button($state: default, $height:42px, $width: auto, $padding:10px 20px, $background:'', $bg-repeat:'', $bg-position:'', $box-shadow:'') {
+@mixin button($state: default, $height: 42px, $width: auto, $font-size: 21px, $padding:10px 20px, $background:'', $bg-repeat:'', $bg-position:'', $box-shadow:'') {
     background: none;
     height: $height;
     width: $width;
@@ -36,7 +36,7 @@
     outline: none;
     color: #fff;
     @extend %bruskovaya;
-    font-size: 21px;
+    font-size: $font-size;
     line-height: 1.2em;
     @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
     text-align: center;
@@ -49,6 +49,55 @@
     &:active{
         @include button(
             $background: "linear-gradient(#97c23a, #bad65d)",
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
+        );
+    }
+}
+@mixin subscribe-button(){
+    @include button(
+        $height: 38px,
+        $font-size: 16px,
+        $padding: 10px 12px
+    );
+    &:hover{
+        @include button(
+            $background: "linear-gradient(#97c23a, #bad65d)",
+            $height: 38px,
+            $font-size: 16px,
+            $padding: 10px 12px
+        );
+    }
+    &:active{
+        @include button(
+            $background: "linear-gradient(#97c23a, #bad65d)",
+            $height: 38px,
+            $font-size: 16px,
+            $padding: 10px 12px,
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
+        );
+    }
+}
+@mixin unsubscribe-button(){
+    @include button(
+        $background: "linear-gradient(#916e57, #b6a08c)",
+        $height: 38px,
+        $font-size: 16px,
+        $padding: 10px 16px
+    );
+    &:hover{
+        @include button(
+            $background: "linear-gradient(#ae926a, #c7b79a)",
+            $height: 38px,
+            $font-size: 16px,
+            $padding: 10px 16px
+        );
+    }
+    &:active{
+        @include button(
+            $background: "linear-gradient(#ae926a, #c7b79a)",
+            $height: 38px,
+            $font-size: 16px,
+            $padding: 10px 16px,
             $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
         );
     }

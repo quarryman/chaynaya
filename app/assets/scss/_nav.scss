@@ -1,0 +1,67 @@
+.navigation{
+    margin: 20px auto;
+    >a{
+        display: inline-block;
+        box-sizing: border-box;
+        padding-top: 7px;
+        margin: 0 6px;
+        height: 30px;
+        width: 34px;
+        text-align: center;
+        border: 1px solid #ad9887;
+        text-decoration: none;
+        @include border-radius(3px);
+        color: #897566;
+        font-size: 15px;
+        @extend %MuseoCyrl500;
+        font-weight: bold;
+        &:hover{
+            background-color: #f3f1ef;
+            color: #897566;
+        }
+        &.current{
+            background-color: #897566;
+            color: #fff;
+        }
+        &:first-child{
+            margin-right: 20px;
+            position: relative;
+            &.disabled{
+                @include opacity(0.4);
+                &:hover{
+                    background: transparent;
+                }
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 10px;
+                left: 8px;
+                top: 9px;
+                @extend .sprite-common-icon-nav-left;
+            }
+
+        }
+        &:last-child{
+            margin-left: 20px;
+            position: relative;
+            &.disabled{
+                @include opacity(0.4);
+                &:hover{
+                    background: transparent;
+                }
+            }
+            &:after{
+                content: '';
+                position: absolute;
+                width: 15px;
+                height: 10px;
+                left: 8px;
+                top: 9px;
+                @extend .sprite-common-icon-nav-left;
+                @include transform(rotate(180deg));
+            }
+        }
+    }
+}

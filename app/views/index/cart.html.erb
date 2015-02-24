@@ -29,14 +29,17 @@
       </tr>
       <thead>
       <tr>
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" />
+        </td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
             <i class="minus"></i>
@@ -44,19 +47,21 @@
             <i class="plus"></i>
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="delay">Отложить</a>
         </td>
       </tr>
       <tr class="even">
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           <i class="minus"></i>
@@ -64,19 +69,21 @@
           <i class="plus"></i>
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="delay">Отложить</a>
         </td>
       </tr>
       <tr>
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           <i class="minus"></i>
@@ -84,19 +91,21 @@
           <i class="plus"></i>
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="delay">Отложить</a>
         </td>
       </tr>
       <tr class="even">
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           <i class="minus"></i>
@@ -104,7 +113,7 @@
           <i class="plus"></i>
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="delay">Отложить</a>
         </td>
       </tr>
@@ -122,15 +131,15 @@
       <table class="summary">
         <tr>
           <td>Общая стоимость товаров:</td>
-          <td class="value-small"><div class="ruble">2130</div></td>
+          <td class="price_placeholder regular_price value-small"><div class="loader"></div><div class="ruble">2130</div></td>
         </tr>
         <tr>
           <td>Стоимость товаров с учетом скидок:</td>
-          <td class="value-small"><div class="ruble">2100</div></td>
+          <td class="price_placeholder discount_price value-small"><div class="loader"></div><div class="ruble">2100</div></td>
         </tr>
         <tr class="result">
           <td>Итого</td>
-          <td class=""><span class="value ruble">2100</span></td>
+          <td class="price_placeholder total_price"><div class="loader"></div><span class="value ruble">2100</span></td>
         </tr>
         <tr>
           <td colspan="2"><button>Оформить заказ</button></td>
@@ -154,74 +163,82 @@
       </tr>
       <thead>
       <tr>
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           5 шт
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="to-cart">В заказ</a>
         </td>
       </tr>
       <tr class="even">
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           1 шт
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="to-cart">В заказ</a>
         </td>
       </tr>
       <tr>
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           3 шт
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="to-cart">В заказ</a>
         </td>
       </tr>
       <tr class="even">
-        <td class="picture"><img src="<%=asset_path('cart-item-img.png')%>" /></td>
+        <td class="picture">
+          <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
+          <img src="<%=asset_path('cart-item-img.png')%>" /></td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
           <span>Артикул: 277284</span>
         </td>
         <td class="discount"></td>
         <td class="price">
-          <span class="value ruble">1800</span>
+          <span attr-initial-value="1800" class="value ruble">1800</span>
         </td>
         <td class="amount">
           1 шт
         </td>
         <td class="actions">
-          <a href='#' class="remove">Удалить</a><br />
+          <a href='/index/cart_delete.json' class="remove">Удалить</a><br />
           <a href='#' class="to-cart">В заказ</a>
         </td>
       </tr>

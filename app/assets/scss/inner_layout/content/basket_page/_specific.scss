@@ -1,3 +1,4 @@
+$cart-table-padding: 3px;
 body.inner {
     .content-holder {
         .content-view {
@@ -9,6 +10,9 @@ body.inner {
                 }
                 .separator{
                     margin: 20px 0 30px 0;
+                }
+                #active, #delayed{
+                    position: relative;
                 }
                 .tabs-holder{
                     margin-top: 12px;
@@ -60,7 +64,7 @@ body.inner {
                         td{
                             text-align: center;
                             vertical-align: middle;
-                            padding: 3px;
+                            padding: $cart-table-padding;
                         }
                         .picture{
                             width: 80px;
@@ -76,7 +80,7 @@ body.inner {
                             span{
                                 @extend %MuseoCyrl500;
                                 font-size: 14px;
-                                color: #ff6c00;
+                                color: #a1836a;
                             }
                         }
                         .discount{
@@ -264,6 +268,45 @@ body.inner {
                             right: 0px;
                             top: 1px;
                             @extend .sprite-common-rubl-15px-museo;
+                        }
+                    }
+                }
+                .plate{
+                    display: none;
+                    position: absolute;
+                    left:0;
+                    right:0;
+                    background-color: #000;
+                    top: auto;
+                    //height: 90px;
+                    margin-top: -$cart-table-padding;
+                    z-index: 1;
+                    @include opacity(0.2);
+                    span{
+                        display: inline-block;
+                        margin: 0 auto;
+                        color: #fff;
+                        @include opacity(1);
+                        position: relative;
+                        top: 50%;
+                        @include transform(translateY(-50%));
+                    }
+                }
+                .removed{
+                    .plate{
+                        display: block;
+                    }
+                }
+                .price_placeholder{
+                    &.loading{
+                        .loader{
+                            margin: 0 auto;
+                            background: image-url('loader/loader.gif') 0 0 no-repeat;
+                            width: 30px;
+                            height: 12px;
+                        }
+                        .ruble{
+                            display: none;
                         }
                     }
                 }

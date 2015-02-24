@@ -11,6 +11,8 @@ Rails.application.routes.draw do
    get 'index/section' => 'index#section'
    get 'index/item' => 'index#item'
    get 'index/cart' => 'index#cart'
+   get 'index/cart_add' => 'index#cart_add'
+   get 'index/cart_delete' => 'index#cart_delete'
    get 'index/news' => 'index#news'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

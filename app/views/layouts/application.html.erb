@@ -916,7 +916,9 @@
       </div>
       <div id="content">
         <div class="town-select-block">
-          <div class="phone">+7 861 201-90-62</div>
+          <div class="phone">+7 861 201-90-62
+            <a href="#" class="callback">Перезвоните мне</a>
+          </div>
           <div class="town-select">
             <select class="header-select" name="region-select">
               <option class="country" selected='selected'>Москва</option>
@@ -926,8 +928,8 @@
           </div>
         </div>
         <div class="login-block">
-          <a id="login" class="sprite-common-icon-key" href="#">Войти</a>
-          <a id="register" class="sprite-common-icon-login" href="#">Регистрация</a>
+          <a id="login" class="" href="#">Войти</a>
+          <a id="register" class="" href="#">Регистрация</a>
         </div>
         <div class="basket">
 
@@ -2338,6 +2340,44 @@
         <div class="t sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
         <div class="r sprite-shape-horizontal-pattern-message-left-right-popup"></div>
         <div class="b sprite-shape-vertical-pattern-message-top-bottom-popup"></div>
+      </div>
+
+    </div>
+    <!-- Обратный звонок -->
+    <div id="dialog11">
+      <div class="shape popup-shape">
+        <div class="c">
+          <h1>Обратный звонок</h1>
+          <div class="separator"></div>
+          <form class="">
+
+            <div class=" mandatory">
+              <input type="text" value="" placeholder="Телефон"/>
+              <div class="mention-text ">Например: +7 495 77-77-77</div>
+            </div>
+            <div class="">
+              <input type="text" value="" placeholder="Имя"/>
+            </div>
+            <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+            <div class="captcha_block">
+              <img src="<%= asset_path('captcha-image.png')%>" />
+              <img src="<%= asset_path('icon-captcha-reload.png')%>" />
+              <input type="text" placeholder="Введите слово с картинки"/>
+            </div>
+            <div class="button-holder">
+              <button>Отправить</button>
+            </div>
+          </form>
+
+        </div>
+        <div class="lt sprite-shape-vertical-pattern-corner-lt-popup"></div>
+        <div class="rt sprite-shape-vertical-pattern-corner-rt-popup"></div>
+        <div class="lb sprite-shape-vertical-pattern-corner-lb-popup"></div>
+        <div class="rb sprite-shape-vertical-pattern-corner-rb-popup"></div>
+        <div class="l sprite-shape-horizontal-popup-left"></div>
+        <div class="t sprite-shape-vertical-pattern-top-bottom-popup"></div>
+        <div class="r sprite-shape-horizontal-popup-right"></div>
+        <div class="b sprite-shape-vertical-pattern-top-bottom-popup"></div>
       </div>
 
     </div>

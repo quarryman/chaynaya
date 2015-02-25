@@ -104,6 +104,9 @@
                 >a{
                     color: #1d8dcf;
                     padding-left: 28px;
+                    &:hover{
+                        color: $link-hover-color;
+                    }
                 }
 
             }
@@ -207,20 +210,48 @@
     width: 125px;
     height: 75px;
     a{
-        display: block;
-        padding-left: 20px;
+        display: inline-block;
+        padding-left: 0px;
         margin-bottom: 6px;
         color: #000;
         text-decoration: none;
         font-size: 14px;
+        border-bottom: 1px dashed;
+        &#login{
+             position: relative;
+             &:before{
+                 content: '';
+                 position: absolute;
+                 top: 0px;
+                 left: -20px;
+                 height: 16px;
+                 width: 16px;
+                 @extend .sprite-common-icon-key;
+
+             }
+         }
+        &#register{
+            position: relative;
+            &:before{
+                content: '';
+                position: absolute;
+                top: 0px;
+                left: -20px;
+                height: 16px;
+                width: 16px;
+                @extend .sprite-common-icon-login;
+
+            }
+        }
     }
 }
 .town-select-block{
     position: absolute;
     top: 8px;
     right: 345px;
-    width: 394px;
+    width: 415px;
     height: 43px;
+    z-index: 1;
     .town-select{
         width: 206px;
         height: 43px;
@@ -231,5 +262,39 @@
         margin-right: 25px;
         line-height: 2em;
         font-size: 20px;
+    }
+    .callback{
+        top: -1px;
+        position: absolute;
+        left: -130px;
+        display: block;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-top: 3px;
+        margin-bottom: 6px;
+        color: #000;
+        height: 26px;
+        text-decoration: none;
+        font-size: 14px;
+        border-bottom: 1px dashed;
+        &:before{
+            content: '';
+            position: absolute;
+            top: 15px;
+            left: -19px;
+            height: 16px;
+            width: 16px;
+            @extend .sprite-common-icon-callback;
+        }
+        &:hover{
+            color: $link-hover-color;
+        }
+
+    }
+    @media screen and (max-width: 1100px){
+        .callback{
+            top: 14px;
+            left: 18px;
+        }
     }
 }

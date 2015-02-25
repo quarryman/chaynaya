@@ -214,6 +214,7 @@ $(function(){
     dialogify($('#dialog8'), '', true);
     dialogify($('#dialog9'), '', true);
     dialogify($('#dialog10'), '', true);
+    dialogify($('#dialog11'), '', true);
     //fixed_on_scroll class scrolls popup along with page but produces bug in Safari/iOS
 
     $('#login').on('click', function() {
@@ -222,6 +223,10 @@ $(function(){
 
     $('#register').on('click', function() {
         $('#dialog9').dialog('open');
+    });
+
+    $('.callback').on('click', function() {
+        $('#dialog11').dialog('open');
     });
 
     $('.buy-button').on('click', function() {

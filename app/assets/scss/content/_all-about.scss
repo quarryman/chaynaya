@@ -44,6 +44,9 @@
                         color: #1d8dcf;
                         padding-left: 0px;
                         white-space: normal;
+                        &:hover{
+                            color: $link-hover-color;
+                        }
                     }
 
                 }

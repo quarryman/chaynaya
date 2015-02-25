@@ -1,0 +1,135 @@
+$tabs-width: 25%;
+body.inner {
+    .content-holder {
+        .content-view {
+             &.retail-order-page{
+                 width: 930px;
+                 margin: 0 auto;
+                 button{
+                     @include common-button();
+                 }
+                 .options{
+                     width: 45%;
+                 }
+                 table{
+                     tr{
+                         td{
+                             font-size: 15px;
+                             background-color: transparent;
+                         }
+                         td:nth-child(1){
+                             color: #a1836a;
+                         }
+                         td:nth-child(2){
+                             text-align: left;
+                             padding-left: 15px;
+                         }
+                         td.section-name{
+                             background-color: #e5e2df;
+                             text-align: left;
+                             font-size: 18px;
+                             padding-left: 15px;
+                             text-transform: lowercase;
+                             color: #000;
+                             &:first-letter{
+                                 text-transform: capitalize;
+                             }
+                         }
+                         td.name{
+                             text-align: left;
+                         }
+                         td.articul{
+                             color: #a1836a;
+                         }
+                         td.order{
+                             width: 120px;
+                         }
+                         div.cnt_prt{
+                             color: #5b4239;
+                             font-size: 15px;
+                             font-weight: bold;
+                             i{
+                                 display: inline-block;
+                                 width: 10px;
+                                 height: 10px;
+                                 vertical-align: middle;
+                                 &.minus{
+                                     @extend .sprite-common-minus;
+                                     cursor: pointer;
+                                 }
+                                 &.plus{
+                                     @extend .sprite-common-plus;
+                                     cursor: pointer;
+
+                                 }
+                             }
+                             input{
+                                 width: 52px;
+                                 height: 22px;
+                                 padding: 0;
+                                 text-align: center;
+                                 border-radius: 0;
+                                 font-size: 12px;
+                                 margin: 0;
+                             }
+                         }
+                     }
+                 }
+                 table.summary{
+                     width: 400px;
+                     margin-top: 0;
+                     margin-bottom: 0;
+                     float: right;
+                     border: none;
+                     td:first-child{
+                         text-align: left;
+                     }
+                     td:last-child{
+                         text-align: right;
+                     }
+                     td{
+                         font-size: 15px;
+                         border: 0;
+                         &.order-clarification{
+                             font-size: 11px;
+                             div{
+                                 width: 170px;
+                                 display: inline-block;
+                             }
+                         }
+                     }
+                     tr{
+                         td.result{
+                             @extend %bruskovaya;
+                             font-size: 21px;
+                             color: #4d3522;
+                         }
+                     }
+                     .value{
+                         line-height: 18px;
+                         font-size: 21px;
+                         display: inline-block;
+                         padding-right: 13px;
+                         top: 1px;
+                         @extend %bruskovaya;
+                         &.ruble{
+                             position: relative;
+                             &:after{
+                                 content: '';
+                                 position: absolute;
+                                 width: 15px;
+                                 height: 19px;
+                                 right: -4px;
+                                 top: 0px;
+                                 @extend .sprite-common-rubl-21px;
+                             }
+                         }
+                     }
+                     .loader{
+                         display: inline-block;
+                     }
+                 }
+             }
+        }
+    }
+}

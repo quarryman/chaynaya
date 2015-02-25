@@ -109,4 +109,29 @@ body.inner{
             }
         }
     }
+    .notification{
+        position: relative;
+        border: 1px solid #ff0000;
+        color: #ff0000;
+        padding: 15px 30px 15px 15px;
+        font-size: 14px;
+        box-sizing: border-box;
+        @include border-radius(2px);
+        background-color: #fef6dd;
+        span{
+            @include opacity(0.5);
+            position: absolute;
+
+            right: 10px;
+            top: 10px;
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            @extend .sprite-common-icon-close-active-state;
+            &:hover{
+                @include opacity(1);
+            }
+        }
+
+    }
 }

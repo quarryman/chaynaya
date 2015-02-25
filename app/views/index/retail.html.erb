@@ -1,0 +1,718 @@
+<div class="content-view page-content-view retail-order-page">
+<div class="breadcrumps">
+  <a href="#">Главная</a>
+  <a href="#">Заказ оптовика</a>
+</div>
+
+<h1>Заказ оптовика</h1>
+
+<form action="" method="POST" name="basket_form" onSubmit="return false;">
+<input type="hidden" name="form-submit" value="true"/>
+
+<!--<input type="submit" class="form-submit" value="Оформить заказ" />-->
+<br/>
+<br/>
+Выберете магазин (если их больше одного), для которого Вы хотите сделать заказ:
+<table class="summary">
+  <tbody>
+  <tr>
+    <td class="result">
+      <span>Ваш заказ на сумму:</span>
+          <span class="price_placeholder total_price">
+            <div class="loader"></div>
+            <span id="curentPrice" class="value ruble">0</span>
+          </span>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button>Оформить заказ</button>
+    </td>
+  </tr>
+  <tr>
+    <td class="order-clarification" colspan="2">
+      <div>Нажмите на кнопку чтобы перейти к заказу</div>
+    </td>
+  </tr>
+  </tbody>
+</table>
+<div class="options">
+  <br/>
+  <select name="agent1">
+    <option value="00005968">Суворовская пл, 1</option>
+    <option value="00012745">Московское ш, 25Д</option>
+    <option value="00000316">30 лет Победы б-р, 21</option>
+    <option value="00012672">пр-т Ленина, 54Б</option>
+    <option value="00012430">Землячки ул, 110</option>
+    <option value="00013750">Малышева ул, 5</option>
+    <option value="00013966">Холмогорова ул, 11</option>
+    <option value="00011525">Александрова ул, 18А</option>
+    <option value="00014454">Буденновский пр-кт, 49</option>
+    <option value="00000261">Текучева ул, 139 а</option>
+    <option value="00011373">Коминтерна ул, 20, 1</option>
+    <option value="00000267">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00010374">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000304">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00005883">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00010373">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000281">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000303">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000265">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000305">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00005884">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000273">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000275">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00010375">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000259">Ямашева ул, 93</option>
+    <option value="00006108">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00006518">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+    <option value="00000278">141400, Московская обл, Химкинский р-н, Павельцево дп</option>
+  </select>
+  <br/>
+  <br/>
+  <textarea placeholder="Дополнительная информация" class="textarea-cencel" name="desc" cols="60" rows="3"></textarea>
+</div>
+
+<br/>
+<br/>
+
+<div class="notification"><span></span>
+  <i>Внимание!<br/> Цены указаны по прайс-листу г. Москва <b>(от 07.11.2013 20:27:27)</b> на условиях 100 % предоплаты.
+    <br/>
+    Цены отсрочки +3%. Цены других регионов уточняйте у своего менеджера.</i>
+</div>
+
+<div class="tabs-holder">
+<ul class="tabs">
+  <li><a href="#advertising" class="">Реклама</a></li>
+  <li><a href="#weight-tea" class="current">Весовой чай</a></li>
+  <li><a href="#tea-time">Весовой чай Tea Time</a></li>
+  <li><a href="#packed-tea">Фасованные чаи и кофе</a></li>
+  <li><a href="#weight-coffee">Весовой кофе</a></li>
+  <li><a href="#sweets">Сладости</a></li>
+  <li><a href="#tableware">Посуда</a></li>
+  <li><a href="#equipment">Оборудование</a></li>
+  <li><a href="#labels">Наклейки</a></li>
+</ul>
+<div id="advertising">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">НАКЛЕЙКИ</td>
+    </tr>
+    <tr valign="middle" id="t-H0000003315">
+      <td>9905011</td>
+      <td>Логотип РЧК (маленький) 1 комплект=10 шт</td>
+      <td id="p-H0000003315" align="center">10.00</td>
+      <td id="c-H0000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H0000003315" type="text" value="" name="QUANTITY[H0000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000003316">
+      <td>9905012</td>
+      <td>Наклейка на торг.стел. 710*520 (логотип РЧК)</td>
+      <td id="p-H0000003316" align="center">12.00</td>
+      <td id="c-H0000003316" align="center">1/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000003316">
+          <i class="minus"></i>
+          <input type="text" name="QUANTITY[H0000003316]" value="" id="H0000003316"/>
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">РЕКЛАМНЫЕ МАТЕРИАЛЫ</td>
+    </tr>
+    <tr valign="middle" id="t-H0000003575">
+      <td>9907030</td>
+      <td>Корпоративный фильм на DVD</td>
+      <td id="p-H0000003575" align="center">125.00</td>
+      <td id="c-H0000003575" align="center">1/100</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000003575">
+          <i class="minus"></i>
+          <input class="9907030" id="H0000003575" type="text" value="" name="QUANTITY[H0000003575]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000009016">
+      <td>9907125</td>
+      <td>КсМг Магнит NEW</td>
+      <td id="p-H0000009016" align="center">225.00</td>
+      <td id="c-H0000009016" align="center">1/0</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000009016">
+          <i class="minus"></i>
+          <input class="9907125" id="H0000009016" type="text" value="" name="QUANTITY[H0000009016]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000005861">
+      <td>9907052</td>
+      <td>Монетница РЧК</td>
+      <td id="p-H0000005861" align="center">170.00</td>
+      <td id="c-H0000005861" align="center">1/100</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000005861">
+          <i class="minus"></i>
+          <input class="9907052" id="H0000005861" type="text" value="" name="QUANTITY[H0000005861]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-HT000006127">
+      <td>9907133</td>
+      <td>Ручка шариковая РЧК 1 комплект=3 шт</td>
+      <td id="p-HT000006127" align="center">400.00</td>
+      <td id="c-HT000006127" align="center">3/3</td>
+      <td>
+        <div class="cnt_prt" id="b-HT000006127">
+          <i class="minus"></i>
+          <input class="9907133" id="HT000006127" type="text" value="" name="QUANTITY[HT000006127]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">ЛИСТОВКИ</td>
+    </tr>
+    <tr valign="middle" id="t-H0000007299">
+      <td>9906014</td>
+      <td>Листовка А5 "Зеленый чай - Правила заваривания"" (комплект=50шт)</td>
+      <td id="p-H0000007299" align="center">30.00</td>
+      <td id="c-H0000007299" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007299">
+          <i class="minus"></i>
+          <input class="9906014" id="H0000007299" type="text" value="" name="QUANTITY[H0000007299]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000007306">
+      <td>9906016</td>
+      <td>Листовка А5 "Новинки - Популярные сорта" (комплект=50шт)</td>
+      <td id="p-H0000007306" align="center">170.00</td>
+      <td id="c-H0000007306" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007306">
+          <i class="minus"></i>
+          <input class="9906016" id="H0000007306" type="text" value="" name="QUANTITY[H0000007306]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000007309">
+      <td>9906019</td>
+      <td>Листовка А5 "Описание элитных сортов "Чайной коллекции" (комплект=50шт)</td>
+      <td id="p-H0000007309" align="center">120.00</td>
+      <td id="c-H0000007309" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007309">
+          <i class="minus"></i>
+          <input class="9906019" id="H0000007309" type="text" value="" name="QUANTITY[H0000007309]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000007300">
+      <td>9906015</td>
+      <td>Листовка А5 "Пу-Эр - Оолонг" (комплект=50шт)</td>
+      <td id="p-H0000007300" align="center">75.00</td>
+      <td id="c-H0000007300" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007300">
+          <i class="minus"></i>
+          <input class="9906015" id="H0000007300" type="text" value="" name="QUANTITY[H0000007300]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000007308">
+      <td>9906018</td>
+      <td>Листовка А5 "Ройбуш - Мате" (комплект=50шт)</td>
+      <td id="p-H0000007308" align="center">70.00</td>
+      <td id="c-H0000007308" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007308">
+          <i class="minus"></i>
+          <input class="9906018" id="H0000007308" type="text" value="" name="QUANTITY[H0000007308]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H0000007307">
+      <td>9906017</td>
+      <td>Листовка А5 "Экзотические растения и лекарственные плоды в составе чая" (комплект=50шт)</td>
+      <td id="p-H0000007307" align="center">0.00</td>
+      <td id="c-H0000007307" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H0000007307">
+          <i class="minus"></i>
+          <input class="9906017" id="H0000007307" type="text" value="" name="QUANTITY[H0000007307]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+
+    </tbody>
+  </table>
+</div>
+<div id="weight-tea">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Весовой чай</td>
+    </tr>
+    <tr valign="middle" id="t-H1000003315">
+      <td>9905011</td>
+      <td>Чай Ассам№17 развесной в пакетах</td>
+      <td id="p-H1000003315" align="center">10.00</td>
+      <td id="c-H1000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H1000003315" type="text" value="" name="QUANTITY[H1000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H1000003316">
+      <td>9905012</td>
+      <td>Чай Айриш Крим развесной в пакетах</td>
+      <td id="p-H1000003316" align="center">12.00</td>
+      <td id="c-H1000003316" align="center">1/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000003316">
+          <i class="minus"></i>
+          <input type="text" name="QUANTITY[H1000003316]" value="" id="H1000003316"/>
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Весовой чай черный</td>
+    </tr>
+    <tr valign="middle" id="t-H1000003575">
+      <td>9907030</td>
+      <td>Апельсин - Мята</td>
+      <td id="p-H1000003575" align="center">190.00</td>
+      <td id="c-H1000003575" align="center">1/100</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000003575">
+          <i class="minus"></i>
+          <input class="9907030" id="H1000003575" type="text" value="" name="QUANTITY[H1000003575]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H1000009016">
+      <td>9907125</td>
+      <td>Баварский шоколад</td>
+      <td id="p-H1000009016" align="center">570.00</td>
+      <td id="c-H1000009016" align="center">1/0</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000009016">
+          <i class="minus"></i>
+          <input class="9907125" id="H1000009016" type="text" value="" name="QUANTITY[H1000009016]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H1000005861">
+      <td>9907052</td>
+      <td>Брызги шампанского</td>
+      <td id="p-H1000005861" align="center">200.00</td>
+      <td id="c-H1000005861" align="center">1/100</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000005861">
+          <i class="minus"></i>
+          <input class="9907052" id="H1000005861" type="text" value="" name="QUANTITY[H1000005861]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-HT100006127">
+      <td>9907133</td>
+      <td>Ванильная клюква</td>
+      <td id="p-HT100006127" align="center">120.00</td>
+      <td id="c-HT100006127" align="center">3/3</td>
+      <td>
+        <div class="cnt_prt" id="b-HT100006127">
+          <i class="minus"></i>
+          <input class="9907133" id="HT100006127" type="text" value="" name="QUANTITY[HT100006127]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Весовой чай зеленый</td>
+    </tr>
+    <tr valign="middle" id="t-H1000007299">
+      <td>9906014</td>
+      <td>Венский карнавал</td>
+      <td id="p-H1000007299" align="center">320.00</td>
+      <td id="c-H1000007299" align="center">50/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H1000007299">
+          <i class="minus"></i>
+          <input class="9906014" id="H1000007299" type="text" value="" name="QUANTITY[H1000007299]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+
+
+    </tbody>
+  </table>
+</div>
+<div id="tea-time">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">TeaTime</td>
+    </tr>
+    <tr valign="middle" id="t-H3000003315">
+      <td>9905011</td>
+      <td>Британия</td>
+      <td id="p-H3000003315" align="center">10.00</td>
+      <td id="c-H3000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H3000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H3000003315" type="text" value="" name="QUANTITY[H3000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr valign="middle" id="t-H2000003316">
+      <td>9905012</td>
+      <td>Земляника со сливками</td>
+      <td id="p-H2000003316" align="center">12.00</td>
+      <td id="c-H2000003316" align="center">1/50</td>
+      <td>
+        <div class="cnt_prt" id="b-H2000003316">
+          <i class="minus"></i>
+          <input type="text" name="QUANTITY[H2000003316]" value="" id="H2000003316"/>
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Весовой чай зеленый</td>
+    </tr>
+    <tr valign="middle" id="t-H2000003575">
+      <td>9907030</td>
+      <td>Крем Брюле</td>
+      <td id="p-H2000003575" align="center">200.00</td>
+      <td id="c-H2000003575" align="center">1/100</td>
+      <td>
+        <div class="cnt_prt" id="b-H2000003575">
+          <i class="minus"></i>
+          <input class="9907030" id="H2000003575" type="text" value="" name="QUANTITY[H2000003575]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="packed-tea">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Фасованый чай</td>
+    </tr>
+    <tr valign="middle" id="t-H4000003315">
+      <td>9905011</td>
+      <td>Британия</td>
+      <td id="p-H4000003315" align="center">10.00</td>
+      <td id="c-H4000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H4000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H4000003315" type="text" value="" name="QUANTITY[H4000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="weight-coffee">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Фасованый кофе</td>
+    </tr>
+    <tr valign="middle" id="t-H5000003315">
+      <td>9905011</td>
+      <td>Фасованый кофе в пакетах</td>
+      <td id="p-H5000003315" align="center">10.00</td>
+      <td id="c-H5000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H5000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H5000003315" type="text" value="" name="QUANTITY[H5000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="sweets">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Сладости</td>
+    </tr>
+    <tr valign="middle" id="t-H6000003315">
+      <td>9905011</td>
+      <td>Мармелад</td>
+      <td id="p-H6000003315" align="center">10.00</td>
+      <td id="c-H6000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H6000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H6000003315" type="text" value="" name="QUANTITY[H6000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="tableware">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Посуда</td>
+    </tr>
+    <tr valign="middle" id="t-H7000003315">
+      <td>9905011</td>
+      <td>Чайный сервиз</td>
+      <td id="p-H7000003315" align="center">50.00</td>
+      <td id="c-H7000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H7000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H7000003315" type="text" value="" name="QUANTITY[H7000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="equipment">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Оборудование</td>
+    </tr>
+    <tr valign="middle" id="t-H8000003315">
+      <td>9905011</td>
+      <td>Чайный сервиз</td>
+      <td id="p-H8000003315" align="center">50.00</td>
+      <td id="c-H8000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H8000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H8000003315" type="text" value="" name="QUANTITY[H8000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<div id="labels">
+  <table width="100%" border="1" cellpadding="0" cellspacing="0">
+    <tbody>
+    <tr>
+      <th class="articul" width="80">Артикул</th>
+      <th class="name">Наименование</th>
+      <th class="price" width="80">Цена</th>
+      <th class="pack" width="60">МЕП/КОР</th>
+      <th class="order" width="120" nowrap="">Заказать</th>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5" class="section-name">Наклейки</td>
+    </tr>
+    <tr valign="middle" id="t-H8000003315">
+      <td>9905011</td>
+      <td>Фирменные наклейки РЧК</td>
+      <td id="p-H9000003315" align="center">50.00</td>
+      <td id="c-H9000003315" align="center">10/10</td>
+      <td>
+        <div class="cnt_prt" id="b-H9000003315">
+          <i class="minus"></i>
+          <input class="9905011" id="H9000003315" type="text" value="" name="QUANTITY[H9000003315]">
+          <i class="plus"></i>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="7">&nbsp;</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<table class="summary">
+  <tr>
+    <td class="result">
+      <span>Ваш заказ на сумму:</span>
+          <span class="price_placeholder total_price">
+            <div class="loader"></div>
+            <span id="curentPriceb" class="value ruble">2100</span>
+          </span>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <button>Оформить заказ</button>
+    </td>
+  </tr>
+  <tr>
+    <td class="order-clarification" colspan="2">
+      <div>Нажмите на кнопку чтобы перейти к заказу</div>
+    </td>
+  </tr>
+</table>
+
+</div>
+<!-- .tabs-holder -->
+</form>
+<div class="separator"></div>
+</div>

@@ -240,5 +240,11 @@ $(function(){
     $('.header-select').select2();
     $('select', inner_scope).select2();
 
-    $(".tabs-holder").tabs();
+    $('.tabs-holder').tabs();
+
+    $('.notification span').first().click(function () {
+        $(this).parent().animate({'height' : 0}, 100, function(){
+            $(this).hide();
+        });
+    });
 });

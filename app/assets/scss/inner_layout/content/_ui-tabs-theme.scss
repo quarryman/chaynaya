@@ -44,6 +44,14 @@ $tab-top-padding: 0.7em;
         color: #c8b7a9;
     }
 }
+/*vertical tabs*/
+.ui-tabs.ui-tabs-vertical { width: 100%; }
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav { float: left; width: 25%; box-sizing: border-box;padding: 0 2px 0 0; padding-top: 66px; }
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; @include border-radius(0); border-right: 0; }
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a { display:block; border: 0; float: none;}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; @include border-radius(0);}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel { width: auto; padding: 0; margin-left: 25%;}
+
 .page-block-content-view{
     /*horizontal tabs*/
     @media screen and (max-width: 1100px) {
@@ -66,6 +74,7 @@ $tab-top-padding: 0.7em;
         }
     }
 }
+
 
 
 .item-holder{

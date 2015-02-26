@@ -40,7 +40,7 @@ function array_sum( array ) {
 }
 
 $(function () {
-    $('.tabs-holder').addClass( "ui-tabs-vertical ui-helper-clearfix" );
+    //$('.tabs-holder').addClass( "ui-tabs-vertical ui-helper-clearfix" );
 
     goods = new Array();
     number = '';

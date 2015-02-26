@@ -20,6 +20,7 @@ $breadcrump-color: #0d94cc;
             @include transform(rotate(-45deg));
         }
         &:last-child{
+            text-decoration: none;
             &:after{
                 display: none;
             }

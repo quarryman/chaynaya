@@ -26,6 +26,7 @@
         &:first-child{
             margin-right: 20px;
             position: relative;
+            margin-left: 0px;
             &.disabled{
                 @include opacity(0.4);
                 &:hover{
@@ -61,6 +62,13 @@
                 top: 9px;
                 @extend .sprite-common-icon-nav-left;
                 @include transform(rotate(180deg));
+            }
+        }
+    }
+    &.arrows-only{
+        >a{
+            &:first-child{
+                margin-right: 0px;
             }
         }
     }

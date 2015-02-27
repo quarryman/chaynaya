@@ -208,7 +208,7 @@
     top: 12px;
     right: 205px;
     width: 125px;
-    height: 75px;
+    height: 45px;
     a{
         display: inline-block;
         padding-left: 0px;
@@ -244,18 +244,52 @@
             }
         }
     }
+    >div{
+        display: none;
+    }
+    &.logged-in{
+        width: 420px;
+        padding-right: 20px;
+        >a{
+            display: none
+        }
+        div{
+            display: block;
+            font-size: 14px;
+            a{
+                color: #1d8dcf;
+                border: 0;
+                font-size: 14px;
+                &:hover{
+                    color: $link-hover-color;
+                }
+            }
+        }
+        .name{
+            text-align: right;
+            margin: 2px 0 6px 0;
+        }
+        .links{
+            text-align: right;
+        }
+    }
 }
 .town-select-block{
     position: absolute;
     top: 8px;
     right: 345px;
-    width: 415px;
+    width: 245px;
     height: 43px;
     z-index: 1;
     .town-select{
         width: 206px;
         height: 43px;
         float: left;
+        div{
+            margin: 5px 0;
+            color: #7d6a5b;
+            font-size: 15px;
+        }
     }
     .phone{
         float: left;

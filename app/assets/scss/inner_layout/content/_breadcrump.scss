@@ -1,14 +1,17 @@
 $breadcrump-color: #0d94cc;
 .breadcrumps{
+    -webkit-text-size-adjust: none;
     padding-bottom: 16px;
     @extend %MuseoCyrl500;
     font-size: 13px;
     a{
+        -webkit-text-size-adjust: none;
         position: relative;
         margin-right: 15px;
         margin-left: 0px;
         color: $breadcrump-color;
         &:after{
+            -webkit-text-size-adjust: none;
             content: '';
             position: absolute;
             right: -12px;

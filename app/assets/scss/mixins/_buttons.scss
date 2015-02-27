@@ -57,14 +57,14 @@
     @include button(
         $height: 38px,
         $font-size: 16px,
-        $padding: 10px 12px
+        $padding: 10px 10px
     );
     &:hover{
         @include button(
             $background: "linear-gradient(#97c23a, #bad65d)",
             $height: 38px,
             $font-size: 16px,
-            $padding: 10px 12px
+            $padding: 10px 10px
         );
     }
     &:active{
@@ -72,7 +72,7 @@
             $background: "linear-gradient(#97c23a, #bad65d)",
             $height: 38px,
             $font-size: 16px,
-            $padding: 10px 12px,
+            $padding: 10px 10px,
             $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
         );
     }
@@ -82,14 +82,14 @@
         $background: "linear-gradient(#916e57, #b6a08c)",
         $height: 38px,
         $font-size: 16px,
-        $padding: 10px 16px
+        $padding: 10px 11px
     );
     &:hover{
         @include button(
             $background: "linear-gradient(#ae926a, #c7b79a)",
             $height: 38px,
             $font-size: 16px,
-            $padding: 10px 16px
+            $padding: 10px 11px
         );
     }
     &:active{
@@ -97,7 +97,7 @@
             $background: "linear-gradient(#ae926a, #c7b79a)",
             $height: 38px,
             $font-size: 16px,
-            $padding: 10px 16px,
+            $padding: 10px 11px,
             $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
         );
     }

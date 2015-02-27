@@ -1,5 +1,11 @@
 $(function(){
-
+    if (window.location.hash == "#logged-in") {
+        $('.login-block').addClass('logged-in');
+        $('.town-select-block').hide();
+    }
+    if (window.location.hash == "#with-sidebar") {
+        $('.banner').show();
+    }
     //slider
     (function ($, undefined) {
         $.widget("jaftea.slideshow", {
@@ -226,7 +232,7 @@ $(function(){
     });
 
     $('.callback').on('click', function() {
-        $('#dialog11').dialog('open');
+        $('#dialog2').dialog('open');
     });
 
     $('.buy-button').on('click', function() {

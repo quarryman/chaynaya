@@ -125,8 +125,10 @@ body.inner{
             .newsletter{
                 input[type="submit"]{
                     @include subscribe-button;
+
                     &.unsubscribe{
                         @include unsubscribe-button;
+                        float: right;
                     }
                 }
                 input[type="text"]{

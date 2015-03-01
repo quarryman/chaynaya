@@ -277,7 +277,7 @@
 .town-select-block{
     position: absolute;
     top: 8px;
-    right: 345px;
+    right: 28%;
     width: 245px;
     height: 43px;
     z-index: 1;
@@ -286,7 +286,7 @@
         height: 43px;
         float: left;
         div{
-            margin: 5px 0;
+            margin: 6px 0 8px 0;
             color: #7d6a5b;
             font-size: 15px;
         }
@@ -325,10 +325,10 @@
         }
 
     }
-    @media screen and (max-width: 1160px){
+    /*@media screen and (max-width: 1160px){
         .callback{
             top: 14px;
             left: 18px;
         }
-    }
+    }*/
 }

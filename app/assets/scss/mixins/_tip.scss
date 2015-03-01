@@ -1,0 +1,28 @@
+@mixin tip($display: none, $tip-corner-size: 6px){
+    display: $display;
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    @include transform(translate(-50%));
+    vertical-align: middle;
+    background-color: #897566;
+    padding: 8px 10px;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 12px;
+    @include border-radius(3px);
+    @include box-shadow(#897566 1px 1px 3px);
+
+    &:after{
+        content: '';
+        position: absolute;
+        width: $tip-corner-size;
+        height: $tip-corner-size;
+        bottom: -($tip-corner-size/2);
+        left: 49%;
+        background-color: #897566;
+        transform: rotate(45deg);
+        @include box-shadow(#897566 1px 1px 2px);
+
+    }
+}

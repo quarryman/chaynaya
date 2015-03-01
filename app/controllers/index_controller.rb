@@ -82,4 +82,16 @@ class IndexController < ApplicationController
 
     end
   end
+  def honors
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+
+    end
+  end
+  def year_honors
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+
+    end
+  end
 end

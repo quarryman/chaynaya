@@ -29,6 +29,7 @@ $link-hover-color: #ff0000;
 @import "sprites/sprite-common/*.png";
 @import "mixins/item-width-scalable";
 @import "mixins/buttons";
+@import "mixins/tip";
 @import "parallax";
 @import "header/menu";
 @import "shapes";
@@ -71,6 +72,7 @@ $link-hover-color: #ff0000;
 @import "inner_layout/content/retail_order_page/specific";
 @import "inner_layout/content/news_page/specific";
 @import "inner_layout/content/honor_page/specific";
+@import "inner_layout/content/honors/specific";
 @import "nav";
 
 @include font-face('BruskovayaPlain',

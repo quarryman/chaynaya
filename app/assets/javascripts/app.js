@@ -8,7 +8,7 @@ $(function(){
     }
     //slider
     (function ($, undefined) {
-        $.widget("jaftea.slideshow", {
+        $.widget("chaynaya.slideshow", {
             _create: function () {
                 var self = this;
                 this.container = $(".banner-slide", this.element);

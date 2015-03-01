@@ -16,6 +16,7 @@ Rails.application.routes.draw do
    get 'index/news' => 'index#news'
    get 'index/retail' => 'index#retail'
    get 'index/news_page' => 'index#news_page'
+   get 'index/honor_page' => 'index#honor_page'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

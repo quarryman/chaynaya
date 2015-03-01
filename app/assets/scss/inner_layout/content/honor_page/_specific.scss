@@ -1,0 +1,59 @@
+body.inner {
+    .content-holder {
+        .content-view {
+            &.honor-page {
+                .right-sidebar{
+                    h2.sidebar-header{
+                        margin-top: 20px;
+                    }
+                }
+                .honor-item{
+                    margin-top: 8px;
+                    img{
+                        margin: 15px 0 0 0;
+                        &.left{
+                            float: left;
+                            margin-right: 15px;
+                            margin-bottom: 15px;
+                            margin-top: 10px;
+                        }
+                    }
+                    p:first-child{
+                        margin-top: 0;
+                        padding-top: 0;
+                    }
+                    p:after{
+                        content: '';
+                        display: table;
+                        clear: both;
+                    }
+                    div.narrow{
+                        &:after{
+                            content: '';
+                            display: table;
+                            clear: both;
+                        }
+                    }
+                    @media screen and (max-width: 1300px) {
+                        .second-in-a-row{
+                            +h3{
+                                clear: both;
+                            }
+                        }
+                        .narrow{
+                            clear: both;
+                        }
+                    }
+                    @media screen and (max-width: 1070px) {
+                        img.left{
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: block;
+                            float: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

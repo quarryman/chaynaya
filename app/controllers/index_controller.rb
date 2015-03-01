@@ -76,4 +76,10 @@ class IndexController < ApplicationController
 
     end
   end
+  def honor_page
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+
+    end
+  end
 end

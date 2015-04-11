@@ -2,6 +2,11 @@ ul.vertical-menu{
     @include reset-list-style;
     margin-top: 0;
     li{
+        &.active{
+            a{
+                background: #f3f1ef; color: #ff0000;
+            }
+        }
         padding: 0;
         border-bottom: 1px solid #d0c8c2;
         &:first-child{

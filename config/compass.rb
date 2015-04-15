@@ -5,6 +5,6 @@ images_dir = "app/assets/images/"
 javascripts_dir = "app/assets/javascripts/"
 fonts_dir = "app/assets/fonts"
 
-output_style = :expanded
+output_style = :compressed
 relative_assets = true
-line_comments = true
+line_comments = false

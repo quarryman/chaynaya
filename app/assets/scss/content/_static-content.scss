@@ -114,6 +114,15 @@
     }
 }
 
+.inner .basket .basket-icon .amount{
+    position: absolute;
+    font-size: 10px;
+    color: #fff;
+    top: 15px;
+    left: 104px;
+    text-align: center;
+    width: 14px;
+}
 .basket{
     position: absolute;
     width: $cart-width;
@@ -128,6 +137,15 @@
         width: 150px;
         &:hover{
             cursor: pointer;
+        }
+        .amount{
+            position: absolute;
+            font-size: 10px;
+            color: #fff;
+            top: 13px;
+            left: 31px;
+            text-align: center;
+            width: 14px;
         }
     }
     .basket-sum{

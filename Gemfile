@@ -20,4 +20,7 @@ gem 'jquery-ui-rails'
 #assets compilations requires this gem
 gem 'minitest'
 
+#assets precompilation without digest/fingerprint  (fingerprinted versions still present)
+gem "non-stupid-digest-assets"
+
 

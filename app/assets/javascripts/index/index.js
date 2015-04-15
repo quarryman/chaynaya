@@ -31,4 +31,23 @@ $(function(){
             getParallaxPosition()
         });
     }
+    ; (function ($, undefined) {
+        $.widget("chaynaya.menu", {
+            _create: function () {
+                var self = this,
+                    activeClass="active";
+
+                this.items = $(">li", this.element);
+                this.items.click(function(){
+                    self.items.removeClass(activeClass);
+                    $(this).addClass(activeClass);
+                })
+
+            },
+            destroy: function () {
+                $.Widget.prototype.destroy.apply(this, arguments);
+            }
+        });
+    })(jQuery);
+    $('.menu-block').menu();
 });

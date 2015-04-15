@@ -107,7 +107,7 @@ $menu-color: #54321b;
                         background-clip: content-box;
                         height: auto;
                     }
-                    &:active{
+                    &.active{
                         @include background(image-url("menu/menu-item-active.png") left 5px repeat-x);
                         height: $menu-height;
 

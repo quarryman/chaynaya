@@ -1,0 +1,208 @@
+  <div class="sidebar">
+    <div class="news">
+      <div class="news-archive">
+        <div class="block-header">Архив новостей</div>
+        <div class="years">
+          <span>2015</span>
+          <span><a href="/news/~2014.0/" title="2014 год">2014</a></span>
+        </div>
+        <div class="months">
+          <span title="Январь">01</span>
+          <span class="current"><a href="/news/~2015.02/" title="Февраль">02</a></span>
+          <span title="Март">03</span>
+          <span title="Апрель">04</span>
+          <span title="Май">05</span>
+          <span title="Июнь">06</span>
+          <span title="Июль">07</span>
+          <span title="Август">08</span>
+          <span title="Сентябрь">09</span>
+          <span title="Октябрь">10</span>
+          <span title="Ноябрь">11</span>
+          <span title="Декабрь">12</span>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="newsletter">
+        <div class="block-header">Управление подпиской</div>
+        <form action="/news/" method="POST">
+          <input type="hidden" name="sf_RUB_ID[]" value="1">
+          <div class="inp2">
+            <input type="text" placeholder="Введите ваш e-mail" name="sf_EMAIL" size="20"  title="Введите ваш e-mail">
+          </div>
+          <input class="button1 unsubscribe" type="submit" name="NO" value="Отписаться">
+          <input class="button2" type="submit" name="OK" value="Подписаться">
+        </form>
+      </div>
+      <div class="separator"></div>
+      <img class="vk-block" src="<%=asset_path "vk-block.png"%>" />
+    </div>
+    <!--<ul class="vertical-menu">
+      <li>
+        <a href="#">Весовой чай</a>
+      </li>
+      <li>
+        <a href="#">Фасованый чай</a>
+      </li>
+      <li>
+        <a href="#">Кофе</a>
+      </li>
+      <li>
+        <a href="#">Сладости</a>
+      </li>
+      <li>
+        <a href="#">Рекламные материалы и оборудование</a>
+      </li>
+    </ul>-->
+  </div>
+  <div class="content-view page-content-view faq-list-page">
+    <div class="breadcrumps">
+      <a href="#">Главная</a>
+      <a href="#">FAQ</a>
+    </div>
+
+    <h1>FAQ</h1>
+
+    <div class="sidebar right-sidebar">
+
+      <h2 class="sidebar-header">
+        Хочу свой магазин
+      </h2>
+      <p>
+        Хочу открыть чайный магазин в своём городе.
+        С кем связаться?
+        Для того, чтобы начать работать с нашей компанией, Вам необходимо связаться с менеджером, указанным под Вашим
+        городом, который определил сайт.
+      </p>
+      <p>
+        Eсли Ваш город был определен неверно, то Вы можете связаться с менеджером по координатам, указанным на
+        странице <a href="/company/contacts/">Контакты"</a>, или по e-Mail <a href="mailto:rusteaco@rusteaco.ru">rusteaco@rusteaco.ru</a>, либо позвонить +7 (495) 447-05-56.
+      </p>
+      <h4>Задайте свой вопрос</h4>
+      <p>
+        Если вы не нашли ответа на ваш вопрос, пожалуйста, отправьте его нам посредством формы ниже.
+        Мы обязательно ответим вам.
+      </p>
+      <form name="faq">
+        <div class="mandatory">
+          <input type="text" name="name"  value="" placeholder="Ваше имя"/>
+
+        </div>
+        <div class="mandatory">
+          <input type="text" name="email"  value="" placeholder="Email"/>
+
+        </div>
+        <div class="mandatory">
+          <input type="text"   value="" placeholder="Телефон"/>
+          <div class="mention-text ">Пример: +7 495 77-777-777</div>
+        </div>
+        <div class="mandatory">
+          <textarea placeholder="Сообщение"></textarea>
+        </div>
+        <div>
+          <input type="checkbox" id="notify_when_answered" />
+          <label for="notify_when_answered">Уведомить об ответе на почту</label>
+        </div>
+        <div class="mandatory_notification">Поля, обазятельные для заполнения</div>
+        <div class="captcha_block">
+          <img src="/assets/captcha-image-650216a74f1ff86c17aa20cf412912b8.png">
+          <img src="/assets/icon-captcha-reload-c99e41bde4ad1f426ff1ed0c7db2d13e.png">
+          <input type="text" placeholder="Введите слово с картинки">
+        </div>
+        <div class="button-holder">
+          <button>Отправить</button>
+        </div>
+      </form>
+    </div>
+    <div class="content-view page-block-content-view">
+      <div class="faq-items">
+        <div class="faq-item-holder">
+          <a href=""><h2 class="">Вопрос вопрос вопрос</h2></a>
+          <div class="question">
+            <div class="avatar user-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Анна</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!    Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="avatar answer-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Русская чайная компания</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item-holder">
+          <a href=""><h2 class="">Вопрос вопрос вопрос</h2></a>
+          <div class="question">
+            <div class="avatar user-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Анна</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!    Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="avatar answer-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Русская чайная компания</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item-holder opened">
+          <a href=""><h2 class="">Вопрос вопрос вопрос</h2></a>
+          <div class="question">
+            <div class="avatar user-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Анна</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!    Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="avatar answer-avatar"></div>
+            <div class="question-holder">
+              <div class="name">Русская чайная компания</div>
+              <div class="date">23.11.2015</div>
+              <div class="text">Здравствуйте!
+                Возможно ли сотрудничество, если я ИП, но торгую не через физическую розничную точку, а через интернет. Если да, пришлите пожалуйста условия и прайс-лист для мелкого опта.
+                Заранее спасибо!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="">&nbsp;</a>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a class="current">4</a>
+        <a href="">5</a>
+        <a class="disabled">&nbsp;</a>
+      </div>
+    </div>
+  </div>

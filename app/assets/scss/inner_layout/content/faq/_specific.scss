@@ -1,0 +1,105 @@
+body.inner{
+    .content-holder{
+        .content-view{
+            &.faq-list-page{
+                .faq-item-holder{
+                    border-top: 1px solid;
+                    position: relative;
+                    &:last-child{
+                        border-bottom: 1px solid;
+                    }
+                    &:first-child{
+                        margin-top: 46px;
+                    }
+                    h2{
+                        padding: 15px 0;
+                        margin: 0;
+                        &:hover{
+                            color: $link-hover-color;
+                        }
+                    }
+
+                    .question{
+                        display: none;
+                    }
+                    &.opened{
+                        a{
+                            &:after{
+                                @extend .sprite-common-icon-faq-opened;
+                            }
+                        }
+                        .question{
+                            display: block;
+                            padding-bottom: 5px;
+                            padding-top: 10px;
+                            @extend %MuseoCyrl500;
+
+                        }
+                        .avatar{
+                            width: 50px;
+                            height: 50px;
+                            margin-bottom: 20px;
+                            float: left;
+                            margin-right: 10px;
+                            @extend .sprite-common-icon-faq-user;
+                            &.answer-avatar{
+                                margin-left: 60px;
+                                @extend .sprite-common-icon-faq-answer;
+                            }
+                        }
+                        .question-holder{
+                            overflow: hidden;
+                        }
+                        .author{
+
+                            font-size: 18px;
+                            color: #5c493a;
+                        }
+                        .name{
+                            font-size: 18px;
+                            color: #5c493a;
+                        }
+                        .date{
+                            font-size: 10px;
+                            color: #ccc;
+                            padding-top: 3px;
+                        }
+                        .text{
+                            padding-top: 10px;
+                            font-size: 14px;
+                            color: #000;
+                            padding-bottom: 25px;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                        padding-right: 30px;
+                        display: block; //important
+                        &:after{
+                            content: '';
+                            position: absolute;
+                            width: 20px;
+                            height: 14px;
+                            right: 2px;
+                            top: 22px;
+                            @extend .sprite-common-icon-faq-closed;
+                        }
+                    }
+                }
+
+            }
+        }
+        .sidebar{
+            &.right-sidebar{
+                form .captcha_block input{
+                    margin-left: 0;
+                    float: none;
+                }
+                .button-holder{
+                    text-align: right;
+                }
+            }
+
+        }
+    }
+}

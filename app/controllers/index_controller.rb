@@ -94,4 +94,10 @@ class IndexController < ApplicationController
 
     end
   end
+  def faq
+    respond_to do |format|
+      format.html {render :layout => 'inner'}
+
+    end
+  end
 end

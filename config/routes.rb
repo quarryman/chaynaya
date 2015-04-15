@@ -19,6 +19,7 @@ Rails.application.routes.draw do
    get 'index/honor_page' => 'index#honor_page'
    get 'index/honors' => 'index#honors'
    get 'index/year_honors' => 'index#year_honors'
+   get 'index/faq' => 'index#faq'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

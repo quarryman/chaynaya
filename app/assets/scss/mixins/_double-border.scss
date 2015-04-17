@@ -1,0 +1,19 @@
+
+/*cant be applied for images adue to pseudo elements absence*/
+@mixin double-border($outer-color: #b4a599, $inner-color: #fff, $border-width: 1px, $border-radius: 1px, $border-type: solid, $inner-border-offset: 0px){
+    border: $border-width $border-type $outer-color;
+    @include border-radius($border-radius);
+
+    &:after{
+        background: none;
+        border: $border-width $border-type $inner-color;
+        content: "";
+        display: block;
+        position: absolute;
+        top: $inner-border-offset;
+        left: $inner-border-offset;
+        right: $inner-border-offset;
+        bottom: $inner-border-offset;
+        pointer-events: none;
+    }
+}

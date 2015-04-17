@@ -57,12 +57,12 @@
         right: 0;
         overflow: hidden;
         .footer-shape{
-            max-width: 1128px;
+            max-width: 1200px;
             /*@include min-width(940px); */
             margin: 0 auto;
             position: relative;
             top: 32px;
-            height: 71px;
+            box-sizing: border-box;
             .c{
                 height: 54px;
                 font-size: 11px;

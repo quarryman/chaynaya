@@ -33,3 +33,9 @@ h2{
 a:hover{
     color: $link-hover-color;
 }
+.double-border{
+    border: 1px solid #b4a599;
+    padding: 1px;
+    background: #fff;
+    @include border-radius(2px);
+}

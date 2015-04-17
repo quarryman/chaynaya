@@ -39,8 +39,8 @@ $(function(){
 
                 this.items = $(">li", this.element);
                 this.items.click(function(){
-                    self.items.removeClass(activeClass);
-                    $(this).addClass(activeClass);
+                    self.items.not(this).removeClass(activeClass);
+                    $(this).hover();
                 })
 
             },
@@ -49,7 +49,7 @@ $(function(){
             }
         });
     })(jQuery);
-    $('.menu-block').menu();
+    //$('.menu-block').menu();
 });
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.

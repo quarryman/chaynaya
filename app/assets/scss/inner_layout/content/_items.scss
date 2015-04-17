@@ -10,6 +10,18 @@
         }
     }
 }
+.float-view{
+    &.flex-items-list{
+        .flex-item-holder{
+            width: 19%;
+            @include items-width-scalable(mobile) { width: 48% ;}
+            @include items-width-scalable(small-screens) { width: 32%; }
+            @include items-width-scalable(medium-screens) { width: 24%;}
+            @include items-width-scalable(wide-screens) { width: 19%;}
+
+        }
+    }
+}
 .full-width-view{
     &.flex-items-list{
         .flex-item-holder{

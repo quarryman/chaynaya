@@ -20,6 +20,7 @@ Rails.application.configure do
   config.active_support.deprecation = :log
 
   # Generate digests for assets URLs.
+  #doesn't actually works with rails4, gem needed
   config.assets.digest = false
 
   # Debug mode disables concatenation and preprocessing of assets.

@@ -1176,7 +1176,7 @@
               <h2 class="bordered">Новости</h2>
               <ul class="horizontal-list">
                 <li>
-                  <img src="<%=asset_path("news1.png") %>">
+                  <img class="double-border" src="<%=asset_path("news1.png") %>">
                   <div class="news-content">
                     <div class="news-header">Акция "Новогодняя"</div>
                     <div class="news-date">05.11.2014</div>
@@ -1225,8 +1225,9 @@
 
             <div class="flex-item-holder">
               <div class="flex-item">
-                <div class="top" style="background-image: url(<%=asset_path('item/00521404.jpg') %>)">
-                  <div class="name">Ассорти молотый</div>
+                <div class="top" >
+                  <a href="#" class="photo" style="background-image: url(<%=asset_path('item/00521404.jpg') %>)"></a>
+                  <a class="name">Ассорти молотый sdfs dsdf sdf sdf sdf sd fsd dfg fdg</a>
                   <div class="articul">Артикул: 00521404</div>
                   <div class="marks">
                     <div class="is-new">
@@ -1280,8 +1281,15 @@
               </div>
             </div>
             <div class="flex-item-holder">
+              <div class="wishlist-icon">
+                <div class="tip wishlist-tip">
+                  Уже нравится
+                </div>
+              </div>
               <div class="flex-item">
-                <div class="top" style="background-image: url(<%=asset_path('item/06011962.jpg') %>)">
+                <div class="top">
+                  <a href="#" class="photo" style="background-image: url(<%=asset_path('item/06011962.jpg') %>)"></a>
+
                   <div class="name">Граф Калиостро</div>
                   <div class="articul">Артикул: 06011962</div>
                   <div class="marks">
@@ -1297,11 +1305,7 @@
                     </div>
                   </div>
                   <div class="cover" style="background-image: url(<%=asset_path('item/06011962-s.jpg') %>)"></div>
-                  <div class="wishlist-icon">
-                    <div class="tip wishlist-tip">
-                      Уже нравится
-                    </div>
-                  </div>
+
                 </div>
                 <div class="bottom">
                   <div class="price">
@@ -1329,8 +1333,13 @@
               </div>
             </div>
             <div class="flex-item-holder">
+              <div class="wishlist-icon in-favorites">
+                <div class="tip wishlist-tip">
+                  Мне нравится
+                </div>
+              </div>
               <div class="flex-item">
-                <div class="top" style="background-image: url(<%=asset_path('item/03035402.jpg') %>)">
+                <a href="#" class="top" style="background-image: url(<%=asset_path('item/03035402.jpg') %>)">
                   <div class="name">Земляничная лакомка</div>
                   <div class="articul">Артикул: 03035402</div>
                   <div class="marks">
@@ -1344,14 +1353,15 @@
                         Распродажа
                       </div>
                     </div>
-                  </div>
-                  <div class="cover" style="background-image: url(<%=asset_path('item/03035402-s.jpg') %>)"></div>
-                  <div class="wishlist-icon in-favorites">
-                    <div class="tip wishlist-tip">
-                      Мне нравится
+                    <div class="is-hit">
+                      <div class="tip sale-tip">
+                        Хит
+                      </div>
                     </div>
                   </div>
-                </div>
+                  <div class="cover" style="background-image: url(<%=asset_path('item/03035402-s.jpg') %>)"></div>
+
+                </a>
                 <div class="bottom">
                   <div class="price">
                     <div class="note">

@@ -124,48 +124,93 @@
             $('.amount .minus').unbind('click');
 
             this.element.on("click", ".amount .plus", function () {
-                var val = parseInt($(this).prev().attr("value")),
+                var val = parseInt($(this).prev().prop("value")),
                     row = $(this).closest('tr'),
                     priceHolder = $('.price .value',row),
                     currentPrice = priceHolder.attr('attr-initial-value');
 
-                $(this).prev().attr({"value" : val + 1});
+                $(this).prev().prop({"value" : val + 1});
                 priceHolder.html((val+1) * currentPrice);
 
                 $('.price_placeholder', this.activeTable).addClass('loading');
-                $.getJSON('/index/cart_add.json').done( function (responce) {
-                    if (responce.status == 'SUCCESS') {
-                        $('.regular_price .ruble', this.activeTable).html(responce.prices.regular_price);
-                        $('.discount_price .ruble', this.activeTable).html(responce.prices.discount_price);
-                        $('.total_price .ruble', this.activeTable).html(responce.prices.total_price);
-                        setTimeout(function () {$('.price_placeholder', this.activeTable).removeClass('loading')}, 800);
-                    }
-                });
+
+                postData = getBasketState();
+                $.post(
+                    '/local/components/melius/sale.basket.basket.with_order_discount/ajax.php',
+                    postData,
+                    function () {},
+                    "json"
+                ).done(function(responce) {
+                        console.log(responce);
+                        $('.regular_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                        $('.discount_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                        $('.total_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                        $('.price_placeholder', this.activeTable).removeClass('loading');
+                    });
+                // function defined in production, basket component script.js
+                //recalculateBasket();
             });
 
             this.element.on("click", ".amount .minus", function () {
-                var val = parseInt($(this).prev().attr("value")),
+                var val = parseInt($(this).prev().prop("value")),
                     row = $(this).closest('tr'),
                     priceHolder = $('.price .value',row),
                     currentPrice = priceHolder.attr('attr-initial-value');
 
-                var val = $(this).next().attr("value");
+                var val = $(this).next().prop("value");
                 if (val <= 1)
-                    $(this).next().attr({"value" : 1})
+                    $(this).next().prop({"value" : 1})
                 else{
-                    $(this).next().attr({"value" : val - 1});
+                    $(this).next().prop({"value" : val - 1});
                     priceHolder.html((val-1) * currentPrice);
 
                     $('.price_placeholder', this.activeTable).addClass('loading');
-                    $.getJSON('/index/cart_add.json').done( function (responce) {
-                        if (responce.status == 'SUCCESS') {
-                            $('.regular_price .ruble', this.activeTable).html(responce.prices.regular_price);
-                            $('.discount_price .ruble', this.activeTable).html(responce.prices.discount_price);
-                            $('.total_price .ruble', this.activeTable).html(responce.prices.total_price);
-                            setTimeout(function () {$('.price_placeholder', this.activeTable).removeClass('loading')}, 800);
-                        }
-                    });
+                    postData = getBasketState();
+                    $.post(
+                        '/local/components/melius/sale.basket.basket.with_order_discount/ajax.php',
+                        postData,
+                        function () {},
+                        "json"
+                    ).done(function(responce) {
+                            console.log(responce);
+                            $('.regular_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                            $('.discount_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                            $('.total_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                            $('.price_placeholder', this.activeTable).removeClass('loading');
+                        });
+                    // function defined in production, basket component script.js
+                    //recalculateBasket();
                 }
+            });
+
+            this.element.on("change", ".amount input[type=text]", function () {
+                var val = parseInt($(this).prop("value")),
+                    row = $(this).closest('tr'),
+                    priceHolder = $('.price .value',row),
+                    currentPrice = priceHolder.attr('attr-initial-value');
+                if (val <= 0){
+                    val = 1;
+                    $(this).prop({"value": val})
+                }
+
+                priceHolder.html((val) * currentPrice);
+
+                $('.price_placeholder', this.activeTable).addClass('loading');
+                postData = getBasketState();
+                $.post(
+                    '/local/components/melius/sale.basket.basket.with_order_discount/ajax.php',
+                    postData,
+                    function () {},
+                    "json"
+                ).done(function(responce) {
+                        console.log(responce);
+                        $('.regular_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                        $('.discount_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                        $('.total_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITH_DISCOUNT);
+                        $('.price_placeholder', this.activeTable).removeClass('loading');
+                    });
+                // function defined in production, basket component script.js
+                //recalculateBasket();
             });
 
 
@@ -192,26 +237,27 @@
                     plate = $('.plate',rowToBeRemoved),
                     plateHeight  = rowToBeRemoved.height();
 
-                    $('.price_placeholder', this.activeTable).addClass('loading');
+                $('.price_placeholder', this.activeTable).addClass('loading');
 
-                $.getJSON($(this).prop('href'))
-                    .done( function (responce) {
-                        //console.log(responce);
-                        if (responce.status == 'SUCCESS') {
-                            plate.css({'height' : plateHeight});
-                            rowToBeRemoved.addClass(self.removedClass);
-                            plate.animate({'opacity' : '0.8'}, 200);
-
-                            $('.regular_price .ruble', this.activeTable).html(responce.prices.regular_price);
-                            $('.discount_price .ruble', this.activeTable).html(responce.prices.discount_price);
-                            $('.total_price .ruble', this.activeTable).html(responce.prices.total_price);
-                            setTimeout(function () {$('.price_placeholder', this.activeTable).removeClass('loading')}, 800);
-                        }
+                // function defined in production, basket component script.js
+                postData = getBasketState();
+                postData.id = $(this).attr('attr-id');
+                postData.delete = 'Y';
+                $.post(
+                    '/local/components/melius/sale.basket.basket.with_order_discount/ajax.php',
+                    postData,
+                    function () {},
+                    "json"
+                ).done(function(responce) {
+                        console.log(responce);
+                        plate.css({'height' : plateHeight});
+                        rowToBeRemoved.addClass(self.removedClass);
+                        plate.animate({'opacity' : '0.8'}, 200);
+                        $('.regular_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                        $('.discount_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                        $('.total_price .ruble', this.activeTable).html(responce.BASKET_DATA.PRICE_WITHOUT_DISCOUNT);
+                        $('.price_placeholder', this.activeTable).removeClass('loading');
                     });
-                /*rowToBeRemoved.slideRow('up', 200, function () {
-                    rowToBeRemoved.remove();
-                    self.stripeizeTable(self.activeTable);
-                });*/
                 return false;
             });
         },

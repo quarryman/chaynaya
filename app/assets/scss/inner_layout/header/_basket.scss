@@ -21,4 +21,10 @@
             left: 128px;
         }
     }
+
+    &.wo-header-cart{
+        .basket{
+            display: none;
+        }
+    }
 }

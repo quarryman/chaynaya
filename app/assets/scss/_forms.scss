@@ -12,7 +12,7 @@ form{
 
     }
     button{
-        height: 42px;
+        /*height: 42px;
         padding: 10px 20px;
         background: none;
         @include background(linear-gradient(#acc84f, #7da931));
@@ -24,13 +24,19 @@ form{
         @extend %bruskovaya;
         font-size: 21px;
         line-height: 0.5em;
-        @include text-shadow(rgba(black, 0.25) 0px 1px 0px);
+        @include text-shadow(rgba(black, 0.25) 0px 1px 0px);    */
+        @include common-button;
         &.buy-button{
             width: 70px;
             margin-top: 3px;
             @include background(image-url("icon-popup-cart.png") center center no-repeat, linear-gradient(#acc84f, #7da931));
         }
-
+    }
+    button.common{
+        @include common-button;
+    }
+    button.disabled, button:disabled{
+        @include order-disabled-button();
     }
     >div{
         position: relative;
@@ -47,7 +53,8 @@ form{
         &.half-line{
             width: 48%;
         }
-
+    }
+    div{
         &.validation-succeeded{
             &:after{
                 content: '';
@@ -91,6 +98,9 @@ form{
                 }
             }*/
         }
+        &.mandatory{
+            position: relative;
+        }
         &.mandatory:before{
             content: '*';
             color: #ff5400;
@@ -101,7 +111,7 @@ form{
             font-family: Tahoma, sans-serif;
         }
     }
-    input[type=text]{
+    input[type=text], input[type=password]{
         width: 100%;
         box-sizing: border-box;
         height: 30px;
@@ -113,7 +123,6 @@ form{
         color: #000;
         @include border-radius(5px);
         @extend %MuseoCyrl500;
-
     }
     textarea{
         width: 100%;
@@ -230,5 +239,11 @@ form{
             float: right;
             margin-left: 10px;
         }
+    }
+}
+
+body.inner div.content-holder .content-view.cart-page{
+    button.disabled, button:disabled{
+        @include order-disabled-button();
     }
 }

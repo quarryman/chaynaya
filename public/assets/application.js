@@ -27802,13 +27802,13 @@ $(function(){
     dialogify($('#dialog11'), '', true);
     //fixed_on_scroll class scrolls popup along with page but produces bug in Safari/iOS
 
-    $('#login').on('click', function() {
+    /*$('#login').on('click', function() {
         $('#dialog6').dialog('open');
     });
 
     $('#register').on('click', function() {
         $('#dialog9').dialog('open');
-    });
+    });*/
 
     $('.callback').on('click', function() {
         $('#dialog2').dialog('open');

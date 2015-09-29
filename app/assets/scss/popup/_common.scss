@@ -66,14 +66,32 @@ $popup-brown: #4d3522;
     &:last-child{
         border: 0;
     }
-    img{
+    .img-holder{
         float: left;
-        height: 115px;
-        width: 115px;
+        position: relative;
         margin-right: 15px;
         border: 1px solid #ccc;
+        width: 117px;
+        height: 117px;
+        vertical-align: middle;
+        display: block;
+        line-height: 115px;
         @include border-radius(2px);
+
+        img{
+            display: inline;
+            width: 117px;
+            vertical-align: middle;
+            &.label{
+                width: auto;
+                position: absolute;
+                right: 5px;
+                bottom: 5px;
+            }
+        }
+
     }
+
     .cart-item-details{
         overflow: hidden;
         .name{

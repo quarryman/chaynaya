@@ -14,6 +14,7 @@ body.inner {
                 #active, #delayed{
                     position: relative;
                 }
+
                 .tabs-holder{
                     margin-top: 12px;
                     .ui-tabs-panel{
@@ -144,7 +145,7 @@ body.inner {
                                 }
                                 &:hover{
                                     &:before{
-                                    @extend .sprite-common-icon-already-in-favorites;
+                                        @extend .sprite-common-icon-already-in-favorites;
                                     }
                                 }
 
@@ -310,7 +311,18 @@ body.inner {
                         }
                     }
                 }
+
             }
         }
+    }
+}
+
+
+.label_holder{
+    position: relative;
+    .label{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
     }
 }

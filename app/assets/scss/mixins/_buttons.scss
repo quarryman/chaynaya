@@ -53,6 +53,43 @@
         );
     }
 }
+@mixin order-disabled-button(){
+    @include button(
+        $width: 140px,
+        $background: "linear-gradient(#ccc, #888)"
+    );
+    &:hover{
+        @include button(
+            $width: 140px,
+            $background: "linear-gradient(#ccc, #888)"
+        );
+    }
+    &:active{
+        @include button(
+            $width: 140px,
+            $background: "linear-gradient(#ccc, #888)"
+        );
+    }
+}
+@mixin order-brown-button(){
+    @include button(
+        $width: 140px,
+        $background: "linear-gradient(#916e57, #b6a08c)"
+    );
+    &:hover{
+        @include button(
+            $width: 140px,
+            $background: "linear-gradient(#ae926a, #c7b79a)"
+        );
+    }
+    &:active{
+        @include button(
+            $width: 140px,
+            $background: "linear-gradient(#ae926a, #c7b79a)",
+            $box-shadow: "rgba(140, 118, 87, 1) 1px 1px 1px 0px inset"
+        );
+    }
+}
 @mixin subscribe-button(){
     @include button(
         $height: 38px,

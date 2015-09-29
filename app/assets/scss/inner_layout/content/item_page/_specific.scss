@@ -1,5 +1,5 @@
-$main-picture-width: 320px;
-$pack-picture-width: 120px;
+$main-picture-width: 570px;
+$pack-picture-width: auto;
 body.inner {
     .content-holder {
         .content-view {
@@ -24,16 +24,33 @@ body.inner {
                         margin-bottom: 20px;
                     }
                     .pack-picture{
-                        width: $pack-picture-width;
                         position: absolute;
-                        left: $main-picture-width - $pack-picture-width - 22px;
-                        top: 48px;
+                        left: 390px;
+                        top: 90px;
+                        width: auto;
                     }
                     .item-data{
                         font-size: 13px;
                         color: #4d3522;
                         margin-bottom: 20px;
                         overflow: hidden;
+                        @include min-height(350px);
+                        #pack-type{
+                            position: relative;
+                            &:hover{
+                                img{
+                                    display: block;
+                                }
+                            }
+                            img{
+                                display: none;
+                                position: absolute;
+                                @include transform(translateY(-50%));
+                                z-index: 99;
+                                left: 50px;
+
+                            }
+                        }
                         .articul{
                             color: #a1836a;
                             margin-bottom: 10px;
@@ -109,6 +126,7 @@ body.inner {
                         margin-top: 40px;
                         width: 60%;
                         margin-left: 340px;
+                        clear: both;
                         &.floating{
                            margin-left: 25%;
                         }

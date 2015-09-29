@@ -31,7 +31,10 @@
       <tr>
         <td class="picture">
           <div class="plate"><span>Товар удален из корзины. <a href="/index/cart_add.json">Восстановить</a></span></div>
-          <img src="<%=asset_path('cart-item-img.png')%>" />
+          <div class="label_holder">
+            <img src="<%=asset_path('cart-item-img.png')%>" />
+            <img class="label" src="<%= asset_path('cart-label.png')%>" />
+          </div>
         </td>
         <td class="name">
           <a href='#'>Ассам №17</a><br />
